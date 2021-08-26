@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="6c41-307a-0de6-0326" name="Anima Tactics" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="6c41-307a-0de6-0326" name="Anima Tactics" revision="1" battleScribeVersion="2.03" authorName="Alex Baur" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="c455-b1bd-6f65-79ce" name="Levels" defaultCostLimit="-1.0" hidden="false"/>
     <costType id="39e8-8e21-6d9c-ebd9" name="Advantage Pts" defaultCostLimit="-1.0" hidden="false"/>
@@ -50,6 +50,7 @@
     <categoryEntry id="17e1-0f17-ae16-2979" name="Wanderer" hidden="false"/>
     <categoryEntry id="3d5e-82ed-a418-3376" name="Summon" hidden="false"/>
     <categoryEntry id="4c9e-495c-d4a0-8baf" name="Agent" hidden="false"/>
+    <categoryEntry id="eb1a-1459-c5f2-a455" name="Summoner" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="722d-2ee7-4038-4f4c" name="300 Levels (Gamma)" hidden="false">
@@ -1058,20 +1059,184 @@ Power Absorption: When Iosara destroys an enemy Unit, choose a Magic or Ki abili
       </costs>
     </selectionEntry>
     <selectionEntry id="e2f0-2c65-f8ca-5f8f" name="October" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b20-58e6-a22a-649a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ec50-437c-c6d2-cec8" name="October" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">3</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8/12</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">1</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">13</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">10</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2fe8-32a6-cb89-56d0" name="Master Archer" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">October has Critical Mastery when making Ranged Attacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2ea2-1b7c-e367-345b" name="Ice Arrows" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">During the Upkeep Phase October can spend any amount of AP to get an equal number of Power tokens. If October Walks, Runs or Charges he looses all of his Power tokens.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ee02-a30d-6ebc-9e8e" name="Assassin" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">October uses his secondary Defense attribute against ranged Attacks he is in cover against.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="43a2-664b-c9ee-e971" name="o — Liberation (Ki, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (16 inches). Using this Attack costs one Power token. October may spend any number of additional Power tokens on this Attack. For every additional Power token spent, you can choose one additional of the following additional effects.
+
+Liberation gets Distance +8 inches.
+Liberation gets +1 Attack / +2 Damage.
+If Liberation hits its target they can&apos;t move until the end of the turn. Effect 16.
+Liberation can&apos;t be intercepted.
+October uses Liberation against another target, keeping all of the additional effects that the first Attack possessed. This ability can be chosen twice, for a total of three attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="53b7-f540-471d-9940" name="Ranged Attack (16&quot;)" hidden="false" targetId="ce16-b162-cd52-e3ac" type="rule"/>
+        <infoLink id="7462-e78a-e033-5eb6" name="Advanced Deployment" hidden="false" targetId="8752-5d49-c894-2278" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="58a9-2562-d1a5-c0a4" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="eefa-f433-4caf-502d" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="false"/>
+        <categoryLink id="d9ee-c9e5-9eef-7bd5" name="Prowler" hidden="false" targetId="a026-dd6a-6fb3-8261" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a78d-2196-98d2-0409" name="Odin Goldsmith" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74ef-043c-de49-57e4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a939-4eae-69f0-8d67" name="Odin Goldsmith" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">6</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">5</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">20</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">8</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">6/10</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">2/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b50b-07e7-dc3e-1bec" name="Chain of Blows" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">If Odin causes a Critical Hit when he Charges or Attacks, he makes an additional free attack on the same target immediately after the first attack resolves. These additional Attacks may cause more attacks due to the Chain of Blows rules</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6521-963e-85df-e5e4" name="To the Limit" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">If Odin has 10 or less Life Points he recovers one additional Action in the Recovery Phase. If Odin has 5 or less Life Points he recovers 2 additional Actions instead of one.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4008-29b1-80af-7d7d" name="ooo — Magnum (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Roll two dice and keep the highest result.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9833-c5c6-d38e-6795" name="ooo — Whirlwind of Swords (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Affects all enemy Units within 2 inches of Odin. This attack is not affected by the Chain of Blows rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="18eb-148e-ee3e-ed3e" name="Critical Mastery" hidden="false" targetId="1c78-2c2a-af54-b235" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="19ca-f42f-81db-c0ae" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+        <categoryLink id="f4dc-7f08-bbf9-3091" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="false"/>
+        <categoryLink id="7ffd-2eb1-5027-f34e" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="277a-394f-038d-273d" name="Samiel, The Black Lion" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3f10-754d-e1cc-33c4" name="Samiel, The Black Lion" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">5</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">3</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">15</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">10</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9ad9-2ec9-f9e8-bf51" name="The Black Sword" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">If Samiel&apos;s attacks do damage, cause Doom Lv. 1. Effect 13.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bb62-7491-11b3-f934" name="Dark Lions" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Samiel&apos;s close combat attacks simultaneously affect all enemy units in melee range with his base.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f846-90db-fa70-eced" name="The Soul of the Beast" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">If an enemy unit in melee range of Samiel attempts to Escape from Combat, regardless if it is successful or not, Samiel performs a free Attack against it. This attack does not benefit from the rule Dark Lions.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4c7b-b8d9-3ae6-06f3" name="o — Hearth of Shadows (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Samiel gains Berserk Lv. 2. Limit: Once per game.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f4dd-32db-36c0-52d0" name="ooo — Preying Shadows (Ki, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (16 Inches).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="68b1-2d6c-6d94-3411" name="ooo — For the Fallen (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+5 Damage. This attack does not benefit from the rule Dark Lions.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ec70-20a8-84d6-d5fc" name="Death Pact" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Eternal Damnation: At the beginning of the game, place a power counter on Samiel. Each time Samiel destroys an enemy unit, he gains an additional power counter (two if the target&apos;s level is higher than 50).
+
+Unholy Power: Samiel may consume one power counter as a reactive action to obtain one of the next advantages:
+
+Recover 1 Action Point.
+Gain +2 Attack / +1 Damage until the end of the Turn.
+The Black Sword ability becomes Doom Lv. 2 and Effect 16 until the end of the Turn.
+
+Death Pact: Samiel does not leave the game when his Life Points reach zero if he still has power counters. Instead he enters an Undying state. While in Undying state, he can not take damage or recover Life Points by any means. At the beginning of each of the subsequent Upkeep Phases, retire one power counter. If he has none left, Samiel is removed from the game. Samiel is considered a casualty for the Victory Point calculation if he ends the game in Undying state.
+
+Life for a Life: While in Undying state, if Samiel destroys the enemy unit that dropped his Life Points to zero, he may choose to recover 7 Life Points instead of gaining a power counter, removing him from the Undying state.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="35ab-42f4-0c04-3e8c" name="Immunity (Doom)" hidden="false" targetId="715d-db03-1710-5807" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7425-b695-7f31-094e" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="ae9d-b51f-9cb6-9c05" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="false"/>
+        <categoryLink id="7e3c-448e-ee54-21b9" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1088,8 +1253,13 @@ Power Absorption: When Iosara destroys an enemy Unit, choose a Magic or Ki abili
       </costs>
     </selectionEntry>
     <selectionEntry id="c115-214d-738e-c5db" name="Valentine" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="507c-f341-a91e-1f33" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="false"/>
+        <categoryLink id="794a-f1d4-bd6b-ede0" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="e99e-2d1e-7dcd-6859" name="Prowler" hidden="false" targetId="a026-dd6a-6fb3-8261" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1427,243 +1597,769 @@ Power Absorption: When Iosara destroys an enemy Unit, choose a Magic or Ki abili
           </constraints>
           <selectionEntries>
             <selectionEntry id="9797-d61c-70b4-d16d" name="Supernatural Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="5e01-c747-20bf-f340" name="Supernatural Weapon" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">+1 to Possessor&apos;s Attack attribute.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
                 <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3914-6792-0704-c019" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3914-6792-0704-c019" name="Alinor" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="837b-525b-bf1b-769e" name="Alinor" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The unit carrying this card is unaffected by Throws, Slams or Pushes.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7776-195b-e17d-1947" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7776-195b-e17d-1947" name="Alaron" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="fa26-0593-374b-fc30" name="Alaron" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Character carrying this card gets +3 Damage to the first Ranged Attack that he makes in a game.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="78bb-121a-14e7-bc9a" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="78bb-121a-14e7-bc9a" name="Ark Shield" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6c0f-01cd-5e65-e100" name="Ark Shield" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Remove this card for the unit to perform free Dodge with +2 to his defense.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="837d-aed5-fd60-5f76" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="837d-aed5-fd60-5f76" name="Bell Of Fortune" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e272-fa42-897c-930e" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="6dc0-6d40-bbcd-0a8a" name="Bell Of Fortune" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Retire this card to give +1 to a roll made by the Character carrying it.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="319c-c654-c6ae-a3bc" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="319c-c654-c6ae-a3bc" name="Black Candle" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="22cd-78ed-3912-f507" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="6715-f1b9-5019-4fb4" name="Black Candle" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">All enemy Units within the Control Zone of the character carrying this card lose 1LP during the Upkeep Phase. Effect 13.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e557-e8d9-8ad9-8ba0" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e557-e8d9-8ad9-8ba0" name="Blood Stone" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f475-1d96-6942-a129" name="Blood Stone" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Action o - An enemy unit in the owner&apos;s Control Zone loses 3 Life Points. Effect 15. If the target loses Life Points due to the Advantage Card, the owner recovers 3 Life Points. Retire after use.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4ffd-7d30-9597-5e3b" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4ffd-7d30-9597-5e3b" name="Blood Omen" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="429f-0291-b84a-3164" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="0833-ea9f-2936-7d0a" name="Blood Omen" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Whenever an Attack made by the Character carrying this card causes damage, they recover 1 Life Point. This ability only allows a Character to recover 1 Life Point per Attack, even if it damages multiple targets.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8420-a3d7-486e-9b73" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8420-a3d7-486e-9b73" name="Ceridwen" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="76d7-d5f7-16ff-bfa9" name="Ceridwen" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Actions: o (Reactive) The bearer is Intangible until end of turn. This ability must be activated during the Upkeep Phase.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5c24-70dd-2929-98f9" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5c24-70dd-2929-98f9" name="Chaos" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6c5a-911a-19cb-fb23" name="Chaos" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Actions: o (Once per turn) Enemy units within 3 inches of the Character carrying this card are moved 2 inches away in a straight line. This ability will move engaged units. Effect 14.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="cace-c27f-d6e4-1cce" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="cace-c27f-d6e4-1cce" name="Container" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb1a-1459-c5f2-a455" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="6419-9b64-5a44-9ad3" name="Container" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The unit carrying this card gets +1 Summoner Level. This card can only be assigned to Summoners.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="34d1-be1d-0186-c6f5" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="34d1-be1d-0186-c6f5" name="Clock Of Cronos" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="819f-2a9b-1238-1c00" name="Clock Of Cronos" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Retire this card to grant an additional action point to Possessor.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1a49-a506-5857-5362" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1a49-a506-5857-5362" name="Control Bound" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="ea31-7c66-bf20-62cc" name="Control Bound" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The owner of this card increases the difficulty check of their Effects of magical special skills by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e3ef-271e-86c8-d99a" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e3ef-271e-86c8-d99a" name="Cursed Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="1751-ba99-ee06-c7af" name="Cursed Weapon" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">+1 attack, -1 LP during maintenance. Characters with damage resistance can not use it.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="83bc-d893-56a4-d05f" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="83bc-d893-56a4-d05f" name="Doom Silver" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="632f-96ce-8cdc-74a1" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="6a39-b93c-eb23-baa4" name="Doom Silver" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The Character carrying this card gets +1 Guidance Points.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1227-ca68-8505-1496" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1227-ca68-8505-1496" name="Elemental Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="bae2-863a-23c3-d48a" name="Elemental Weapon" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The Character who has this card gets +1 Damage.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9a0e-2108-9fde-c9e6" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9a0e-2108-9fde-c9e6" name="Fate Clock" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="87db-fae7-5b59-407d" name="Fate Clock" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Once per Turn the possessor of Fate Clock may choose to recover an Action point. If the character makes use of this ability he receives Doom (Lv 1). Fate Clock can not be used by a character naturally immune to Doom.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b464-99c0-bcd1-1d96" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b464-99c0-bcd1-1d96" name="Gnose" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a026-dd6a-6fb3-8261" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="01f4-c54c-483e-09ee" name="Gnose" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Enemies 6 inches or further from the owner can&apos;t trace Line of Sight to them. Only characters of Level 40 or lower can use Gnose.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="63a4-4ca5-2bc0-af5a" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="63a4-4ca5-2bc0-af5a" name="Greater Life Potion" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="702b-fd06-2bcc-b2ac" name="Greater Life Potion" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Actions: o - Possessor recovers 10 Life Points. Retire this card after use.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2c8f-3e1a-9849-4b9a" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2c8f-3e1a-9849-4b9a" name="Heart of Gold" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="9a8a-c385-6107-0d48" name="Heart of Gold" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The Character carrying this card is has their maximum LP increased by 3.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b7cd-f63b-c946-4ed8" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b7cd-f63b-c946-4ed8" name="Heart of Shadow" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a026-dd6a-6fb3-8261" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="b220-1a46-7f34-3f8e" name="Heart of Shadow" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The Character carrying this card can move up to 4 inches when they make a Free Move instead of 2 inches.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3cee-deee-44fd-44c7" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3cee-deee-44fd-44c7" name="Ikaro" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2830-5226-5b5b-9ddc" name="Ikaro" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The Character carrying this card gains Flight until the end of the turn. Retire this card after use.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9d75-77f0-47e7-5f4e" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9d75-77f0-47e7-5f4e" name="Heavy Armor" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="6a4c-2ed1-9217-9f91" name="Heavy Armor" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The Character carrying this card gets +2 Armor and their Speed is halved.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="dc09-f492-6b40-2ce9" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="dc09-f492-6b40-2ce9" name="Jedah&apos;s Eye" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="cbbc-e751-0bb7-debf" name="Jedah&apos;s Eye" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Any enemy unit that comes into base-to-base contact with the Character that is carrying this card is no longer Hidden. Retire this card after use. Effect 18.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9310-d5c5-0c1b-6a19" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9310-d5c5-0c1b-6a19" name="Life Potion" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="8142-8ab7-2c7e-0e07" name="Life Potion" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Actions: o - Possessor recovers 5 Life Points. Retire this card after use.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2cfc-e66f-7bc8-01ff" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2cfc-e66f-7bc8-01ff" name="Limiter" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6aa5-5c4c-bb43-3725" name="Limiter" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">When the unit carrying this card is reduced to 5 LP or less, they recover 2 AP. Discard this card after this ability resolves.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="01c4-545a-832d-de16" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="01c4-545a-832d-de16" name="Magus Wand" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="184e-77ce-6f07-d7de" name="Magus Wand" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The Character carrying this card reduces the Upkeep of one of their abilities by 1 AP each turn. This could allow them to Upkeep an ability for free if the ability has an Upkeep cost of 1 AP.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9e7e-b729-1493-4792" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9e7e-b729-1493-4792" name="Mikael&apos;s Tear" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e272-fa42-897c-930e" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="a235-6236-115c-8142" name="Mikael&apos;s Tear" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The Character carrying this card is immune to all negative States.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8057-c5b6-b672-8d8a" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8057-c5b6-b672-8d8a" name="Nephiros" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="4b6e-208e-1534-2bb8" name="Nephiros" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Whenever the Unit carrying this card eliminates an enemy Character, they recover 1 Action Point.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="792f-6a18-4e7b-cca3" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="792f-6a18-4e7b-cca3" name="Nine Lives" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="d238-72f3-d8e4-3862" name="Nine Lives" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Whenever the unit carrying this card would be reduced to 0 or less LP by an attack, the attacker must reroll the attack. This ability will only trigger once per attack. This card can only be carried by one character in a party.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f461-52f7-5276-f752" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f461-52f7-5276-f752" name="Nullifier" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a2bb-f7eb-cc4d-1310" name="Nullifier" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Actions: o - When the Nullifier is activated, remove all Positive States (Haste. Shield, Healing and Protection) inside the Zone of Control of the owner. Retire this card after use.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f3d5-1ea9-dcfc-2b7c" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f3d5-1ea9-dcfc-2b7c" name="Nullum Lusec" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="d1cf-3a50-ba2d-16fc" name="Nullum Lusec" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Retire this card during the Maintenance Phase to give its owner +2 Attack for this turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="12c0-af3d-d2b5-8341" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="12c0-af3d-d2b5-8341" name="Smoke Cloud" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f113-21cb-680a-518d" name="Smoke Cloud" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Actions: o - The Possessor may automatically escape fom hand-to-hand combat as if they had conducted a succesful escape attempt. Retire this card after use.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3aa2-1786-ca03-9dae" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3aa2-1786-ca03-9dae" name="Orb Of Power" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e898-1c31-2b3b-0063" name="Orb Of Power" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The Character who has this card starts the game with an additional point of any special bookkeeping device that is specific to that Character. For example, Lorenzo starts the game with an additional &quot;Energy&quot; token.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3a57-2d2f-26e3-4895" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3a57-2d2f-26e3-4895" name="Serum" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="db0c-e3f4-8b49-674a" name="Serum" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Actions: o - Owner is automatically immune to Poison Status. Remove one Poison level frome one frienldy unit within the owner&apos;s Control Zone.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b4b5-0499-3fda-e202" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b4b5-0499-3fda-e202" name="Piercing Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a026-dd6a-6fb3-8261" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="b095-3197-8397-1ddf" name="Piercing Weapon" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">All the owner&apos;s attacks ignore 2 points of the defender&apos;s Armor</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2696-25f1-12f0-0cf0" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2696-25f1-12f0-0cf0" name="Ring of Rudraskha" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="ecce-9970-cdaf-01dd" name="Ring of Rudraskha" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Actions: oo - The character carrying this card makes a Ranged Attack, Distance (16 inches). This attack doesn&apos;t use the character&apos;s stats, instead use Attack 5 / Damage 5. This card is discarded after it is used.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="395c-f041-4382-3d2e" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="395c-f041-4382-3d2e" name="Ring Of Erebus" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="5d41-6e2a-043f-4dbd" name="Ring Of Erebus" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">+4 inches to the maximum range of Magical Ranged Attacks</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="814c-7d6d-bf3b-e941" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="814c-7d6d-bf3b-e941" name="Seal Of Bones" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="2a68-71d2-cd5a-74b1" name="Seal Of Bones" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The Character who has this card adds +1 to Stability rolls made for their summons</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d4e5-2162-7a08-118c" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d4e5-2162-7a08-118c" name="Primal" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="9d70-9158-2d23-2a91" name="Primal" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Primal starts with 3 Power tokens on it. The character carrying this card gets +1 damage for each Power token on it. Whenever the unit carrying the Primal resolves an attack remove 1 Power token from Primal. When this card no longer has any Power tokens on it, discard it.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0049-e7db-aedc-f706" name="Upgraded Smoke Bomb" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a026-dd6a-6fb3-8261" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="df0d-4493-03f4-47c5" name="Upgraded Smoke Bomb" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The Character carrying this card may use it to automatically escape from hand-to-hand combat for free. Discard this card after it is used.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="364d-399a-bd08-84ac" name="Vial Of Life" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c41f-44a4-8107-9e3e" name="Vial Of Life" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Actions: o - The Character carrying this card or any friendly Unit within its Control Zone heals 5 Life Points. Retire this card after Use.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1fc2-66e1-0339-c906" name="Talisman Of Eriol" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="22ab-e8c4-dc74-ff5b" name="Talisman Of Eriol" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The Talisman of Eriol allows its Possessor to re-roll one die. Retire this card after use.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aa3f-c8fa-5d23-8614" name="Supernatural Armor" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="b359-cf76-2efd-1cc9" name="Supernatural Armor" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">+1 to Possessor&apos;s Armor attribute.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ab5e-1aad-0862-a6c3" name="Transfer Rod" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="8540-cafb-2537-fbaa" name="Transfer Rod" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Actions: oo - One friendly Mystic unit with the owner&apos;s Control Zone recovers one action point.
+Once Per Round</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b66a-6454-b154-d242" name="Supernatural Devourer" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="8ecc-47a0-85ed-487f" name="Supernatural Devourer" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The character carrying this card recovers an Action Point whenever they deal damage to an enemy unit. This card cannot cause a character to recover more then 1 Action Point per attack and no more then 2 points per turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="341c-b11c-66df-d468" name="Ultimate Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="de1f-0a8f-e16c-97f4" name="Ultimate Weapon" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Actions: o - The Character carrying this card gets +2 Attack until the end of the turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
