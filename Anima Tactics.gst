@@ -1241,18 +1241,171 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
       </costs>
     </selectionEntry>
     <selectionEntry id="b2e1-132f-3a2c-2809" name="September" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7492-7281-ea87-f3c8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="02db-5879-6260-4543" name="September" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">5</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">1</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">15</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">9</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0bf6-fe3b-7eba-0f7e" name="Pain Master" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Each time September takes damage, the unit who inflicted it loses 3 Life Points, Effect 15.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="48a7-e232-ae1a-b978" name="Wrath of the Fallen" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">If September is Berserk when he loses all his LP, he stays on the table until the end of the turn before being removed from the game. While he has 0 Life Points, he can not be healed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="38bd-5cdf-9ddc-0af7" name="To the Limit" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">If he has 10 LP or less remaining, September gets Attack +1. If he has 5 LP or less remaining, he recovers 4 Action Points instead of 3.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="447d-a9a5-0c17-648d" name="ooo — Catastrophe in Wave (Attack, Ki)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">September makes an attack against all enemies in contact with his base. Then he makes an additional attack against one enemy unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ba70-ab79-3ebb-81d6" name="o — Dark Side (Effect, Ki)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">September becomes Berserk lvl 2.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="210b-9217-7150-748d" name="Critical Mastery" hidden="false" targetId="1c78-2c2a-af54-b235" type="rule"/>
+        <infoLink id="3dc1-9d9f-517c-2629" name="Immunity (Poison)" hidden="false" targetId="9fba-a925-10c7-f5fc" type="rule"/>
+        <infoLink id="590c-8c15-5f36-49de" name="Infiltration" hidden="false" targetId="51cd-f19c-a085-d89e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="580c-9e9d-3f60-5042" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="9fc1-e88c-5ecb-2350" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="false"/>
+        <categoryLink id="32f8-a5d6-557d-0171" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dba7-4646-1497-36c8" name="Sho" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7dd6-ea57-f22a-4ee1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="cb01-f1a4-64b7-64e9" name="Sho" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">5</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">2</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">13</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">9</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="076e-8053-01c1-b674" name="Combo" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Whenever Sho causes damage to an enemy unit with an Attack that the enemy unit attempted to Dodge, Sho recovers an Action Point.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="97aa-fe68-0a65-89fa" name="Kurokami" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Sho gets +1 Damage for every 3 LP he is below his starting LP.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3cbf-8ddb-ac91-7e19" name="Master" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Enemy units that attempt to Escape while engaged with Sho get -2 to the roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="496d-f18b-2702-7ca3" name="oo — Iaido (Attack, Ki, Reactive)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">This attack can only be used when an enemy unit declares a melee attack against Sho. This attack is resolved before the enemy unit&apos;s attack. If this attack destroys its target, then the enemy unit&apos;s attack isn&apos;t resolved. Limit: Once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7dbb-8a57-fc39-a057" name="ooo — Bushu (Attack, Ki)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Sho gets a bonus equal to his Attack Damage bonus received by the rule Kurokami. If damage occurs with Bushu, get Healing Lv.2.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9e97-8a53-5fae-ee92" name="Critical Mastery" hidden="false" targetId="1c78-2c2a-af54-b235" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="25a8-e18d-9cb8-dcba" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+        <categoryLink id="537e-8a23-0393-71a5" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="false"/>
+        <categoryLink id="2612-6b4a-c4b1-56fa" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c115-214d-738e-c5db" name="Valentine" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c969-4f04-be13-043e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8ee8-1a03-d2c5-b871" name="Valentine" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">4</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">2</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">12</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">9</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="344a-2d39-407f-4a54" name="Information" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">At the beginning of the game you can force an enemy unit to reveal its Advantage Cards.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a961-4a17-b61f-255f" name="Surprise Shot" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">The turn Valentine comes out from Infiltration her Ranged Attacks cannot be intercepted</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a332-d0cf-b388-c9d5" name="oo — Stealth (Subterfuge, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Valentine becomes Hidden. Upkeep: o</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="83b0-0c00-ea1c-3303" name="o — In My Sights (Subterfuge, Effect, Reactive)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Activate this ability during the Upkeep Phase and choose an enemy unit to which Valentine has Line of Sight. Until end of turn, if said unit declares any type of Movement, Valentine can make a free Ranged Attack against it before it moves.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="df4c-5a3a-c0e7-dfbc" name="ooo — Perfect Shot (Subterfuge, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Ranged (12 In.) +5 Attack / -2 Armor. If the target is less than 4 inches away from Valentine, this attack obtains an additional +4 damage. This attack can only be used if Valentine is Hidden.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ee60-e68e-1b4a-1b22" name="ooo — Execution (Subterfuge, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Ranged (16 In.). Throw two dice and keep the highest roll. If this attack deals damage, it causes Slow Lv 3. Effect 16.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7162-07fe-59b9-a8c8" name="Infiltration" hidden="false" targetId="51cd-f19c-a085-d89e" type="rule"/>
+        <infoLink id="51f2-95a4-6e8c-c36d" name="Ranged Attack (16&quot;)" hidden="false" targetId="ce16-b162-cd52-e3ac" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="507c-f341-a91e-1f33" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="false"/>
         <categoryLink id="794a-f1d4-bd6b-ede0" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
@@ -1264,8 +1417,55 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
       </costs>
     </selectionEntry>
     <selectionEntry id="bac7-02b6-a056-2a84" name="Vayl" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cdda-e3ca-a37a-472e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9c31-e717-b02b-f1fb" name="Vayl" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">4</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">2</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">12</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">9</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eea9-d5b5-be72-0e76" name="Chronos Blades" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Vayl may recover one Action Point per turn as a Reactive Action. Each time this skill is used Vayl suffers 2 Damage Points and obtains Lv. 1 Slow.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cac3-bc01-4606-2f27" name="Time Steal" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">If Vayl&apos;s attacks do damage, they cause Lv. 1 Slow. Effect 13.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1932-7694-df5d-7981" name="oo — Stealth (Subterfuge, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Vayl becomes Hidden. Upkeep: o</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="988a-3b1f-f039-a7f4" name="ooo — Crumbling of Time (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">If Crumbling of Time causes any damage, target unit suffers Lv. 3 Slow. When using this attack Vayl obtains Critical Mastery. Effect 16.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="54ba-2bec-18ef-7a86" name="oo — Scar of Time (Subterfuge, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+2 Attack / +1 Damage. This attack automatically causes a Critical Hit. This skill may only be used if Vayl is Hidden.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="677d-be0e-4aad-b832" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="5471-7b2d-9db4-a659" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="false"/>
+        <categoryLink id="e7cb-0aba-2545-703b" name="Prowler" hidden="false" targetId="a026-dd6a-6fb3-8261" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="35.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2266,6 +2466,7 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </profiles>
               <costs>
                 <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="364d-399a-bd08-84ac" name="Vial Of Life" hidden="false" collective="false" import="true" type="upgrade">
@@ -2278,6 +2479,7 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </profiles>
               <costs>
                 <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1fc2-66e1-0339-c906" name="Talisman Of Eriol" hidden="false" collective="false" import="true" type="upgrade">
@@ -2290,6 +2492,7 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </profiles>
               <costs>
                 <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aa3f-c8fa-5d23-8614" name="Supernatural Armor" hidden="false" collective="false" import="true" type="upgrade">
@@ -2309,6 +2512,7 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </profiles>
               <costs>
                 <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ab5e-1aad-0862-a6c3" name="Transfer Rod" hidden="false" collective="false" import="true" type="upgrade">
@@ -2322,6 +2526,7 @@ Once Per Round</characteristic>
               </profiles>
               <costs>
                 <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b66a-6454-b154-d242" name="Supernatural Devourer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2341,6 +2546,7 @@ Once Per Round</characteristic>
               </profiles>
               <costs>
                 <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="341c-b11c-66df-d468" name="Ultimate Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2360,6 +2566,7 @@ Once Per Round</characteristic>
               </profiles>
               <costs>
                 <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2695,5 +2902,6 @@ Once Per Round</characteristic>
     <rule id="b0d8-09eb-7e84-96c3" name="Damage Resistance" hidden="false"/>
     <rule id="e462-a60e-cb17-9b55" name="Ranged Attack (4&quot;)" hidden="false"/>
     <rule id="51cd-f19c-a085-d89e" name="Infiltration" hidden="false"/>
+    <rule id="9fba-a925-10c7-f5fc" name="Immunity (Poison)" hidden="false"/>
   </sharedRules>
 </gameSystem>

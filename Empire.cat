@@ -1,5 +1,345 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="39f9-63b5-040b-5f61" name="Empire" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6c41-307a-0de6-0326" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="5900-b94b-47d9-3f48" name="Empire Agent" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="decrement" field="c455-b1bd-6f65-79ce" value="5.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae8b-8573-4e94-0957" type="equalTo"/>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6ee0-7d62-3f6a-35fe" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="4dc4-81ea-c56e-f67d" name="Empire Agent" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <modifiers>
+            <modifier type="set" field="fbcd-5784-2a53-cafd" value="3/4">
+              <conditions>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f84-ff65-935c-a81e" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="f443-bf96-3c21-c0f2" value="3">
+              <conditions>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d41f-601e-2a1f-1c73" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="20f4-d8f4-db83-84ce" value="5">
+              <conditions>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="67e5-66f3-e472-9b0d" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="f443-bf96-3c21-c0f2" value="1">
+              <conditions>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="67e5-66f3-e472-9b0d" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="dd49-3cc4-4fcc-9f41" value="8/12">
+              <conditions>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ba4e-cbf1-bfea-4d87" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="0831-54a0-0dc1-f5a9" value="5">
+              <conditions>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c262-3321-6424-cd4e" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="ef31-fbfc-06f9-54bd" value="17">
+              <conditions>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5dfb-e441-2687-4397" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">4</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">2</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">12</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">8</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">6/10</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">2/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c0e0-11c4-986c-7380" name="ooo — Master Attack (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+4 Damage.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="08a9-1851-1a6d-01ed" name="Agent" hidden="false" targetId="4c9e-495c-d4a0-8baf" primary="true"/>
+        <categoryLink id="2481-21c9-d8ed-b1c1" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="false"/>
+        <categoryLink id="9681-9244-2cb8-6036" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+        <categoryLink id="261d-27e7-73a9-5654" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6ee0-7d62-3f6a-35fe" name="Options" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="44f5-e9cd-a5fe-04fa" value="25.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae8b-8573-4e94-0957" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="c455-b1bd-6f65-79ce" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="44f5-e9cd-a5fe-04fa" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6f84-ff65-935c-a81e" name="+1 AP" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="886c-a0b3-68bd-4a83" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2a68-7bda-e073-e2c4" name="+1 AP" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3c61-def7-3265-e41f">The Agent recovers one more Action point per turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0da4-d01b-fe6b-fdfe" name="Master Attack Bonus" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1bb-aa8c-6b8e-9e0d" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="05ae-92e3-2bfe-2873" name="Master Attack Bonus" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3c61-def7-3265-e41f">When the Agent uses Master Attack, they roll two dice and keep the highest result. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="67e5-66f3-e472-9b0d" name="+1 At, +1 DM" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b84f-8720-4022-58f7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="75ce-dc51-1543-3dd6" name="+1 At, +1 DM" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3c61-def7-3265-e41f">The Agent gets +1 Attack and +1 Damage.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d41f-601e-2a1f-1c73" name="+3 Dm" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cde5-b7e1-5c97-4a05" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="5e26-e174-dec5-4e9d" name="+3 Dm" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3c61-def7-3265-e41f">The Agent gets +3 Damage</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c262-3321-6424-cd4e" name="+3 Ar" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a3d-9a17-9d4c-6ead" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a3a3-a7c7-29b6-2ec3" name="+3 Ar" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3c61-def7-3265-e41f">The Agent gets +3 Armor</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5dfb-e441-2687-4397" name="+5 LP" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e4a-7440-0d02-1e6b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2fa9-5dbc-40f1-0e90" name="+5 LP" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3c61-def7-3265-e41f">The Agent gets +5 Life Points</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ba4e-cbf1-bfea-4d87" name="8/12 Mo" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f50-3fb0-e2e7-3b0e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b456-701e-87b0-5909" name="8/12 Mo" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3c61-def7-3265-e41f">The Agent&apos;s Speed is increased to 8/12</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8887-2d65-8dd6-bf7c" name="Master Charge" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d9b-f9d8-5b23-a538" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e794-c841-774c-1645" name="oooo — Master Charge (Ki, Charge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">+3 Damage. The Agent gets Critical Mastery during this Charge.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="209a-1e59-f31e-3f79" name="Empire Knight" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="beca-8c93-d953-c55f" name="Empire Knight" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <modifiers>
+            <modifier type="set" field="0831-54a0-0dc1-f5a9" value="2">
+              <conditions>
+                <condition field="selections" scope="209a-1e59-f31e-3f79" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e0-23da-339f-0b97" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d989-007a-8bf8-30a6" value="10">
+              <conditions>
+                <condition field="selections" scope="209a-1e59-f31e-3f79" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e0-23da-339f-0b97" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">4</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">1</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">12</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">8</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">6/10</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fb65-9012-ff42-14ee" name="Advanced Deployment" hidden="false" targetId="8752-5d49-c894-2278" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d590-157e-e5eb-4520" name="Agent" hidden="false" targetId="4c9e-495c-d4a0-8baf" primary="true"/>
+        <categoryLink id="f46d-6ccb-d2b4-d482" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="false"/>
+        <categoryLink id="3989-efec-9c74-dde3" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="fc6c-c106-a0f0-78af" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+        <categoryLink id="2cda-f22b-1e66-ae86" name="Prowler" hidden="false" targetId="a026-dd6a-6fb3-8261" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="01e0-23da-339f-0b97" name="Upgrade" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="c455-b1bd-6f65-79ce" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae8b-8573-4e94-0957" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d682-a767-18ba-7d54" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="78b8-1bc7-4d1e-58d9" name="Special Abilities" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="a888-7bc0-24a1-c728" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e0-23da-339f-0b97" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="4ec6-db13-8a21-a53c" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e0-23da-339f-0b97" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a888-7bc0-24a1-c728" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ec6-db13-8a21-a53c" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="2d22-9527-3642-dbc2" name="Special Abilities" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+              <characteristics>
+                <characteristic name="Description" typeId="3c61-def7-3265-e41f">At the beginning of the game choose one of the next skills for the character. If you decide to raise Agent Level to 35, you can choose a second skill and use the secondary attributes of the character.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry id="bd36-baa5-8460-363c" name="Ki Swordtech" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e7b9-3a97-a12d-1c29" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6631-9a29-beca-408e" name="ooo — Ki Swordtech (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">For this attack roll additional dice and consider that the Knight has Critical Mastery.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="3f2e-e7e5-ff15-830a" name="Ki Defense" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d29b-ac76-786a-3878" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9e29-431d-2254-37c8" name="oo — Ki Defense (Ki, Dodge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">+2 Defense / +2 Armor.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="11b4-5a6f-8417-15cd" name="Desparate Charge" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f537-b2f5-d41b-3465" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="82a6-763a-1e5a-7b49" name="oooo — Desperate Charge (Ki, Charge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">For this Charge you can increase your Run movement to 16 inches and consider that the Knight has Critical Mastery.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="30.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
   <entryLinks>
     <entryLink id="34b2-9178-f12a-32c5" name="Claire Adelheid" hidden="false" collective="false" import="true" targetId="2d48-b102-a2d6-3424" type="selectionEntry">
       <categoryLinks>
@@ -202,11 +542,6 @@
       <entryLinks>
         <entryLink id="6f88-3dc6-8f0f-c729" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
       </entryLinks>
-    </entryLink>
-    <entryLink id="9031-f200-e8a8-1931" name="Empire Agent" hidden="false" collective="false" import="true" targetId="a274-ce21-84b4-b42a" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="db0a-4191-8ac4-346a" name="New CategoryLink" hidden="false" targetId="4c9e-495c-d4a0-8baf" primary="true"/>
-      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
