@@ -51,6 +51,7 @@
     <categoryEntry id="3d5e-82ed-a418-3376" name="Summon" hidden="false"/>
     <categoryEntry id="4c9e-495c-d4a0-8baf" name="Agent" hidden="false"/>
     <categoryEntry id="eb1a-1459-c5f2-a455" name="Summoner" hidden="false"/>
+    <categoryEntry id="1e1f-f436-2e5f-023e" name="Configuration" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="722d-2ee7-4038-4f4c" name="300 Levels (Gamma)" hidden="false">
@@ -92,7 +93,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="8597-70f6-1ee5-7cf3" name="150 Levels (Alpha)" hidden="false">
+    <forceEntry id="8597-70f6-1ee5-7cf3" name="100 Levels (Alpha)" hidden="false">
       <modifiers>
         <modifier type="increment" field="a627-518f-9209-5cea" value="1.0">
           <repeats>
@@ -102,7 +103,7 @@
       </modifiers>
       <constraints>
         <constraint field="39e8-8e21-6d9c-ebd9" scope="8597-70f6-1ee5-7cf3" value="10.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="a627-518f-9209-5cea" type="max"/>
-        <constraint field="c455-b1bd-6f65-79ce" scope="8597-70f6-1ee5-7cf3" value="150.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0c49-c06e-b9d1-d719" type="max"/>
+        <constraint field="c455-b1bd-6f65-79ce" scope="8597-70f6-1ee5-7cf3" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0c49-c06e-b9d1-d719" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="f419-1bb2-c3fa-4058" name="Azur Alliance" hidden="false" targetId="22cd-78ed-3912-f507" primary="false"/>
@@ -114,11 +115,7 @@
         <categoryLink id="695f-6069-c399-4cd7" name="Samael" hidden="false" targetId="60c8-2751-11fe-a218" primary="false"/>
         <categoryLink id="f551-c326-f591-7f18" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
         <categoryLink id="cc3d-6702-536b-df21" name="Wissenschaft" hidden="false" targetId="c42b-4d76-393b-e245" primary="false"/>
-        <categoryLink id="f87a-cbf3-3ee4-292b" name="Agent" hidden="false" targetId="4c9e-495c-d4a0-8baf" primary="false">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c568-629f-2a82-a49e" type="max"/>
-          </constraints>
-        </categoryLink>
+        <categoryLink id="43ee-5115-9086-876e" name="Configuration" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="11b4-0cf4-6fcf-c860" name="200 Levels (Beta)" hidden="false">
@@ -344,6 +341,9 @@ Limit: Once per game.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="51d3-ccbb-d35d-7aa6" name="Spend Levels on Adv Cards" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="ddc7-3a6f-5a03-ff63" name="New CategoryLink" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d68c-85c2-929e-fb18" name="Convert Levels" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
@@ -1608,6 +1608,9 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
           </constraints>
           <selectionEntries>
             <selectionEntry id="8397-0d85-c178-63fc" name="Chosen Prey" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2e38-07de-7e90-4ad0" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="6318-7d39-8776-bc7e" name="Chosen Prey" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
                   <characteristics>
@@ -1621,6 +1624,9 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </costs>
             </selectionEntry>
             <selectionEntry id="410c-b96c-33fe-02c0" name="Covert Operation" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="274e-4bee-e980-b691" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="c03d-8ecb-625b-ee42" name="Covert Operation" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
                   <characteristics>
@@ -1634,6 +1640,9 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </costs>
             </selectionEntry>
             <selectionEntry id="f9d3-a5a7-4eac-4a08" name="Dawn Of The Dark" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6bce-47f9-60fb-ec79" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="ddf4-9011-fb2e-5480" name="Dawn Of The Dark" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
                   <characteristics>
@@ -1647,6 +1656,9 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </costs>
             </selectionEntry>
             <selectionEntry id="fb76-b271-5afa-6b98" name="Elite Squadron" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e53f-21e2-ac26-9a5c" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="ff91-dede-3f6f-920c" name="Elite Squadron" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
                   <characteristics>
@@ -1660,6 +1672,9 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </costs>
             </selectionEntry>
             <selectionEntry id="f16e-0284-d297-950c" name="Gale" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f33e-311a-d5f8-5db4" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="01d5-84aa-5a94-2f9e" name="Gale" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
                   <characteristics>
@@ -1673,6 +1688,9 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </costs>
             </selectionEntry>
             <selectionEntry id="26ec-0457-0dfd-ed89" name="Logistics" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7a77-2289-f58a-6cea" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="1285-a85f-520a-b22e" name="Logistics" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
                   <characteristics>
@@ -1686,6 +1704,9 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </costs>
             </selectionEntry>
             <selectionEntry id="7691-8462-941e-d254" name="Neokinesis Magnus" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a829-8799-f804-94b4" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="5678-2c2a-f977-eebf" name="Neokinesis Magnus" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
                   <characteristics>
@@ -1699,6 +1720,9 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </costs>
             </selectionEntry>
             <selectionEntry id="db61-d7f0-d9aa-e5a9" name="Personal Reasons" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e40d-5b70-6056-ff0e" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="b8cb-f2ec-ad2d-cc3e" name="Personal Reasons" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
                   <characteristics>
@@ -1712,6 +1736,9 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </costs>
             </selectionEntry>
             <selectionEntry id="0ecb-85f1-62d7-acbd" name="Pool of Life" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4080-2e07-3666-70ef" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="3823-f514-7c72-416e" name="Pool of Life" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
                   <characteristics>
@@ -1725,6 +1752,9 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </costs>
             </selectionEntry>
             <selectionEntry id="d0cc-83cb-e7ca-91b6" name="Power Source" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7b70-15be-cf13-2cf6" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="0bda-143a-f30b-1e05" name="Power Source" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
                   <characteristics>
@@ -1738,6 +1768,9 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </costs>
             </selectionEntry>
             <selectionEntry id="02d4-bca1-5e7a-dc9a" name="Supernatural Traps" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="15cc-5479-ae7b-34a3" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="31b4-8d76-ebb8-66df" name="Supernatural Traps" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
                   <characteristics>
@@ -1751,6 +1784,9 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </costs>
             </selectionEntry>
             <selectionEntry id="2ab0-d2f0-3500-8545" name="Tactical Advantage" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f39f-8849-2899-cd5f" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="725c-ad88-1729-134e" name="Tactical Advantage" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
                   <characteristics>
@@ -1764,6 +1800,9 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </costs>
             </selectionEntry>
             <selectionEntry id="ea75-dc3d-e915-0050" name="Tactics" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="688f-00c6-17e9-a2cf" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="e668-0620-55df-dd22" name="Tactics" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
                   <characteristics>
@@ -1777,6 +1816,9 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
               </costs>
             </selectionEntry>
             <selectionEntry id="8b88-cdd9-dd8e-6c18" name="Wind&apos;s Spirit" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1ba6-5477-b089-9add" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="ea6c-02a4-24cc-6a8e" name="Wind&apos;s Spirit" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
                   <characteristics>
@@ -2889,7 +2931,424 @@ Once Per Round</characteristic>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0946-b139-6567-e372" name="Team" hidden="false" collective="false" import="true"/>
+        <selectionEntryGroup id="0946-b139-6567-e372" name="Team" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e4fc-b8d0-0ddf-eaad" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="dfa7-8385-bf63-b708" name="Team Cerberus Division" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bac7-02b6-a056-2a84" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cc30-77aa-9c4b-d8ac" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="97aa-1a70-48fd-54d3" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dbb6-24f0-6ca2-ab37" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="693d-cca0-85c7-8409" name="Team Cerberus Division" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Daniella, Vayl and Janus form a Team and receive the following special abilities;
+
+Janus&apos; Additional Abilities
+Team Leader: Janus gains Critical Mastery.
+
+Daniella&apos;s Additional Abilities
+Team Snipe: Daniella does not suffer the -1 for Ranged Attacks against an enemy unit engaged in Hand-to-Hand combat with either Janus or Vayl.
+
+Vayl&apos;s Additional Abilities
+Time Step: During Vayl&apos;s activation he may place a Lv. 1 Slow counter on any Cerberus Division member in his Control Zone to place a Lv 1 Haste counter on another team member. The unit Vayl places the Haste counter on must be in his Control Zone and cannot be the one that got the Slow Counter.
+
+Daniella&apos;s Guardian: Vayl gains Advanced Deployment.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7da4-5790-db11-97bb" name="Team Assault Group" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="20fe-b910-fb57-4150" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8bd4-a06b-dee0-d78c" name="Team Assault Group" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">XII, Rayne and Lorenzo form a Team.
+
+XII&apos;s Additional Abilities:
+Assault: XII gains Advanced Deployment.
+
+Rayne&apos;s Additional Abilities:
+Assault: Rayne gains Advanced Deployment.
+
+Pride: If either XII or Lorenzo destroys an enemy unit before Rayne, she gains +1 to her attack rolls until she is able to destroy an enemy unit.
+
+Lorenzo&apos;s Additional Abilities:
+Assault: Lorenzo gains Advanced Deployment.
+
+High Technology: Lorenzo starts the game with an additional &quot;Energy&quot; token.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b7f3-b81f-e0f3-7bb3" name="Team Damien and Justina" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1072-eb8c-cebd-4cda" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c61e-8e28-0883-30e3" name="Team Damien and Justina" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Justina and Damien form a Team and receive the following special abilities;
+
+Damien&apos;s Additional Abilities
+Guardian: Damien gains +1 Attack and +2 Damage while Justina&apos;s Life Points are below one half of her total Life Points. Damien loses this advantage when Justina dies.
+
+Justina&apos;s Additional Abilities
+Dual Vision: Justina may use Damien&apos;s Line of Sight to use Penitent Shot to target a unit. Measure range from Justina (Yes, this means ignore terrain between Justina and the target.)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f3d2-3d1e-ae58-05ac" name="Team Executive Team" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b942-6971-e59c-ec88" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="5133-ca68-03ca-85b0" name="Team Executive Team" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Clover and Bridget form a team and get the following special abilities.
+
+Bridget&apos;s Additional Abilities:
+Secretary: Bridget must choose Clover as her director.
+Delegate: If Bridget starts a Recovery Phase within Clover&apos;s Control Zone, she gets +2 Guidance Points this turn.
+Resurrection: When Bridget and Clover are in play, whenever a Type-005 is destroyed you may choose to ignore Final Protocol. If you do ignore Final Protocol, place a Corpse counter at the point where the Type-005 was destroyed.
+Command Protocols: Bridget must be within Clover&apos;s Control Zone to be able to use either of the following two abilities.
+
+o — Destruction Protocol (Magic, Effect)
+Choose a friendly Undead Unit within 12 inches of Bridget. The chosen unit makes a free attack that affects each unit within 4 inches of itself. The chosen unit is destroyed after making this attack. This ability has no effect on Undead who are also Leaders. Limit: Once per turn.
+
+oo — Resurrection Protocol (Magic, Effect)
+Replace every Corpse counter that is within Bridget&apos;s Control Zone with a basic Type-005 (no upgrades) with 6 LP. The Type-005 put into play in this way can&apos;t be worth Victory Points to either player. Limit: Once per game.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="76c1-87e3-4019-90a7" name="Team Kujaku Hime and Takanosuke" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8b8f-e74e-1f9c-4b05" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="7660-8c11-8327-ba50" name="Team Kujaku Hime and Takanosuke" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Kujaku Hime and Takanosuke form a Team. While both stay in play, they gain the following special skills:
+
+Takanosuke&apos;s Additional Skill
+o — Guardian (Special, Reactive)
+Takanosuke is able to interchange his actual position with Kujaku Hime at any time if she is within his Control Zone. This skill may be used even if she is the target of an Attack, Charge or negative Effect. Guardian may not be activated if Takanosuke is engaged in Hand-to-hand combat with an enemy unit.
+Limit: 1 per turn.
+
+Kujaku Hime&apos;s Additional Skill
+Kage Combo: Immediately following a Kage Shuriken attack from Takanosuke, Kujaku Hime may execute a single offensive action (Attack, Charge, or Special Offensive Ability) against the same target as a Reactive Action. The action cost of the executed attack remains the same.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b675-5ce7-7760-7f23" name="Team Les Jaeger" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="84f9-bf14-c9aa-0691" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8763-d0be-c54f-d2bd" name="Team Les Jaeger" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The Colonel&apos;s Additional Abilities:
+Absolute Command: The Colonel is an Arbiter and may use the Arbiter rules listed below as normal.
+Orders per Turn: 3 Orders Points.
+Influence Zone: 12 Inches.
+Limitation: The Colonel&apos;s commands can only be used on either Reinhold, Kyler, or Kirsten.
+
+oo — Opugnis (Special, Attack)
+Choose a friendly unit within your Influence Zone. The chosen character makes a free Hand-to-hand attack.
+
+ooo — Impero (Special, Effect)
+Choose a friendly unit within your Influence Zone. The chosen character recovers an Action Point.
+
+o — Motum (Special, Effect)
+Move a friendly unit within your Influence Zone 2 Inches. This does not count as a Movement Action. So, it can be done before or after moving. Motum can not be used more than once on the same unit in the same Turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3d12-e4e5-8105-cb84" name="Team Lords Of The Abyss" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="782c-2026-0d78-8a2d" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="28e5-730a-8994-6f88" name="Team Lords Of The Abyss" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Deadmoon, Jerome and Hel form a Team and receive the following special abilities:
+
+Hel&apos;s Additional Abilities
+Shadow Step: Hel gains Advanced Deployment and Infiltration.
+Combination Attack: If Hel is engaged in hand-to-hand combat with the same unit as Jerome she gains +1 Attack and +1 Defense against that enemy.
+
+Jerome&apos;s Additional Abilities
+Shadow Step: Jerome gains Advanced Deployment.
+Blood Bond: If Hel dies, Jerome may be removed from play in her place. When this ability is used Hel recovers all her lost Life Points.
+Combination Attack: If Jerome is engaged in hand-to-hand with the same unit as Helhe gains +1 Attack and +1 Defense against that enemy.
+
+Deadmoon&apos;s Additional Abilities
+Shadow Step: Deadmoon gains Advanced Deployment and Infiltration.
+Zone of Darkness: Hel and Jerome benefit from the effects of Shadow of the Moon if they are within 4 Inches of Deadmoon. That is, no enemy unit farther than 6 Inches from Deadmoon has line of sight with them.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="515c-4159-c06b-c1b2" name="Team Saint Council" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1a0a-5824-72c6-3faf" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="cabe-44ba-49e6-b4e5" name="Team Saint Council" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Evangeline and Astraega form a team and receive the following special abilities:
+
+Holy Essence: If at the beginning of the Recovery Phase Evangeline and Astraega are still both in play, one of them can recover an additional Action Point.
+
+Evangeline&apos;s Additional Abilities:
+Holy Aura: Evangeline&apos;s Control Zone increases by 2 inches.
+Superior Healing: Evangeline&apos;s Healing Skill recovers 8 LP instead of 5.
+
+Astraega&apos;s Additional Abilities:
+Holy Aura: Astraega&apos;s Control Zone is increased by 2 inches.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b14e-6da7-63f1-2de5" name="Team Condemned Lovers" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4203-f9cc-2662-a10d" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d97b-ab06-0667-a3b0" name="Team Condemned Lovers" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Drake and Cenette form a Team, gaining the following special abilities;
+
+Drakes&apos; Additional Abilities
+Blinded by Anger: If Cenette is removed as a casualty, Drake gets the Innate Ability: Flight, Berserk Lv. 3, Haste Lv. 3 and Shield Lv. 3.
+Bodyguard: Drake can Intercept a Charge or Ranged Attack made against Cennette from up to 4 inches away.
+
+Cenette&apos;s Additional Abilities
+Live Blood: If Drake is removed as a casualty while he is within Cenette&apos;s Control Zone, Cenette may pay 10 LP to have Drake remain with 5 LP. Cennette can execute this ability even if she has less than 10 Life Points. If she does, then she is removed as a Casualty.
+Combined Combat: If Cenette is engaged with the same enemy unit as Drake she gets +1 Attack.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c3ae-6539-4880-3562" name="Team The Dark Hand" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b2e1-132f-3a2c-2809" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ceb8-c861-39a6-9c08" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e2f0-2c65-f8ca-5f8f" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dd8e-e0a6-a98b-3c6a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ff36-27d5-7da4-3fd8" name="Team The Dark Hand" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">October, September, and May form a team and receive the following special abilities:
+
+October’s Additional Abilities:
+Group Combat: October doesn’t suffer any penalties when he attacks an enemy unit that is engaged in combat with another team member.
+
+September’s Additional Abilities:
+Share the Pain: Whenever October or May take damage from an attack or ability while in September’s Control Zone, the attacker loses 1 Life Point. In the case of attacks on area affecting more than one of them at once, the attacker must resist each effect separately. Effect 15.
+
+May’s Additional Abilities:
+Ice Arrows: If, during the Maintenance Phase, May is within 4 inches of October, she can spend 1 AP to give him a Power token.
+Combined Murder: May doesn’t suffer any penalties when she uses a Ranged Attack or Moon Zero against an enemy unit that is engaged in combat only with The Dark Hand members, nor can she hit her companions on 1 or 2 result of attack roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9162-3d85-40ba-572a" name="Team The Three Dragons" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e876-fc7a-c6cc-e9e3" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="25d0-1ebf-a302-d18f" name="Team The Three Dragons" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Li Long, Lin Pao and Jiang Pao form a Team and receive the following special abilities;
+
+Lin Pao&apos;s Additional Abilities
+ooo — Twin Dragon Combo (Ki, Charge, Reactive)
+Lin can Charge as a Reactive Action against the same enemy Jiang is charging. This skill must be declared when Jiang activates his own Charge, but before he executes it. If the enemy unit is destroyed by Jiang&apos;s Charge, Lin cannot move but still spends the Action Points of the Twin Dragon Combo.
+
+Jiang Pao&apos;s Additional Abilities
+ooo — Twin Dragon Combo (Ki, Charge, Reactive)
+Jiang can Charge as a Reactive Action against the same enemy Lin is charging. This skill must be declared when Lin activates her own Charge, but before she executes it. If the enemy unit is destroyed by Lin&apos;s Charge, Jiang cannot move but still spends the Action Points of the Twin Dragon Combo.
+
+Combined Abilities
+ooo — Heaven and Earth (Ki, Attack))
++5 Attack / +5 Damage. Roll two dice and keep the higher one. Heaven and Earth may only be activated if all three of the characters who are part of this team are engaged with the same enemy. Any character from the team may activate this attack. The other two characters on this team must spend one Action Point to pay for its activation. Limit: 1 per turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="75a9-9874-0919-7655" name="Team Twin Shadow" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b4c-8d1c-2a90-3e18" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="55c6-8ef4-0608-274e" name="Team Twin Shadow" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Kagemaru and Zenobius form a Team and receive the following special abilities:
+Elusive Shadow: If Kagemaru and Zenobius are in contact with the same enemy, either one is gets Intangible while performing an Escape action.
+
+Kagemaru&apos;s Additional Abilities:
+Kageken: Kagemaru can remove a Shadow that is within his Control Zone to get +3 Attack when making a Basic Attack. If the attack destroys the target replace it with a Shadow.
+
+Zenobius’ Additional Abilities:
+Ninja: Zenobius is a Wanderer instead of Azur Alliance.
+Honorable Teacher: If Zenobius have line of sight with Kagemaru he can activate Stealth at the cost of one Action Point.
+Spontaneous Shadow: If Kagemaru successfully use his Kage ability while in Zenobius’ Control Zone, place a Shadow where Kagemaru was before he escaped.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2554-038b-2795-5a99" name="Team Weapons Of Azrael" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="de76-64c3-dfa6-fa2c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0c72-96ad-683b-529c" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d72b-81cd-c951-8b1c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="229b-b780-979e-3bf9" name="Team Weapons Of Azrael" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Macbeth and Lilian Virgil form a Team
+
+Lilian&apos;s Additional Abilities:
+Breath of Life: As long as Lilian has Line of Sight to Macbeth, her Breath of Life ability affects all friendly Units within 4 inches instead of only Units that she comes into base-to-base contact with
+
+Inspiration: During the Recovery Phase, if Lilian is within Macbeth’s Control Zone, Inspiration’s cost is reduced by 1 Action Point.
+
+Macbeth’s Additional Abilities:
+Sacred Assault: While affected by Lilian’s Inspiration ability, Macbeth can charge up to 12 inches.
+
+Lillian’s Protector: Macbeth can Intercept a Charge or a Ranged Attack made against Lillian from up to 4 inches away.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="94df-714d-0887-66ed" name="Team The Puppet Master" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eeef-9a6d-6d95-39ec" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="fd84-fa3f-5fc2-f64d" name="Team The Puppet Master" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">Adolf, Frey and Freya form a Team, gaining the following special abilities;
+
+Adolf&apos;s Additional Abilities
+Frey or Freya will only be affected by these abilities if they are within 12 inches of Adolf.
+
+oo — Compello (Subterfuge, Effect)
+Frey or Freya may immediately make a free attack.
+oo — Clamito (Subterfuge, Effect, Reactive)
+Frey or Freya recovers an Action Point.
+oo — Luctus (Subterfuge, Effect, Reactive)
+Frey or Freya gets +2 Attack until the end of the turn.
+
+Frey and Freya&apos;s Additional Abilities
+Subjugated: While Frey or Freya have Line of Sight to Adolf, instead of rolling for the Unbound rule you may choose whether or not to have Frey or Freya suffer Berserk.
+Blood Sisters: If either Frey or Freya is destroyed, the survivor suffers Berserk Lv. 1
+Pack Hunters: Once per game, You can choose to activate Frey and Freya together. They each function as they normally would, except you will take all of your actions with both Frey and Freya during the same Activation. Once you have finished taking Actions with both of them, your opponent may activate their next Character.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
