@@ -34,6 +34,7 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
+    <categoryEntry id="1e1f-f436-2e5f-023e" name="Configuration" hidden="false"/>
     <categoryEntry id="cd42-15d9-7a6d-37b1" name="Leader" hidden="false"/>
     <categoryEntry id="e272-fa42-897c-930e" name="Light" hidden="false"/>
     <categoryEntry id="429f-0291-b84a-3164" name="Dark" hidden="false"/>
@@ -51,7 +52,6 @@
     <categoryEntry id="3d5e-82ed-a418-3376" name="Summon" hidden="false"/>
     <categoryEntry id="4c9e-495c-d4a0-8baf" name="Agent" hidden="false"/>
     <categoryEntry id="eb1a-1459-c5f2-a455" name="Summoner" hidden="false"/>
-    <categoryEntry id="1e1f-f436-2e5f-023e" name="Configuration" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="722d-2ee7-4038-4f4c" name="300 Levels (Gamma)" hidden="false">
@@ -67,6 +67,7 @@
         <constraint field="c455-b1bd-6f65-79ce" scope="722d-2ee7-4038-4f4c" value="300.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ca12-c60c-4b20-a47d" type="max"/>
       </constraints>
       <categoryLinks>
+        <categoryLink id="fe82-7db3-f872-b4d8" name="Configuration" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="false"/>
         <categoryLink id="e6e1-b00e-f403-ad5d" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="false">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3af7-c883-6b38-7dbf" type="max"/>
@@ -106,6 +107,7 @@
         <constraint field="c455-b1bd-6f65-79ce" scope="8597-70f6-1ee5-7cf3" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0c49-c06e-b9d1-d719" type="max"/>
       </constraints>
       <categoryLinks>
+        <categoryLink id="43ee-5115-9086-876e" name="Configuration" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="false"/>
         <categoryLink id="f419-1bb2-c3fa-4058" name="Azur Alliance" hidden="false" targetId="22cd-78ed-3912-f507" primary="false"/>
         <categoryLink id="af3a-b410-71bf-685c" name="Black Sun" hidden="false" targetId="632f-96ce-8cdc-74a1" primary="false"/>
         <categoryLink id="f26a-93e7-f1ba-f195" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
@@ -115,7 +117,6 @@
         <categoryLink id="695f-6069-c399-4cd7" name="Samael" hidden="false" targetId="60c8-2751-11fe-a218" primary="false"/>
         <categoryLink id="f551-c326-f591-7f18" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
         <categoryLink id="cc3d-6702-536b-df21" name="Wissenschaft" hidden="false" targetId="c42b-4d76-393b-e245" primary="false"/>
-        <categoryLink id="43ee-5115-9086-876e" name="Configuration" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="11b4-0cf4-6fcf-c860" name="200 Levels (Beta)" hidden="false">
@@ -131,6 +132,7 @@
         <constraint field="c455-b1bd-6f65-79ce" scope="11b4-0cf4-6fcf-c860" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5efe-9d1b-80da-9adb" type="max"/>
       </constraints>
       <categoryLinks>
+        <categoryLink id="5b2f-9660-8361-7888" name="Configuration" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="false"/>
         <categoryLink id="42db-804b-4e2b-6083" name="Azur Alliance" hidden="false" targetId="22cd-78ed-3912-f507" primary="false"/>
         <categoryLink id="6c64-69a6-9c75-dd1e" name="Black Sun" hidden="false" targetId="632f-96ce-8cdc-74a1" primary="false"/>
         <categoryLink id="d631-6450-d7af-7003" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
@@ -165,6 +167,7 @@
         <constraint field="c455-b1bd-6f65-79ce" scope="f7e6-1130-1b26-fac8" value="450.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7916-726a-b0d0-6fe5" type="max"/>
       </constraints>
       <categoryLinks>
+        <categoryLink id="d33b-74a6-54b5-8ede" name="Configuration" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="false"/>
         <categoryLink id="1d41-01ad-3cbb-772d" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="false">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="29d3-86ad-63f7-7d8e" type="max"/>
@@ -204,6 +207,7 @@
         <constraint field="c455-b1bd-6f65-79ce" scope="30f8-bb52-08c3-dbd2" value="600.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0d41-f210-449e-272e" type="max"/>
       </constraints>
       <categoryLinks>
+        <categoryLink id="f6d2-af05-b060-0c5e" name="Configuration" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="false"/>
         <categoryLink id="12a0-987a-326e-49a1" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="false">
           <constraints>
             <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b0a9-727a-7990-4538" type="max"/>

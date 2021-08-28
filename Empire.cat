@@ -442,6 +442,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b39b-7b12-b051-e361" name="Tactic Redeploy" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -454,6 +458,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="308a-9073-6e0f-6fba" name="Field Treatment" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -466,13 +474,88 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="30.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="716e-c1df-9390-999f" name="Organizational Advantages" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="f6fc-7494-e72f-60e9" name="New CategoryLink" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9e83-0419-8016-0536" name="Advantages" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="c24a-0edf-d3d6-0dd7" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f7e6-1130-1b26-fac8" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="c24a-0edf-d3d6-0dd7" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="30f8-bb52-08c3-dbd2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="c24a-0edf-d3d6-0dd7" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="8597-70f6-1ee5-7cf3" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c24a-0edf-d3d6-0dd7" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6ad5-ae4d-5a63-3dc1" name="The Empress&apos;s Chosen" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7a52-6f1a-87c2-fd6e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8a70-f75f-2219-f70b" name="The Empress&apos;s Chosen" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">At the start of play, choose a character in your Party. This character receives +1 Attack, +1 Defence, +2 Resistance, and may roll an additional die keeping the highest result when making any Attack or Charge (normal or special).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="1405-edd4-d347-2fdf" name="Combat Mastery" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1d9c-2f02-399c-b6ac" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e5f2-1d78-6238-6dff" name="Combat Mastery" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">All Characters in the Party receive the Innate Ability Critical Mastery. Any Characer already possessing Critical Mastery causes a Critical Hit on a result of 8, 9, or 10.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="8a03-72fd-ed69-c588" name="Critical Mastery" hidden="false" targetId="1c78-2c2a-af54-b235" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="4e9a-3547-09ae-521f" name="Imperial Armor" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3241-4021-be84-aaca" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6a22-ebab-4c7e-f61f" name="Imperial Armor" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">All Characters in the Party receive +1 Armor. This modifier cannot be reduced or negated in any way. Characters in the party will always have at least Armor 1, even if the attack would normally completely negate or ignorethe defender&apos;s armor. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
