@@ -1498,32 +1498,246 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
       </costs>
     </selectionEntry>
     <selectionEntry id="052f-38d9-a184-174b" name="Aoi Inukai" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0158-bb66-a915-5b74" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3cd0-ee0f-3354-aa9b" name="Aoi Inukai" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">1</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">11</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e01f-2451-d70d-f3e2" name="ooo — Spiritual Beam (Magic, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (16 inches). +1 Attack / +3 Damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d286-bb8d-b759-5e72" name="oo — Moon Seal (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Discard up to two negative States counters of your choice affecting a single friendly unit inside Aoi&apos;s Control Zone.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d4f1-f4e3-68a6-a705" name="ooo — Coral Ecstasy (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">A friendly unit inside Aoi&apos;s Control Zone gains Lv1 Shield, Lv1 Healing, Lv1 Protection and Lv1 Haste. Aoi may not use Coral Ecstasy on herself.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b739-efe4-8e44-de52" name="ooo — Winds of Life (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Heals 2 Life points of all friendly units inside Aoi&apos;s Control Zone.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="df72-9982-5c51-bc70" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+        <categoryLink id="35ee-e954-c09f-f7ac" name="Samael" hidden="false" targetId="60c8-2751-11fe-a218" primary="false"/>
+        <categoryLink id="6481-a511-81e5-6d7b" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="676e-9c2f-0919-bd35" name="Baal" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="676e-9c2f-0919-bd35" name="Bael" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="370c-92ae-324a-bd98" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="67fc-d67d-03d6-63e8" name="Bael" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">2</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">10</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">12</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="58b6-d986-1b0b-e2e5" name="oo — Dark Beam (Magic, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance Attack (16 inches). +1 Attack/ +2 Damage</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8abe-1c6b-a1f7-7b4d" name="oo — The Mark of Erebus (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Cast Lvl 2 Seal on an enemy unit inside Bael&apos;s Control Zone. Effect 16.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c624-4139-ecb9-94d8" name="oo — The Mark of Noah (Magic,Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Cast lvl 2 Berserk on an enemy or friendly unit inside Bael&apos;s Control Zone. Effect 16.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0b56-786c-4662-ba77" name="oooo — The Mark of Jedah (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Cast Lvl 2 Paralyze on an enemy unit inside Bael&apos;s Control Zone. Effect 16.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2f01-90f2-449e-bc4d" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="6a4b-eee0-7be8-d3c7" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+        <categoryLink id="56ff-2b98-8119-e327" name="Samael" hidden="false" targetId="60c8-2751-11fe-a218" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e7da-14f3-63ff-015b" name="Crimson Death" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b71a-326a-3213-5af7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="bb28-3f3f-fc4f-8d3d" name="Crimson Death" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">5</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">15</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">10</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="962c-d231-261a-172e" name="Fearbringer" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">A unit that declares an attack or charge on Crimson Death must make a Resistance roll against Effect 14. If they fail the attack automatically misses, and their action is wasted.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="349b-90fe-f970-f5ea" name="Immortal Shadow" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Crimson Death can only ever take 6 damage maximum from one attack. Multiple consecutive attacks could each do 6 damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="09e5-6877-f5ca-eafa" name="Sentenced" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Crimson death can&apos;t recover LP for any reason.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1872-8106-766c-0d6e" name="ooo — Cailleach (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+5 Attack.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="16dc-df50-71fb-4ba1" name="ooo — Feast for Crows (Ki, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (16 inches). If this attack causes damage, it&apos;s target suffers Blind Lv. 2. Effect 14.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8430-439d-be59-bf1d" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="d751-c299-08d2-94b8" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="5ae4-39d2-2e6e-50bb" name="Samael" hidden="false" targetId="60c8-2751-11fe-a218" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfbe-f237-2a9f-9c27" name="Dark Chesire" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53d0-3919-332d-b7da" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3243-e26f-d7ba-ff50" name="Dark Chesire" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">5</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">1</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">15</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">10</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ea5e-d56f-08b8-3526" name="oooo — Excisun Aeris (Ki, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (12 inches). +2 Attack / +2 Damage</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="040c-5f47-a6b7-4da3" name="ooo — Summun (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+4 Attack / +4 Damage.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9978-8fcb-fabb-0671" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="2900-d191-a0a0-bd01" name="Samael" hidden="false" targetId="60c8-2751-11fe-a218" primary="false"/>
+        <categoryLink id="c5da-d593-06c9-c082" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="21c4-9bfc-2873-ce60" name="Genma" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff4b-6f40-e846-cea9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d7e7-40fd-7ae0-52bf" name="Genma" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">1</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">10</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">6/10</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c936-d1cc-f306-953c" name="Affinity" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Light, Dark, Void</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9834-a5a7-5134-e967" name="Life Link" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Genma may redirect damage she suffers for any reason to one of her Summons in play.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dd02-2262-80f0-57f6" name="ooo — Lasso of Unity (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Place a Bind Point on one of Genma&apos;s Summons in her Control Zone.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cecf-1992-0ec8-7f1a" name="ooo — Vanish (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Remove a Bind Point from an enemy Summon in Genma&apos;s Control Zone</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0d52-5c04-1821-16e8" name="ooo — Spiritual Beam (Magic, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (12 inches). +3 Damage.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="69d6-7708-5630-4823" name="Summoner (Level 3)" hidden="false" targetId="1260-e02e-dc09-a2d4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9566-ea99-bfc8-5523" name="Neutral" hidden="false" targetId="2e97-e234-3c32-891e" primary="false"/>
+        <categoryLink id="e46a-3a5c-ba46-0960" name="Samael" hidden="false" targetId="60c8-2751-11fe-a218" primary="false"/>
+        <categoryLink id="6485-0b1a-eec2-5777" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+        <categoryLink id="065e-2e46-fc33-6c9c" name="Summoner" hidden="false" targetId="eb1a-1459-c5f2-a455" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="35.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1599,6 +1813,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c6b2-0451-12ef-a11f" name="Ergo Mundus" hidden="false" collective="false" import="true" type="model"/>
+    <selectionEntry id="bafb-4aec-c01b-3f84" name="Anaximenes" hidden="false" collective="false" import="true" type="model"/>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6708-2ad4-2733-6e3b" name="Advantage Cards" hidden="false" collective="false" import="true">
@@ -3366,5 +3582,6 @@ Pack Hunters: Once per game, You can choose to activate Frey and Freya together.
     <rule id="e462-a60e-cb17-9b55" name="Ranged Attack (4&quot;)" hidden="false"/>
     <rule id="51cd-f19c-a085-d89e" name="Infiltration" hidden="false"/>
     <rule id="9fba-a925-10c7-f5fc" name="Immunity (Poison)" hidden="false"/>
+    <rule id="1260-e02e-dc09-a2d4" name="Summoner (Level 3)" hidden="false"/>
   </sharedRules>
 </gameSystem>
