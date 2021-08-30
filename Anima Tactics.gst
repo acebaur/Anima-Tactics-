@@ -1742,30 +1742,228 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
       </costs>
     </selectionEntry>
     <selectionEntry id="0e7f-a1e0-2d00-3f4e" name="Janiel" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9009-e427-b0b0-3445" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e90c-e586-08d5-1a43" name="Janiel" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">2</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">12</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8106-251a-9d65-b502" name="o — Einjeil Eyes (Magic, Seek)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">This ability gives +8 inches to Janiel&apos;s Control Zone and +1 to the success roll of the Seek Control</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b790-1509-e10e-c7ac" name="o — The Mark of Einjeil (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Choose an enemy unit within 20 inches. Until the end of the turn, all Ranged Attacks of any friendly unit against that enemy gain +2 Attack. Effect 16. Limit: 1 per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="970c-62f1-9697-fffe" name="ooo — Feathers Storm (Magic, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (20 inches). +2 Damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="84d0-ec65-a926-e280" name="ooo — Feathers Slash (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+2 Attack / +2 Damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fd91-4580-8a96-c553" name="ooo — Healing Breath (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">A friendly unit inside Janiel&apos;s Control Zone gains Lv 2 Healing.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9a94-94f0-15d6-b2e5" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+        <categoryLink id="07cc-7ba8-66b8-60f0" name="Samael" hidden="false" targetId="60c8-2751-11fe-a218" primary="false"/>
+        <categoryLink id="6d1b-7ec1-77be-e5ad" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="af76-a1b3-d758-c8cf" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3764-d41a-408c-2282" name="Kairos" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0792-e987-0521-8f0a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="96b2-90c1-4119-b7d0" name="Kairos" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">4</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">1</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">15</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2906-08f1-eb14-26e4" name="ooo — Dark Valestis (Ki, Charge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+4 Damage. Kairos may charge up to 16 inches.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2cfa-335d-3fb2-9e4e" name="ooo — Soul Spiral (Ki, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (16 inches). +2 Damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3cf0-42f1-688f-15b9" name="ooo+ — Final Burst (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Final Burst affects all enemy units within 3 inches of Kairos. Kairos may spend an additional action point to gain +2 Attack.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2adc-d6fd-7c67-e8db" name="Samael" hidden="false" targetId="60c8-2751-11fe-a218" primary="false"/>
+        <categoryLink id="70b3-2876-9d84-b8e8" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="b188-91b9-ba7f-a185" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2dcb-dcbc-42dc-4865" name="Kaori" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dc9-a0f6-6398-2782" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e958-95fd-3663-2391" name="Kaori" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">1</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">11</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fa2b-bfcb-0bbe-0e85" name="oo — Magic Beam (Magic, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance 16 inches. +3 Damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="18f5-42f1-0cf4-c50f" name="ooo — Towards The Clouds (Ki, Movement)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Remove Kaori from the table. During Kaori&apos;s activation on the next turn you are forced to use Forced Landing or Pumpkin Bomb.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="46f0-07e7-163a-4c77" name="o — Forced Landing (Magic, Movement)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Place Kaori anywhere on the table where she could be moved in a usual way. This ability can only be used if Kaori is removed from table.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c568-43ac-de75-350b" name="ooo — Pumpkin Bomb (Magic, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Attack +1, Damage +4. Place Kaori anywhere on the table where she could be moved in a usual way. After this she makes an attack against all units within 3 inches of her. Kaori cannot move after using this ability. This ability can only be used if Kaori is removed from table.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="674f-e6f3-b7b2-4dc5" name="ooo — Cat&apos;s Trick" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Move Kaori up to 12 inches in a straight line. All enemy models she passes during this movement suffer [[[en-slow | Slow Lv. 1 and all friendly models touched receive Haste Lv. 1. Effect 16 (enemies only).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2e4b-ed1b-cb5c-35ec" name="Flight" hidden="false" targetId="a461-010e-1bad-8747" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d0b3-a52d-f098-fdb4" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="a9fe-6239-cfa4-8a3b" name="Samael" hidden="false" targetId="60c8-2751-11fe-a218" primary="false"/>
+        <categoryLink id="6036-277f-c9cb-875e" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="35.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7494-3cc4-335e-dcda" name="Konosuke" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e413-2f0a-fb05-ec7a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="dd94-b2fe-665a-ca3f" name="Itami" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Whenever Konosuke suffers damage, put a Power Counter on him (Maximum 3).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a025-19b7-42d0-1a0e" name="Konosuke" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">8</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">5</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">25</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">10</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">6/10</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0a84-db24-9c7d-a419" name="Kokoro" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Konosuke recovers 5 Life Points every time a unit dies within his control zone.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1b16-f9c0-fd1d-6ca5" name="Mesatsu" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">For each Power Counter that Konosuke retires he gains +2 Attack in a specific Attack or Charge.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a1a9-edfd-c652-ca5a" name="Explosion of Condemned Souls" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">When Konosuke dies, make an attack against all units within 2 Inches of him. Add +2 to Attack for each Power Counter left on him.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="83b0-b07a-1bda-b2cb" name="ooo — Ikusaguruma (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Konosuke attacks all enemy units within 2 Inches.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="de82-8237-a9dc-16f3" name="ooo — Rasetsu (Ki, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (12 Inches).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d05b-97f2-66e9-3564" name="o — Thousand Broken Bones (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Can only be used immediately after making a Charge.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7543-983f-aeb7-7d61" name="Damage Resistance" hidden="false" targetId="b0d8-09eb-7e84-96c3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="eb15-662a-7068-dfdf" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="ee04-c044-d140-04c3" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="fe63-1766-6cdd-fd25" name="Samael" hidden="false" targetId="60c8-2751-11fe-a218" primary="false"/>
+      </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3f8b-4902-ab0b-4aab" name="Kudoi" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1c9-5c27-3553-700a" type="max"/>
+      </constraints>
       <costs>
         <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
@@ -3583,5 +3781,6 @@ Pack Hunters: Once per game, You can choose to activate Frey and Freya together.
     <rule id="51cd-f19c-a085-d89e" name="Infiltration" hidden="false"/>
     <rule id="9fba-a925-10c7-f5fc" name="Immunity (Poison)" hidden="false"/>
     <rule id="1260-e02e-dc09-a2d4" name="Summoner (Level 3)" hidden="false"/>
+    <rule id="a461-010e-1bad-8747" name="Flight" hidden="false"/>
   </sharedRules>
 </gameSystem>
