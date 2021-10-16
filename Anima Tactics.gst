@@ -284,7 +284,7 @@
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8061-8252-1200-4bfe" name="Yuri Olsen" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8061-8252-1200-4bfe" name="Yuri Olsen" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b64-5073-8cfb-83e9" type="max"/>
       </constraints>
@@ -2011,8 +2011,1361 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c6b2-0451-12ef-a11f" name="Ergo Mundus" hidden="false" collective="false" import="true" type="model"/>
-    <selectionEntry id="bafb-4aec-c01b-3f84" name="Anaximenes" hidden="false" collective="false" import="true" type="model"/>
+    <selectionEntry id="bafb-4aec-c01b-3f84" name="Anaximenes" hidden="false" collective="false" import="true" type="model">
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c241-711e-e5b8-4ab4" name="Alexias" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a6e-acba-b010-7f18" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3de2-4618-2f38-0f3a" name="Alexias" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">6/8</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">5/8</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">1</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">16</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ed6e-3d62-739d-2945" name="Angel of Death" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Alexias uses secondary Damage when attacking an enemy of equal or greater level.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e43b-4fb5-2e5e-dc2f" name="oo — Stealth (Subterfuge, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Alexias becomes Hidden. Upkeep: o</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2215-ebbe-e1a5-0ad8" name="o — Fold Space (Ki, Movement)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Move Alexias into contact with an enemy unit that took damage from Sword Throw earlier this turn. This move can’t be Intercepted.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2dec-b217-df2d-80a8" name="oo — Sword Throw (Ki, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (16 inches).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d31e-73bf-37c9-5f59" name="Piety" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Alexias cannot remove an enemy unit of level 45 or lower. If Alexias reduces an enemy unit of level 45 or lower to 0 LP they remain in play with 1 LP instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d093-4268-35bb-bfe0" name="Assassin" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">If Alexias makes an attack while Hidden, use his secondary Attack.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1483-237f-c53a-49ae" name="oooo — Umbra and Thanatos (Ki, Charge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">After this Charge is resolved, Alexias makes another attack on the same target. The second attack can cause Throw at your discretion.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2760-ca12-0abe-7657" name="ooo — Ormus (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">When Alexias makes this attack he doesn’t roll any dice. The attack is resolved as though he rolled an 8.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5844-7893-ef2e-6839" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="49b5-f808-aa82-9bba" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="216f-e923-d6a5-e207" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="bb3f-b2c3-79ce-4382" name="Prowler" hidden="false" targetId="a026-dd6a-6fb3-8261" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="60.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8869-f511-8141-ec8a" name="Alis Testarrosa" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecf9-d9ea-0f66-e43e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="16c1-2845-3a80-89b8" name="Alis Testarrosa" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">4</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">14</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="545c-a1de-7213-ed3a" name="Wings of Light" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">If Alis sacrifices 3 LP during the Maintenance Phase, she obtains the Flying skill during the rest of the turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f210-2c54-2760-b1e6" name="o — Aegis&apos; Wind (Ki, Movement, Escape)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Alis automatically escapes Hand-to-Hand combat and may move up to 12 inches. This does not count as movement for the current turn. She may not engage in Hand-to-Hand combat using this movement action. Alis must be Flying.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2d94-1a42-bd03-bb9a" name="ooo — Valkyrie (Ki, Charge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+2 Attack / +2 Damage. Alis must be Flying.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1e32-e209-a5a6-6cb0" name="ooo — Aegis (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+2 Attack / +2 Damage. If the attack causes damage, retire all Positive States from the enemy unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b684-ab34-f8f7-6c5d" name="ooooo — Beyond the Winds (Ki, Charge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Retire Alis from the board. During her activation, in the following turn, place her in contact with any enemy unit in game and complete the Charge. Alis returns to the board with 0 action points. Alis must be Flying in the moment she uses this skill.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d8ff-3325-9523-1f44" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="a6cf-d376-806b-71e9" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="f16c-a4fa-b988-0b95" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="35.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c933-b384-b095-40de" name="Azriel" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ec3-3a37-7432-abe2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="022d-3d04-d080-0965" name="Azriel" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">5</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">1</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">16</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7325-fba9-920e-23ce" name="ooo — Invite Hell (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+5 Attack.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d07e-45a3-987c-dac1" name="ooo — Wings of Sin (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+6 Attack. If Wings of Sin causes damage, target unit suffers Lv2 Doom, Effect 15. To use this attack, Azriel must have 6 or fewer Life points.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a705-b141-dd6b-9022" name="oo — Promised Pain (Ki, Attack, Reactive)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+5 Attack. Promised Pain can be used only in the moment that Azriel sustains damage from an enemy unit and must target the same character that had attacked him.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="db2e-f1bd-83a2-7a67" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="0edd-18b5-4ae0-902c" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="8043-2f44-6713-3244" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e34-fab9-04b3-6ccd" name="Damaris" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06d1-e5cf-46e0-a9bf" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7617-d238-c4d9-9480" name="Damaris" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">2</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">12</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4596-0e61-b899-0393" name="oo — Spirit Link (Magic, Effect, Reactive)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">When a friendly unit within Damaris&apos; Control Zone is destroyed, you may use this ability to have them remain in play until the end of the turn instead of being removed immediately. The destroyed unit gets Intangible and can&apos;t be damaged in anyway or removed from the game until the end of the turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7515-c20e-a72e-964a" name="oo — Dark Power (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">A unit within Damaris&apos; Control Zone gets +2 Attack until the end of the turn and Doom Lv. 1. Effect 16 (only if used on enemy). Limit: Once per turn..</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="23d5-da60-bced-c768" name="o — Life Link (Magic, Effect, Reactive)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">When a friendly unit within Damaris&apos; Control Zone is destroyed, another friendly unit, also in Damaris&apos; Control Zone, recovers 1 LP for every 5 levels of the destroyed character.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5e2d-7922-c8a9-e08d" name="o — Death Link (Magic, Effect, Reactive)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">When a friendly unit within Damaris&apos; Control Zone is destroyed, all enemy units within Damaris&apos; Control Zone each take 5 damage. Effect 15.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7a07-1fa5-3186-f739" name="Affinity" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="eac9-527a-25bb-cfde" name="Summoner (Level 1)" hidden="false" targetId="9c0c-14e9-7dae-b832" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="03ba-782b-c77d-5dea" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="39e1-f048-4d8a-0e96" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="a618-34aa-689b-7f82" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="35.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac66-72c0-f4a3-b423" name="Damien" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ded-63d7-8102-2d04" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="38a9-7956-cc16-163a" name="Damien" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">3</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">1</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">14</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7a4c-091c-1952-4f3c" name="Lightning Slash" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">All of Damien&apos;s attacks ignore the target&apos;s Armor.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1578-3f6f-0940-231a" name="ooo — Breathless (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+3 Attack. Damien gains a Damage bonus on this attack equal to the target&apos;s Armor.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="84fe-ac75-515a-50f8" name="ooo — Bodyless (Magic, Movement)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Damien may move up to 16 inches in a straight line.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0c97-0f48-6327-a758" name="Phase" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">When using Bodyless or Lifeless Damien is considered Intangible. He ignores all movement penalties due to difficult terrain, and may withdraw from Hand-to-hand combat without needing to Escape.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1133-652c-fe38-ca03" name="oooo — Liveless (Ki, Charge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+4 Damage</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6bef-7d4f-03c7-a119" name="Initiative" hidden="false" targetId="447a-5520-8605-a206" type="rule"/>
+        <infoLink id="e569-5c9e-c8cc-be7e" name="Immunity (Blind)" hidden="false" targetId="4923-a79b-8f82-9559" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6262-56f6-7236-803a" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="1592-0dc4-c53f-c366" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="b120-f9ce-552d-f58e" name="Neutral" hidden="false" targetId="2e97-e234-3c32-891e" primary="false"/>
+        <categoryLink id="58c0-14ec-8723-9fb9" name="Prowler" hidden="false" targetId="a026-dd6a-6fb3-8261" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eeee-49d8-d45b-c965" name="Grey" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9f4-7dbe-4852-9b54" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c8fa-566b-5629-a78f" name="Grey" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">6/8</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">5/8</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">1</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">16</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4c60-7dfd-0ef9-e3a5" name="Exaltation" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">If at least one friendly Unit within Grey&apos;s Control Zone is below half of their starting Life Points, he gets +1 Attack and +1 Defense.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8ac5-3f6b-bfbb-6bbb" name="o — My life for Thine (Subterfuge, Effect, Reactive)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">When a friendly Unit within Grey&apos;s Control Zone is reduced to 0 or less Life Points, you may remove Grey from the game as a casualty to return the friendly unit to 1 life point.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="90f6-43bf-58da-a719" name="ooo — Final Protection (Ki, Effect, Reactive)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Activate this ability at the end of the Maintenance phase. For the rest of the Turn Grey can Dodge for free.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c978-244b-cca2-e976" name="oo — Lightning Retribution (Ki, Attack, Reactive)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Attack +5. This Attack can only be used when an enemy Unit engaged with Grey makes an Attack against a friendly Unit other than Grey. This Attack is made after the enemy Unit rolls for its own attack.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="12fd-7345-ffd0-4ef7" name="The Promise" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Grey cannot destroy enemy Units. If any of his Attacks would reduce an enemy Unit to having less than 1 LP, it is left with 1 LP instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="70cc-46b5-2cf0-612a" name="Guardian" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Grey can Intercept a Charge or Ranged Attack from up to 4 inches away.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8e4d-d5a0-7129-74b5" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="90f7-f9c2-cb14-eddf" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="722b-bc20-6aef-5353" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3386-4212-8c8f-86f4" name="Justina" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85e6-af7c-1a76-a0a1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c02e-5758-9cf3-8bcb" name="Justina" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">3/8</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">10</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">13</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9833-ae2d-6c3f-27d2" name="Nux" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">If Justina suffers damage from a Magical ability she recovers an Action Point.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7e00-08f2-f70e-4ac1" name="oo — Sinner&apos;s Glare (Ki, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Cast Blind Lv. 2 on an enemy unit within Justina&apos;s Control Zone. Effect 14.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f509-049a-493b-eae9" name="ooo — Tears of Heaven (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+2 Damage. Roll two dice and keep the highest result.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d93b-a575-fd1e-7769" name="oo — Suppression Aura (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Any enemy units that use a Magic ability in Justina&apos;s Control Zone automatically lose 3 LP. Upkeep: o</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4608-a047-3fcf-d39f" name="Anathema" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">All of Justina&apos;s attacks against Mystic units use her secondary Damage attribute.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1f7a-70d1-a1d6-3f3b" name="ooo — Penitent Shot (Ki, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (16 Inches), +1 Attack, +2 Damage. If Penitent Shot causes any damage, the affected unit suffers Seal Lv. 2, Effect 15. Justina cannot Walk or Run in the turn she uses this attack.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7a9c-7580-8ff0-625c" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="f5c8-7fd4-845e-fb6e" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="6776-d034-589b-0d8b" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e77-c820-d5b7-6ce6" name="Luzbell" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1c1-9fab-79f0-79f6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="182f-05eb-252d-1083" name="Luzbell" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">2</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">12</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ed34-cba0-ed90-d383" name="oo — Holy Cut (Magic, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance 16 inches. Damage +2. Limit: Once per Turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7403-4d2b-0ef8-1084" name="ooo — Holy Reflection (Magic, Dodge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">This Ability can only be used against Ranged Attacks. If Luzbell Dodges successfully, then the attack is redirected to any enemy Unit that would be within the distance of the Attack if it where made by Luzbell. The redirected Attack uses all of the attributes of the original attacker, though Luzbell does make a new Attack roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="817e-a22c-e561-3d35" name="oo — Divine Shield (Magic, Dodge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">This Dodge may be used after the roll for the Attack is made.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e331-294f-ab3d-3f6a" name="oo — Mirror Jump (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Relocate a friendly unit within Luzbell’s Control Zone to any other position within her Control Zone. This ability can even relocate a Unit that is is engaged in combat, or move a Character into base-to-base contact with an enemy Unit. Limit: Once per Turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a4dc-f66a-c8df-e2fd" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="33a1-c9d4-efe9-5cdc" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+        <categoryLink id="cac1-b0d5-4d31-98a1" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d6e2-977e-abea-2915" name="Maria" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0261-79e2-e78d-032f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7156-747c-7087-491b" name="Maria" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5/7</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">6/8</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">5</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">25</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">10</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4f5f-e2db-3ab9-bb31" name="Death Incarnate" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Maria gets +3 Attack when making an attack against an enemy unit with 5 LP or lower.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ce44-a086-57b1-4909" name="ooo — Death Scythe (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+2 Attack, This attack hits all enemy units within 2 Inches of Maria.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2d73-c126-748e-c4c7" name="ooo — Shadow of Death (Magic, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+5 Attack.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4c4c-b677-8c7b-956a" name="Death Puppets" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">If Maria destroys an enemy unit, that unit isn`t removed from play as normal. Instead, the destroyed unit returns to play under your control. The unit returns as it was before it was destroyed (Actions points, states, etc). However, if the unit takes damage for any reason, it is removed from play. If a Character that was destroyed by this ability is still alive at the end of the game, it is considered a causality for the original player.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cbc3-ab78-4c85-6f81" name="Soulhunter" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Choose an enemy unit at the beginning of the game. Maria uses her second Attack and Damage attribute when making any attack against the chosen unit. If Maria destroys the chosen unit she recovers 15 LP and you may choose a new target.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0fc9-2c8d-bdd5-35b0" name="Damage Resistance" hidden="false" targetId="b0d8-09eb-7e84-96c3" type="rule"/>
+        <infoLink id="1f26-c842-80a4-3367" name="Immunity (Doom)" hidden="false" targetId="715d-db03-1710-5807" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="deea-5282-1d10-80db" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="e7f6-573a-abd5-f43a" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="080e-aed0-e70c-a172" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="c899-ca6c-4fce-1d8f" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="65.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac3c-168e-0db8-7f95" name="Nero" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf8e-9bbb-9532-fda3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f215-365a-8872-6baa" name="Nero" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">5/10</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">1</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">14</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6ffc-a93b-54fe-b532" name="Hand of Azrael" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">All of Nero&apos;s attacks against Dark units use his secondary Damage attribute.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3268-d360-2061-acc2" name="ooo — Wings of Absolution (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+2 Attack / +2 Damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e14b-d66a-2393-a9d5" name="o — Soul (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Nero gains Healing Lv2. Limit: Once per game.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f7be-4d0e-7d17-2405" name="oooo — The Fallen Angels (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Roll two dice and keep the highest result. Nero attacks all enemy units within 3 inches from him. Nero must sacrifice 3 Life Points to use this ability.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7ead-4d85-5ecf-d4ad" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="6aed-bffc-b0d9-b8fe" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="e858-d283-1217-8f13" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3ed8-85e5-2665-ec4b" name="Nimrod" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1d3-8586-ddb6-d03f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a6e2-3237-c282-61e4" name="Nimrod" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">4</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">12</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">10</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3a6d-174d-28ff-86cb" name="Shadow Hunter" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Nimrod can Attack and Charge against Hidden and Intangible units. He also ignores any other effects of these abilities. If Nimrod causes damage to Hidden unit then they become visible.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7a0f-06f5-c08a-f4e1" name="oo — The shadow of God (Subterfuge, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+6 Attack. If this Attack causes damage its target unit suffers Seal Lv. 2. Effect 16. Nimrod can only use this attack if he is Hidden.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ce77-dcc9-0772-8196" name="oo — Stealth (Subterfuge, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Nimrod becomes Hidden. Upkeep: o</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="47d2-e117-92d6-237e" name="ooo — Haunting Claws (Ki, Charge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">After this Charge is resolved Nimrod may make another Attack for free against the original target. This second Attack ignores the target&apos;s Armor. As an additional cost to use this Charge, Nimrod must sacrifice 3 LP.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="52b7-7fbf-5d79-a08c" name="ooo — Murderer of Shadows (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Nimrod makes two consecutive Attacks against the same target. If the target is a Prowler then both Attacks get +3 Damage.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="58d5-165a-ee9d-89c4" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="3952-e791-f32c-f99a" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="ec10-5263-da1a-343a" name="Prowler" hidden="false" targetId="a026-dd6a-6fb3-8261" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aaa2-896f-42a6-78eb" name="Saint Astraega" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51ad-f84a-8775-b178" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2096-dfba-6cde-ec68" name="Saint Astraega" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">1</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">9</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">12</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2441-cbda-1b11-1317" name="ooo — The Temperance (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">One friendly unit within Astraega&apos;s Control Zone recovers 1d10 Life Points.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4f2f-4f1a-f282-a182" name="oo — The Holy Priestess (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Retire two negative State counters from one friendly unit within Astraega&apos;s Control Zone.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4457-2fe4-ff41-e4a3" name="oooo — The Star (Magic, Effect, Reactive)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">This skill nullifies up to 10 damage points from a single attack to a friendly unit within Astraega&apos;s Control Zone.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="644d-c8b5-8ab2-6a8e" name="oooo — The World (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">One friendly unit within Astraega&apos;s Control Zone gains immunity to all damage until the end of the turn. The World doesn&apos;t prevent the loss of Life Points caused by Sacrifices.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d723-9fb4-853c-f717" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="174a-ca44-5f33-6f25" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+        <categoryLink id="9dba-c063-b065-edbd" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f2ed-95ea-2a6e-515c" name="Saint Evangeline" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cd4-954f-8d64-1cbc" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0a98-6a5d-5351-3893" name="Saint Evangeline" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">1</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">10</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">13</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b355-f537-dff1-2758" name="ooo — Blessing (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">All friendly units inside Evangeline&apos;s Control Zone gain +1 to Attack and Defense. Upkeep: o</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ac19-b253-8cdd-7178" name="oo — Holy Armor (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">One target friendly unit gains Lv.2 Shield.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5b7d-43b4-0d40-08f0" name="ooo — Healing (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Heal 5 Life Points of a friendly unit inside Evangeline&apos;s Control Zone.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9b44-78d3-00c4-f679" name="o — Vision (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Detect any hidden unit inside Evangeline&apos;s Control Zone.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5c92-55ef-a8e6-7ede" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="3ca7-408b-a303-e9a8" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+        <categoryLink id="b2c1-809a-cbb1-277f" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e61-77f8-3663-0a54" name="Saint Hazael" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0aa-2f8e-d3e6-c268" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="107d-3f14-aeab-40f3" name="Saint Hazael" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">5</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">3</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">15</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">10</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="20bc-9577-4d17-f796" name="oooo — Sacred Charge (Ki, Charge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+2 Damage. This Charge cause Throw.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ad0e-4114-0c3a-e57d" name="oo — Winged Hurricane (Ki, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Hazael&apos;s controller may move each small based enemy Unit that is engaged with Hazael up to 2 inches away from her. Hazael&apos;s Controller determines the direction of that movement as if the enemy Unit were Pushed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8ffe-7016-1802-280e" name="oo — Wall of Shields (Magic, Dodge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+3 to Dodge. Hazael gets +2 Armor until the end of the Turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3039-a943-8289-3a05" name="oo — Exorcism (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">A Dark enemy Unit within Hazael&apos;s Control Zone loses 6 Life Points. Effect: 14. Limit: Once per Turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0a26-7b8d-7625-baab" name="Affinity" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="31dd-cc6e-3a4f-4cf3" name="Summoner (Level 2)" hidden="false" targetId="81a8-f33a-743e-63a7" type="rule"/>
+        <infoLink id="d8cc-dbe7-9d79-fcf5" name="Flight" hidden="false" targetId="a461-010e-1bad-8747" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1692-d2b4-571f-2219" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="dace-0967-7597-261e" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="7f81-1b13-c0bb-21f0" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+        <categoryLink id="2429-bb5f-0594-4a03" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="72b8-c080-13de-a2b0" name="Sarah Reindhold" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="717b-be6d-7bf8-ee7b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e00d-1997-ab75-bebc" name="Sarah Reindhold" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">1</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">10</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="451b-96ce-fd5f-398e" name="oo — Nathaniel&apos;s Hand (Magic, Effect" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Magic and Ki abilities that are being Upkept by units within Sarah&apos;s Control Zone are cancelled. Effect 16. Limit: Once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e2e9-780c-005f-8afc" name="o — Stigmata (Magic, Effect, Reactive)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">When a friendly Unit within Sarah&apos;s Control Zone would lose LP due to their own ability or rules, Sarah loses the LP instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e5b9-38a5-3db4-17a1" name="oo — Nathaniel&apos;s Incense (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Units within Sarah&apos;s Control Zone recover 2 LP each during the Recovery Phase, and cannot be Stunned due to a Crash. Upkeep: o</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f6e9-2e36-3eb3-ae00" name="Affinity" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Light</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5ff4-eee3-4754-b686" name="Mist of the Hallowed" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Any ranged attacks against a friendly unit within Sarah&apos;s Control Zone suffer -1 Attack.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="dcc6-0206-8963-d30b" name="Summoner (Level 1)" hidden="false" targetId="9c0c-14e9-7dae-b832" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c1f9-9031-0e67-ba85" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="b46b-b069-7992-a99a" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+        <categoryLink id="dd76-3dd3-df92-17fb" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="30.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="316f-a41c-12ac-7c07" name="Xavier" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f14d-a68d-93a1-6244" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c98a-9386-4403-4665" name="Xavier" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">4/9</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">14</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5179-a958-9dda-2170" name="Dark Exaltation" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">If Xavier destroys an enemy Light unit, he recovers all his Action Points and may make a movement even if he has already moved this Turn. This ability is limited to once per Turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5c20-fb0b-f58a-3a37" name="ooo — Fallen from Grace (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+2 Attack / +2 Damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="48bc-4c16-5c2e-e688" name="ooo — Primordial Sin (Ki, Charge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Xavier gains a bonus to Damage equal to the LP he sacrifices (maximum 5).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c10c-af82-fcd0-89a4" name="Dark Hunter" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">All of Xavier&apos;s attacks against Light units use his secondary Damage attribute.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b6d9-9df5-8a19-6a0e" name="ooo — Soul Steal (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Xavier recovers LP equal to the damage this attack inflicts.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b9a7-9a3a-bf29-301d" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="ecfe-c071-6c18-bd24" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="a577-1f5f-219a-89f5" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7af6-4c41-b677-181b" name="Lostaroth Marchosias" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd04-17a9-4b64-1461" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4522-3602-ca52-be1c" name="Lostaroth Marchosias" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">6</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">6</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0/5</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">18</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">10</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="04bd-c88c-ce40-b113" name="Liberation" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">At any point you can have Marchosias suffer Berserk Lv.2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b7f7-f583-a7a0-4b4f" name="ooooo — Final Annihilation (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Marchosias makes 3 consecutive attacks against each enemy unit engaged with him.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4422-92c2-4e9c-fa34" name="ooo — Neo Genocide (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+3 Attack. This Attack effects all enemy units engaged with Marchosias.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2383-164c-7f93-be32" name="Lord of Slaughter" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Whenever Marchosias destroys a unit, put a Slaughter Token on him. Having Slaughter Tokens on Marchosias will grant him additional abilities as detailed on the following chart:
+
+—1+: While Marchosias suffers Berserk, he uses his secondary Armor attribute.
+—2+: Marchosias gets Critical Mastery.
+—3+: Whenever Marchosias makes an Attack, he rolls 2 dice and takes the highest.
+—4+: Whenever Marchosias Attacks or Charges (Basic or Special ones), reduce the cost of that Action by 1 Action Point.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e6b1-182c-8441-acf4" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="7793-3585-98ea-7300" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="97d9-cbc9-8dc7-c586" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0e87-67a9-1333-8484" name="And Death Walks With Him" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2a6-68af-ef8e-45e0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1d9e-12c5-28b1-50d8" name="Optional Leader" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+              <characteristics>
+                <characteristic name="Description" typeId="3c61-def7-3265-e41f">You may choose to use this skill card when you include Tiamat in your group. If you do, Tiamat gets +5 Levels, has the abilities on this card, and is a Leader.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7f83-a1d6-b9c2-9507" name="Surge of Death" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+              <characteristics>
+                <characteristic name="Description" typeId="3c61-def7-3265-e41f">In addition to the effects described in Lord of Slaughter, Slaughter tokens also grant the abilities detailed in the following chart:
+
+—1+: Friendly units within Marchosias&apos;s Control Zone gain +1 Damage.
+—2+: Friendly units within Marchosias&apos;s Control Zone gain Critical Mastery.
+—3+: Whenever friendly units within Marchoasias&apos;s Control Zone make an Attack, they roll 2 dice and take the highest.
+—4+: If a friendly unit within Marchosias&apos;s Control Zone scores a Critical Hit, they can make a Basic Attack against the original Attack&apos;s target. The additional Attacks generated by this ability is not affected by it.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="4b77-3ca7-b68e-0ca8" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
+            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="45ab-96ff-8ffc-20b4" name="Romeo Exxet" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b1-b2af-8a19-1dc8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c09d-689d-8cbc-1170" name="Romeo Exxet" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">6</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">5/10</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">3</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">16</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">12</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6d4a-ccd6-8f08-176b" name="Exterminator of Gods" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Attacks made by Romeo against Characters with a medium or large base use his secondary Damage attribute.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="de93-90f5-14e7-fe7f" name="ooo — Caedus Celestia (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+6 Attack. To use this attack Romeo must have 8 or fewer Life Points.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c74e-6ef2-6fff-57d3" name="ooo — Queen&apos;s Round (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Roll two dice and keep the highest result. If the attack causes a Critical Hit, deal +5 to Damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4562-eda0-7881-7a9e" name="o — Pray (Special, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Place a &quot;Miracle&quot; token on Romeo. To use this ability, Romeo must sacrifice 2 Life points. Limit: Once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="04f0-3a87-861f-9eda" name="Final Conflagration" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">When Romeo dies, he makes an attack on all Units within 3 inches of himself.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d601-9bba-7c21-36bb" name="Miracles" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">At the start of the game, place a &quot;Miracle&quot; token on Romeo. Place an additional &quot;Miracle&quot; token on him whenever one of the following happens:
+
+- A friendly Unit dies within his Control Zone.
+- He takes damage from an enemy Unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5a70-6918-3a2d-08a5" name="Wings of the Seraph" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Romeo has Flight until the end of the Turn. To active this ability you must remove one &quot;Miracle&quot; token during the Recovery phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6a53-d048-de35-19d7" name="The Blessed Sword" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">All Romeo Attacks get +1 Attack, +2 Damage, and -2 Armor until the end of the Turn. To activate this ability you must remove two &quot;Miracle&quot; tokens during the Recovery phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1d84-8a31-d652-b9b7" name="Celestial Call" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Place two Light Summons within Romeo&apos;s Control Zone using the Summons deployment rules but without any summon cost. These Units have all their Action Points, operate as independent friendly Characters and are not worth Victory Points if killed by your enemy. At the end of the Turn that the summons where put on the board, they are removed from play. To activate this ability you must remove four &quot;Miracle&quot; tokens during the Recovery phase and sacrifice 2 Life Points. The summons cannot exceed a total Atman of 120.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eeb3-c87c-dfef-5f41" name="God&apos;s Wrath" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Romeo makes a free attack against each enemy Unit with 4 inches of himself. This attack is not affected but the rule Exterminator of Gods. To activate this ability you must remove three &quot;Miracle&quot; tokens during any moment in Romeo&apos;s activation.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9b2e-cb6a-42d6-001c" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="false"/>
+        <categoryLink id="9c97-286c-821d-23ab" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+        <categoryLink id="49f2-c6e7-d0a8-730f" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="dfed-38ca-109f-0ef8" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="75.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="36d9-c5fe-1317-f38c" name="High Saint Elienai" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b18-cd35-0db2-6c2f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8873-fd10-4376-a282" name="High Saint Elienai" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">1</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">10</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">9</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">13</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c798-4ffe-88b6-337d" name="Door to The Beyond" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">If a friendly unit’s LP drops to zero within Elienai’s Control Zone, she may recover it before the character is retired from game. If Elienai decides to do so, she rolls a die and losses that value of LP. This Damage is considered a Sacrifice. If she survives, the unit is not retired from game recovering as many LP as Elienai lost. The recovered unit should be placed with one Action Point within 6 Inches of Elienai.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c5c3-8534-5fe2-c34e" name="oo — Threads of Destiny (Magic, Effect, Reactive)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">This skill nullifies the effect of one Gnosis Point used by an enemy unit within Elienai’s Control Zone. Threads of Destiny should be activated when the enemy player declares the use of the Gnosis Point, but before rolling any dice.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e0a1-f555-6845-8e3c" name="o — Vision (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Automatically detect any hidden units within Elienai’s Control Zone.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5079-1374-901a-c1db" name="ooo — Hand of God (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">All friendly units within Elienai’s Control Zone may throw an additional dice each time they Attack or Dodge (normal or special) and chose the highest result. Upkeep: o</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b7ce-3719-a8d8-a4c0" name="Deus Vult" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">All friendly Units within Elienai’s Control Zone may use Gnosis Points after rolling the die.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="306e-3494-8318-4385" name="Spirit" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">When Elienai uses the skills Soul Fusion or Possession, her spirit enters another body. Therefore, when she does so, Elienai is retired from the board until the possessed unit dies, surpasses the Resistance Check or Elienai decides to end the ability. Meanwhile, she can not be affected by any harmful effect nor use any of her special or innate skills. When Elienai is expulsed by any reason, she should be placed immediately within 8 Inches from her host body.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cb86-c6a9-bc96-61cf" name="The Blessed Sword" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">All Romeo Attacks get +1 Attack, +2 Damage, and -2 Armor until the end of the Turn. To activate this ability you must remove two &quot;Miracle&quot; tokens during the Recovery phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="65bf-671a-e49f-d7d6" name="Superior Presence" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Elienai’s Control Zone is 12 inches.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1880-dfa5-a01b-1610" name="Essence" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Elienai Recovers 2 Life Points at the beginning of each Recovery Phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5535-1c53-24bd-50b2" name="ooo — Soul Fusion (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Choose a friendly unit within Elienai’s Control Zone. That character obtains +1 Attack, +1 Defense, +2 Resistance and rolls an additional die (choose the higher value) when it uses any action or control. Upkeep: ooo
+
+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="62f0-1336-2dd4-abb2" name="ooo — Possession (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Choose an enemy unit with Lv. 60 or below within Elienai’s Control Zone. If it fails Resistance Control, Effect 16, it is possessed by Elienai. From that moment on, it is considered a unit controlled by the Elieani’s player and can be activated like any other friendly unit. If Elienai wishes to maintain the possession in the next turn, the possessed character must roll a new Resistance Control in the Upkeep Phase. If it passes the Effect, Elienai is expulsed and loses 5 LP. Upkeep: ooo
+
+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a6e0-a55d-9b0e-b27a" name="Initiative" hidden="false" targetId="447a-5520-8605-a206" type="rule"/>
+        <infoLink id="51a4-bc2e-d0b0-9820" name="Flight" hidden="false" targetId="a461-010e-1bad-8747" type="rule"/>
+        <infoLink id="c7fd-f55b-b929-49af" name="Intangible" hidden="false" targetId="238f-5449-b905-9cf5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6684-6c7c-7bea-c6fa" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="false"/>
+        <categoryLink id="a5ed-6df0-698d-79a8" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+        <categoryLink id="f4e8-a964-73a3-89c1" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="1e46-6648-94ee-ef79" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="65.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9813-6d1d-836e-07bf" name="The Bearer of Calamities" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93b3-3f42-bf3d-daff" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="44f2-2e2f-dab9-02e2" name="The Bearer of Calamities" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">2</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">1</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">15</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">12</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f2ef-2ef0-7958-0ec3" name="oooo — Charged Beam (Magic, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (50 Cm / 20 C). +3 Attack / +4 Damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7547-451c-4700-5d6a" name="oo — Magic Beam (Magic, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (16 Inch.). +3 Damage</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a6d8-4e95-c933-1af5" name="oo+ — Awakening (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Until the end of the turn, The Bearer interchanges her stats and skills with Ergo Mundus. Ergo Mundus has as many Action Points as were used activating Awakening. The damage that was suffered as Ergo Mundus is discarded, but if Ergo Dies, The Bearer is removed from game immediately. Limit: 1 per game</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3554-b590-c733-f4db" name="ooo — Enchantment (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">A friendly unit inside The Bearer’s Control Zone gains Lv1 Shield, Lv1 Healing, Lv1 Protection and Lv1 Haste.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6b9e-495f-beb0-6249" name="oooo — Catastrophic Light (Magic, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (16 Inch). +3 Damage. If this attack hits its target, all units within 3 inches of the target also suffer the attack.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="23d0-13ae-6a10-3f79" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="ffc2-8fae-b360-5bee" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
+        <categoryLink id="8f0e-266f-e8c5-7680" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef44-7ff2-3e8f-a8a1" name="Ergo Mundus" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d87-3edf-d8fa-626f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="09ef-3636-6c50-7da0" name="Ergo Mundus" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">7</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">6</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">10</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">1</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">20</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">12</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">12/16</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="45fa-d1c1-91d7-ee29" name="God Eater" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">As a reactive action, Ergo Mundus can consume one Gnosis point to gain one Action Point, up to a maximum of three points per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f88a-2e0f-b658-0461" name="oo — Dark Beam (Magic, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (16 Inches).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8549-81bc-42fa-7f2e" name="ooo — Dark Dome (Magic, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Ergo attacks all enemy units within 2 Inches.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dfc7-5f88-ad91-9f28" name="o — Absolute Annihilation (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Absolute Annihilation may only be used immediately after resolving a Charge. The target of the attack must be the same unit that was the target of the Charge.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d47f-8b42-eaed-ed0a" name="The Bearer of Calamities" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Ergo Mundus can be used as leader only as a Dark Faction Leader, or as a Church or Samael Organization leader. You can’t use Ergo Mundus in the same Group as The Bearer of Calamities.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6438-cc42-b83f-4173" name="Superior Presence" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Ergo’s Control Zone is 12 inches.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b049-6e81-8cd0-df02" name="ooo — Dark Claw (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">+3 Attack / +4 Damage. Causes Throw.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ab3f-b757-cc1b-1300" name="oooo — Wings of Darkness (Magic, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Ergo makes a Ranged Attack against all enemy units within 12 Inches and that he has Line of Sight with. Each attack must be rolled separately.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7a32-12f5-5689-c57e" name="Critical Mastery" hidden="false" targetId="1c78-2c2a-af54-b235" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="28f0-d625-3d79-41dd" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="false"/>
+        <categoryLink id="ace6-411e-d064-0f2d" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="407e-ac09-babb-e29e" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
+        <categoryLink id="60d7-9d70-9b3c-b5b5" name="Wanderer" hidden="false" targetId="17e1-0f17-ae16-2979" primary="false"/>
+        <categoryLink id="0b4c-5855-9640-e7a4" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="100.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be68-386a-0220-a6b2" name="Gemini" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb5c-97fd-498d-7776" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="ae91-78b5-d71b-0141" name="Zack" hidden="false">
+          <profiles>
+            <profile id="ee17-a6b1-754a-705a" name="Zack" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+              <characteristics>
+                <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+                <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">3</characteristic>
+                <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">10</characteristic>
+                <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+                <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">12</characteristic>
+                <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+                <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+                <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="00d4-9934-15c0-d6f8" name="Dominant Personality" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+              <characteristics>
+                <characteristic name="Description" typeId="3c61-def7-3265-e41f">At the beginning of the game and during the Upkeep Phase of each round, you must decide whether Zack or Zafini will be Gemini’s dominant personality. Use the corresponding Character card for whichever personality you choose from then on for referencing attributes, abilities, etc… Gemini’s overall Life Point total will remain the same even if there is a shift in personality. Any states affecting Gemini will also remain.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c799-eac7-f32c-20e0" name="Unnatural Size" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+              <characteristics>
+                <characteristic name="Description" typeId="3c61-def7-3265-e41f">Despite being on a medium sized base, Gemini is considered to be on a small sized base for anything that specifically references this.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cb76-548d-02b4-ccb8" name="ooo — Gabriel (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9009-8e14-17df-15fe">Each friendly unit within Gemini’s Control Zone gets a positive state of your choice (each can be different) at Lv. 1.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7be8-c129-081c-26a8" name="ooo — Uriel (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9009-8e14-17df-15fe">Friendly units within Gemini’s Control Zone, except Gemini, Recover 1 Action Point.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9baf-0579-07d1-a68c" name="ooo — Azrael (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9009-8e14-17df-15fe">Friendly units within Gemini’s Control Zone get Critical Mastery, and their Basic Attacks and Charges can damage Intangible Characters. Upkeep: o</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="7523-f3d1-52b9-31bd" name="Zafini" hidden="false">
+          <profiles>
+            <profile id="ae7b-e839-ea79-c5f9" name="Zafini" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
+              <characteristics>
+                <characteristic name="At" typeId="20f4-d8f4-db83-84ce">5</characteristic>
+                <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">6</characteristic>
+                <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+                <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+                <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">12</characteristic>
+                <characteristic name="Re" typeId="d989-007a-8bf8-30a6">11</characteristic>
+                <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+                <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c0ba-6ff6-e8cd-2c9b" name="Dominant Personality" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+              <characteristics>
+                <characteristic name="Description" typeId="3c61-def7-3265-e41f">At the beginning of the game and during the Upkeep Phase of each round, you must decide whether Zack or Zafini will be Gemini’s dominant personality. Use the corresponding Character card for whichever personality you choose from then on for referencing attributes, abilities, etc… Gemini’s overall Life Point total will remain the same even if there is a shift in personality. Any states affecting Gemini will also remain.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7817-b06a-268a-ed92" name="Unnatural Size" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
+              <characteristics>
+                <characteristic name="Description" typeId="3c61-def7-3265-e41f">Despite being on a medium sized base, Gemini is considered to be on a small sized base for anything that specifically references this.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="bd13-fe6c-fbff-fecb" name="ooo — Meseguis (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9009-8e14-17df-15fe">This Attack gets +X damage, where X is equal to the difference between Gemini’s maximum Life Points and current Life Points.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cffe-90fc-044c-832b" name="ooo — Noah (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9009-8e14-17df-15fe">+2 Attack. This Attack affects all enemy units within 2 inches of Gemini.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6022-15a5-fc7f-2a3b" name="oooo — Zemial (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9009-8e14-17df-15fe">+6 Attack. This Attack causes Throw.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="6493-d0cd-0270-822d" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
+        <categoryLink id="923e-5b99-2633-abc4" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="c7f0-fe5e-5076-431e" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
+        <categoryLink id="d1fc-c9f2-2ecb-954e" name="Neutral" hidden="false" targetId="2e97-e234-3c32-891e" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55.0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6708-2ad4-2733-6e3b" name="Advantage Cards" hidden="false" collective="false" import="true">
@@ -3782,5 +5135,9 @@ Pack Hunters: Once per game, You can choose to activate Frey and Freya together.
     <rule id="9fba-a925-10c7-f5fc" name="Immunity (Poison)" hidden="false"/>
     <rule id="1260-e02e-dc09-a2d4" name="Summoner (Level 3)" hidden="false"/>
     <rule id="a461-010e-1bad-8747" name="Flight" hidden="false"/>
+    <rule id="9c0c-14e9-7dae-b832" name="Summoner (Level 1)" hidden="false"/>
+    <rule id="81a8-f33a-743e-63a7" name="Summoner (Level 2)" hidden="false"/>
+    <rule id="4923-a79b-8f82-9559" name="Immunity (Blind)" hidden="false"/>
+    <rule id="238f-5449-b905-9cf5" name="Intangible" hidden="false"/>
   </sharedRules>
 </gameSystem>
