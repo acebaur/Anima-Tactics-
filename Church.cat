@@ -1,114 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bbf3-7f3b-5774-d4c2" name="Church" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6c41-307a-0de6-0326" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bbf3-7f3b-5774-d4c2" name="Church" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6c41-307a-0de6-0326" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
-    <selectionEntry id="6801-1ad5-f12d-309f" name="Organizational Advantages" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="d616-8adf-5b5a-1f8f" name="New CategoryLink" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="3ad9-5098-cceb-f144" name="Advantages" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="b2ef-2af8-6bd6-134c" value="2.0">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f7e6-1130-1b26-fac8" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="b2ef-2af8-6bd6-134c" value="0.0">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8597-70f6-1ee5-7cf3" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="b2ef-2af8-6bd6-134c" value="2.0">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f7e6-1130-1b26-fac8" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b2ef-2af8-6bd6-134c" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="2077-50ce-9743-8a26" name="Unshakable Faith" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="96d8-0a7b-00a9-cc70" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="e808-6860-eb57-851c" name="Unshakable Faith" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
-                  <characteristics>
-                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">At the beginning of the game place a Faith Counter on each character in the party. When an enemy attack reduces a unit&apos;s Life Points to 0, instead of being removed as casualty that unit make a Resistance Check against Effect 17. If the Check is passed, remove Faith Counter form the unit to allow it stay in play with 1 LP. This Adventage only works when an enemy unit directly causes Damage suffered by the unit. A unit that loses its LP due to Sacrifice or Effects that removes directly from play cannot use Unshakable Faith.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b81a-432f-fbf1-b170" name="Exterminators" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a85a-455f-4a60-4648" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="cde6-c190-dc1f-ecca" name="Exterminators" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
-                  <characteristics>
-                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">At the start of the game choose one of the following: Dark, Light or Mystic. Characters in your party get +2 Damage whenever they make any kind of attack against units of chosen type.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="60dc-4d10-83df-c6ec" name="Divine Meditation" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c544-a5d9-fd62-68d4" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="25ab-3ce0-3a82-02a0" name="Divine Meditation" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
-                  <characteristics>
-                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">You may reroll one die doll of your choose each turn. In games at Level 400 or higher, you can reroll two die rolls per turn.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7dc2-a67b-5fd3-dfbd" name="Miracles" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5915-3f25-2d67-02e6" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="a349-0197-322a-715f" name="Miracles" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
-                  <characteristics>
-                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The player gets a &quot;miracle&quot; at the start of each turn, whenever a friendly model dies or if a model uses 2 actions in the maintanance phase to get one. Once per round player may spend stated number of miracle tokens to activate the miracle.
-
-1 — A friendly unit get a possitive state of your choice.
-2 — A friendly unit loses a negative state of your choice.
-3 — An enemy model suffers Seal Lv 1, effect 15.
-4 — A friendly unit gets +1 attack and +1 defence for the turn.
-5 — The enemy loses a gnose point.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="23d9-fe2a-d532-5269" name="Saint" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87b7-4d0f-c4aa-a0b5" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87b7-4d0f-c4aa-a0b5" type="max"/>
       </constraints>
       <profiles>
         <profile id="aeaf-a6c2-9302-5920" name="Saint" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -128,36 +23,36 @@
         <categoryLink id="4dfe-62f3-3a05-466f" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
         <categoryLink id="311c-596a-2c73-c4ad" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
         <categoryLink id="8966-f69f-bde9-1734" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
-        <categoryLink id="9a34-ab13-f859-8c19" name="New CategoryLink" hidden="false" targetId="4c9e-495c-d4a0-8baf" primary="true"/>
+        <categoryLink id="9a34-ab13-f859-8c19" name="Agent" hidden="false" targetId="4c9e-495c-d4a0-8baf" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d863-347b-7bbf-247d" name="Upgrade" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4885-0a29-8e9d-cd8c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4885-0a29-8e9d-cd8c" type="max"/>
           </constraints>
           <costs>
-            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="29aa-7ce2-4b71-f2fd" name="Special Abilties" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="set" field="6830-9c08-a93c-71af" value="2.0">
+            <modifier type="set" field="6830-9c08-a93c-71af" value="2">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d863-347b-7bbf-247d" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d863-347b-7bbf-247d" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="fe0e-796e-d10a-e303" value="2.0">
+            <modifier type="set" field="fe0e-796e-d10a-e303" value="2">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d863-347b-7bbf-247d" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d863-347b-7bbf-247d" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6830-9c08-a93c-71af" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe0e-796e-d10a-e303" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6830-9c08-a93c-71af" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe0e-796e-d10a-e303" type="min"/>
           </constraints>
           <profiles>
             <profile id="0dbe-ccb2-5c14-ee09" name="Agent" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -169,7 +64,7 @@
           <selectionEntries>
             <selectionEntry id="aa26-24b0-2975-5c36" name="Healing Light" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ae1-ae50-1808-9780" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ae1-ae50-1808-9780" type="max"/>
               </constraints>
               <profiles>
                 <profile id="d5b6-b2f2-0320-1421" name="oo — Healing Light (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
@@ -179,13 +74,13 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e4c2-e9b6-26df-b3a0" name="Protective Shield" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f5f2-613d-4726-1bed" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f5f2-613d-4726-1bed" type="max"/>
               </constraints>
               <profiles>
                 <profile id="81aa-cf3b-a051-f3ca" name="oo — Protective Shield (Magic, Effect, Reactive)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
@@ -195,13 +90,13 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c3af-c930-c020-b09b" name="War Blessing" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f6d-b4c5-4948-88ee" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f6d-b4c5-4948-88ee" type="max"/>
               </constraints>
               <profiles>
                 <profile id="5b9f-d4b7-065b-96e8" name="oo — War Blessing (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
@@ -211,21 +106,21 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="30.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="30"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5008-6034-5190-c810" name="Inquisitor" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4880-a083-cb73-7acf" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4880-a083-cb73-7acf" type="max"/>
       </constraints>
       <profiles>
         <profile id="6e7a-470a-79dc-7d73" name="Inquisitor" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -242,39 +137,39 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="a249-942e-b2db-97f3" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
-        <categoryLink id="db3a-7f51-c4c9-bf6e" name="New CategoryLink" hidden="false" targetId="4c9e-495c-d4a0-8baf" primary="true"/>
+        <categoryLink id="a249-942e-b2db-97f3" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
+        <categoryLink id="db3a-7f51-c4c9-bf6e" name="Agent" hidden="false" targetId="4c9e-495c-d4a0-8baf" primary="true"/>
         <categoryLink id="902a-d72f-4788-0898" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
         <categoryLink id="57e3-1007-79ee-23fb" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6a77-154a-802d-f95f" name="Upgrade" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f45-ca67-fac7-f2a5" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f45-ca67-fac7-f2a5" type="max"/>
           </constraints>
           <costs>
-            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="c446-2bc1-adb8-9fc0" name="Special Abilties" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="set" field="e292-1e44-448d-744f" value="2.0">
+            <modifier type="set" field="e292-1e44-448d-744f" value="2">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a77-154a-802d-f95f" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a77-154a-802d-f95f" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="afde-1121-3a4c-6202" value="2.0">
+            <modifier type="set" field="afde-1121-3a4c-6202" value="2">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a77-154a-802d-f95f" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6a77-154a-802d-f95f" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="afde-1121-3a4c-6202" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e292-1e44-448d-744f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="afde-1121-3a4c-6202" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e292-1e44-448d-744f" type="min"/>
           </constraints>
           <profiles>
             <profile id="f3de-5471-3122-0ec2" name="Agent" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -291,7 +186,7 @@
           <selectionEntries>
             <selectionEntry id="54f7-ad37-41f1-3401" name="Deus Ex Terra" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3420-2237-ef1f-8a50" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3420-2237-ef1f-8a50" type="max"/>
               </constraints>
               <profiles>
                 <profile id="68dd-90cf-ec57-2073" name="oo — Deus Ex Terra (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
@@ -301,13 +196,13 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="120f-48e0-1101-443d" name="Lawgiver Toss " hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="96c0-35e1-3622-1fa3" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="96c0-35e1-3622-1fa3" type="max"/>
               </constraints>
               <profiles>
                 <profile id="7c8c-c66d-4469-f839" name="ooo — Lawgiver Toss (Ki, Ranged Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
@@ -317,13 +212,13 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c3fc-0ac3-dd42-44ec" name="Sacred Charge" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fb44-7424-a1f9-1b76" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fb44-7424-a1f9-1b76" type="max"/>
               </constraints>
               <profiles>
                 <profile id="7620-4046-6552-c799" name="oooo — Sacred Charge (Ki, Charge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
@@ -333,16 +228,16 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="30.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="30"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c467-97ba-61e5-9df5" name="Church Agent" hidden="false" collective="false" import="true" type="upgrade">
@@ -366,24 +261,24 @@
           <modifiers>
             <modifier type="set" field="fbcd-5784-2a53-cafd" value="3/4">
               <conditions>
-                <condition field="selections" scope="c467-97ba-61e5-9df5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="961d-05bb-ef37-5ea4" type="equalTo"/>
+                <condition field="selections" scope="c467-97ba-61e5-9df5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="961d-05bb-ef37-5ea4" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="dd49-3cc4-4fcc-9f41" value="8/12">
               <conditions>
-                <condition field="selections" scope="c467-97ba-61e5-9df5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62cf-ec64-d08c-c5a8" type="equalTo"/>
+                <condition field="selections" scope="c467-97ba-61e5-9df5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62cf-ec64-d08c-c5a8" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="ef31-fbfc-06f9-54bd" value="4">
               <conditions>
-                <condition field="selections" scope="c467-97ba-61e5-9df5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="33e7-bdd6-e41c-afed" type="equalTo"/>
+                <condition field="selections" scope="c467-97ba-61e5-9df5" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="33e7-bdd6-e41c-afed" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <modifierGroups>
             <modifierGroup>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8ea-8242-b5b1-4493" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8ea-8242-b5b1-4493" type="equalTo"/>
               </conditions>
               <modifiers>
                 <modifier type="increment" field="20f4-d8f4-db83-84ce" value="1"/>
@@ -409,7 +304,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="4810-d799-20a9-2232" name="New CategoryLink" hidden="false" targetId="4c9e-495c-d4a0-8baf" primary="true"/>
+        <categoryLink id="4810-d799-20a9-2232" name="Agent" hidden="false" targetId="4c9e-495c-d4a0-8baf" primary="true"/>
         <categoryLink id="14ab-a2a6-3865-e3ba" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
         <categoryLink id="ea2a-c8e3-39b7-47fd" name="Neutral" hidden="false" targetId="2e97-e234-3c32-891e" primary="false"/>
         <categoryLink id="a791-5ce2-32c2-4d9a" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
@@ -418,12 +313,12 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="42b4-7492-d290-300a" name="Options" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="c455-b1bd-6f65-79ce" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d812-af85-976c-7ed5" type="max"/>
+            <constraint field="c455-b1bd-6f65-79ce" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d812-af85-976c-7ed5" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="961d-05bb-ef37-5ea4" name="+1 AP" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f77c-1ed9-a1b8-0116" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f77c-1ed9-a1b8-0116" type="max"/>
               </constraints>
               <profiles>
                 <profile id="4da3-9359-feaa-323d" name="+1 AP" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -433,13 +328,13 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="62cf-ec64-d08c-c5a8" name="8/12 Mo" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a018-0cc5-93bd-cf2d" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a018-0cc5-93bd-cf2d" type="max"/>
               </constraints>
               <profiles>
                 <profile id="8fe2-0d6b-322f-6fef" name="8/12 Mo" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -449,27 +344,27 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="f342-55e8-7e4e-68b4" name="Options - Inquisitor" hidden="false" collective="false" import="true">
               <modifiers>
-                <modifier type="set" field="51a0-cd55-36dd-5bc3" value="0.0">
+                <modifier type="set" field="51a0-cd55-36dd-5bc3" value="0">
                   <conditions>
-                    <condition field="selections" scope="c467-97ba-61e5-9df5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aadd-7ee8-7ad3-7f8d" type="equalTo"/>
+                    <condition field="selections" scope="c467-97ba-61e5-9df5" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aadd-7ee8-7ad3-7f8d" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="c467-97ba-61e5-9df5" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51a0-cd55-36dd-5bc3" type="max"/>
+                <constraint field="selections" scope="c467-97ba-61e5-9df5" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51a0-cd55-36dd-5bc3" type="max"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="cc6c-39b4-f491-40b5" name="+4 Dm vs Light" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2210-0289-7136-6b6b" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2210-0289-7136-6b6b" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="33b7-d027-14b8-a96b" name="+4 Dm vs Light" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -479,13 +374,13 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10.0"/>
-                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10"/>
+                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="b8ea-8242-b5b1-4493" name="+1 At, +2 Dm" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="23fa-8be2-c15c-39e3" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="23fa-8be2-c15c-39e3" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="be81-93db-9282-48fd" name="+1 At, +2 Dm" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -495,13 +390,13 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="064c-2bba-3b50-3acb" name="+4 Dm vs Dark" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f10f-d6c8-5172-042b" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f10f-d6c8-5172-042b" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="fa40-7f37-6a4e-1e4f" name="+4 Dm vs Dark" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -511,13 +406,13 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10.0"/>
-                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10"/>
+                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="8f05-2585-dd5b-5874" name="+4 Dm vs Mystic" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="79dc-dd73-4038-6f78" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="79dc-dd73-4038-6f78" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="97b6-a11c-81dc-2e42" name="+4 Dm vs Mystic" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -527,43 +422,43 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10.0"/>
-                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10"/>
+                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="33e7-bdd6-e41c-afed" name="+4 LP" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ca2-7bf7-9b23-6885" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ca2-7bf7-9b23-6885" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="f075-8294-0d66-d542" name="+4 LP" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
                       <characteristics>
-                        <characteristic name="Description" typeId="3c61-def7-3265-e41f">The Agent gets +4 Life Points. </characteristic>
+                        <characteristic name="Description" typeId="3c61-def7-3265-e41f">The Agent gets +4 Life Points.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup id="aadd-7ee8-7ad3-7f8d" name="Options - Saint" hidden="false" collective="false" import="true">
               <modifiers>
-                <modifier type="set" field="34b2-ecef-dae5-5929" value="0.0">
+                <modifier type="set" field="34b2-ecef-dae5-5929" value="0">
                   <conditions>
-                    <condition field="selections" scope="c467-97ba-61e5-9df5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f342-55e8-7e4e-68b4" type="equalTo"/>
+                    <condition field="selections" scope="c467-97ba-61e5-9df5" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f342-55e8-7e4e-68b4" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="c467-97ba-61e5-9df5" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34b2-ecef-dae5-5929" type="max"/>
+                <constraint field="selections" scope="c467-97ba-61e5-9df5" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34b2-ecef-dae5-5929" type="max"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="4941-ef9c-9e43-49e3" name="5 LP Healing" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2460-e39c-7c90-1a35" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2460-e39c-7c90-1a35" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="2576-73f1-d1b6-28cc" name="5 LP Healing" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -573,13 +468,13 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10.0"/>
-                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10"/>
+                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d092-2bcf-3a37-9d08" name="Holy Protection" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eef8-c9d8-033c-0488" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eef8-c9d8-033c-0488" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="bc7d-75d1-bc87-980e" name="oo — Holy Protection (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
@@ -589,13 +484,13 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="4ca3-afba-5761-4285" name="+1 R Control Zone" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e28a-a622-010a-1630" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e28a-a622-010a-1630" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="ee75-2590-88df-2617" name="+1 R Control Zone" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -605,8 +500,8 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10.0"/>
-                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                    <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10"/>
+                    <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -615,8 +510,8 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="20.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="20"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -639,7 +534,7 @@
     </entryLink>
     <entryLink id="b9e3-3e93-d530-6a42" name="Azriel" hidden="false" collective="false" import="true" targetId="c933-b384-b095-40de" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0497-15f1-516d-713d" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="0497-15f1-516d-713d" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c972-48dd-1b60-7aca" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -647,7 +542,7 @@
     </entryLink>
     <entryLink id="ecd9-516d-ac6f-371c" name="Damaris" hidden="false" collective="false" import="true" targetId="2e34-fab9-04b3-6ccd" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="cf63-a564-9611-a923" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="cf63-a564-9611-a923" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ade9-7ed0-4889-5c6d" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -655,7 +550,7 @@
     </entryLink>
     <entryLink id="f324-14cb-a2fb-e50c" name="Damien" hidden="false" collective="false" import="true" targetId="ac66-72c0-f4a3-b423" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0fd7-5930-0a97-b748" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="0fd7-5930-0a97-b748" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="67e1-48bc-48c1-6d18" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -663,7 +558,7 @@
     </entryLink>
     <entryLink id="f8de-7383-00c4-e063" name="Grey" hidden="false" collective="false" import="true" targetId="eeee-49d8-d45b-c965" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7223-66e8-9a97-f836" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="7223-66e8-9a97-f836" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dcbd-f34b-3487-36c1" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -671,7 +566,7 @@
     </entryLink>
     <entryLink id="61e6-9ccf-7340-4c89" name="Justina" hidden="false" collective="false" import="true" targetId="3386-4212-8c8f-86f4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="46dc-6b1e-bb60-70fd" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="46dc-6b1e-bb60-70fd" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9382-c5c7-a8b3-f9d3" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -679,7 +574,7 @@
     </entryLink>
     <entryLink id="16fa-7371-8ad9-c986" name="Gemini" hidden="false" collective="false" import="true" targetId="be68-386a-0220-a6b2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="440f-ccc8-dd8c-33e8" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="440f-ccc8-dd8c-33e8" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e653-7bd9-a366-2410" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -687,7 +582,7 @@
     </entryLink>
     <entryLink id="392f-1dcb-9f14-4d9b" name="Luzbell" hidden="false" collective="false" import="true" targetId="2e77-c820-d5b7-6ce6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7b4f-b0f0-d08b-1b0e" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="7b4f-b0f0-d08b-1b0e" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="631d-a00e-7cf9-f1fe" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -695,7 +590,7 @@
     </entryLink>
     <entryLink id="ad5c-c323-1367-2201" name="Maria" hidden="false" collective="false" import="true" targetId="d6e2-977e-abea-2915" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b5d7-a448-6001-5f29" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="b5d7-a448-6001-5f29" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d78c-ff49-ad9d-e9e1" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -703,7 +598,7 @@
     </entryLink>
     <entryLink id="83ac-7755-a389-9ca2" name="Nero" hidden="false" collective="false" import="true" targetId="ac3c-168e-0db8-7f95" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="df74-7a2f-9084-7270" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="df74-7a2f-9084-7270" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="22cf-591e-d5ac-4f41" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -711,7 +606,7 @@
     </entryLink>
     <entryLink id="e4dd-8f5a-7643-9902" name="Nimrod" hidden="false" collective="false" import="true" targetId="3ed8-85e5-2665-ec4b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="519c-bf16-2984-6a5c" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="519c-bf16-2984-6a5c" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dc9d-56f4-c0a0-d8fa" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -719,7 +614,7 @@
     </entryLink>
     <entryLink id="1e9b-0fd3-260d-9fd6" name="Saint Astraega" hidden="false" collective="false" import="true" targetId="aaa2-896f-42a6-78eb" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0b8b-0857-d778-e426" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="0b8b-0857-d778-e426" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ec81-e1db-109c-7637" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -727,7 +622,7 @@
     </entryLink>
     <entryLink id="3e40-559f-ea78-827a" name="Saint Evangeline" hidden="false" collective="false" import="true" targetId="f2ed-95ea-2a6e-515c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="951f-ece2-2ff1-d754" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="951f-ece2-2ff1-d754" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a072-8437-bb62-0777" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -735,7 +630,7 @@
     </entryLink>
     <entryLink id="305b-ec45-c49f-a572" name="Saint Hazael" hidden="false" collective="false" import="true" targetId="7e61-77f8-3663-0a54" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4708-dbf9-2ae7-bc43" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="4708-dbf9-2ae7-bc43" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2bd6-5ad4-7ada-2baa" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -743,7 +638,7 @@
     </entryLink>
     <entryLink id="0591-8318-e50d-949d" name="Sarah Reindhold" hidden="false" collective="false" import="true" targetId="72b8-c080-13de-a2b0" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c0f9-98af-fcc1-7fc9" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="c0f9-98af-fcc1-7fc9" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="6f93-a8c4-7c9e-931c" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -751,7 +646,7 @@
     </entryLink>
     <entryLink id="afc7-575f-1dc8-82cd" name="The Bearer of Calamities" hidden="false" collective="false" import="true" targetId="9813-6d1d-836e-07bf" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ecf5-99fb-5d08-f86c" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="ecf5-99fb-5d08-f86c" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="de1c-29d7-b1b1-6f75" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -759,7 +654,7 @@
     </entryLink>
     <entryLink id="44b8-36f7-177c-05dd" name="Xavier" hidden="false" collective="false" import="true" targetId="316f-a41c-12ac-7c07" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0ce3-f06d-2db0-f4ca" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="0ce3-f06d-2db0-f4ca" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="92f2-b38a-958f-873b" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -767,7 +662,7 @@
     </entryLink>
     <entryLink id="b367-c081-4437-6299" name="Ergo Mundus" hidden="false" collective="false" import="true" targetId="ef44-7ff2-3e8f-a8a1" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="cbad-6d6b-a7a3-dd24" name="New CategoryLink" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="true"/>
+        <categoryLink id="cbad-6d6b-a7a3-dd24" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7093-4c66-b40f-aedf" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -775,7 +670,7 @@
     </entryLink>
     <entryLink id="d1f5-ea84-b94d-0b0c" name="High Saint Elienai" hidden="false" collective="false" import="true" targetId="36d9-c5fe-1317-f38c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4268-a81c-fc81-ea7e" name="New CategoryLink" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="true"/>
+        <categoryLink id="4268-a81c-fc81-ea7e" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5709-5f9a-d4ba-0443" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -783,7 +678,7 @@
     </entryLink>
     <entryLink id="c573-e5a2-7224-6f86" name="Romeo Exxet" hidden="false" collective="false" import="true" targetId="45ab-96ff-8ffc-20b4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="afd2-9a99-94db-f7ba" name="New CategoryLink" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="true"/>
+        <categoryLink id="afd2-9a99-94db-f7ba" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e390-7205-1097-ae5c" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -791,7 +686,7 @@
     </entryLink>
     <entryLink id="4d48-5b3e-8038-990c" name="Lostaroth Marchosias" hidden="false" collective="false" import="true" targetId="7af6-4c41-b677-181b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f5ad-4cf2-4890-986d" name="New CategoryLink" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
+        <categoryLink id="f5ad-4cf2-4890-986d" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0cc7-0774-85fd-fce3" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>

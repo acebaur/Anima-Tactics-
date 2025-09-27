@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="6c41-307a-0de6-0326" name="Anima Tactics" revision="1" battleScribeVersion="2.03" authorName="Alex Baur" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="6c41-307a-0de6-0326" name="Anima Tactics" revision="2" battleScribeVersion="2.03" authorName="Acebaur" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
-    <costType id="c455-b1bd-6f65-79ce" name="Levels" defaultCostLimit="-1.0" hidden="false"/>
-    <costType id="39e8-8e21-6d9c-ebd9" name="Advantage Pts" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="c455-b1bd-6f65-79ce" name="Levels" defaultCostLimit="-1" hidden="false"/>
+    <costType id="39e8-8e21-6d9c-ebd9" name="Advantage Pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="9159-d9f9-82f5-3dbe" name="Special Abilities">
@@ -56,21 +56,21 @@
   <forceEntries>
     <forceEntry id="722d-2ee7-4038-4f4c" name="300 Levels (Gamma)" hidden="false">
       <modifiers>
-        <modifier type="increment" field="4583-eddc-ee23-7d7f" value="1.0">
+        <modifier type="increment" value="1" field="4583-eddc-ee23-7d7f">
           <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d68c-85c2-929e-fb18" repeats="1" roundUp="false"/>
+            <repeat value="1" repeats="1" field="selections" scope="roster" childId="d68c-85c2-929e-fb18" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
           </repeats>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="39e8-8e21-6d9c-ebd9" scope="722d-2ee7-4038-4f4c" value="30.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="4583-eddc-ee23-7d7f" type="max"/>
-        <constraint field="c455-b1bd-6f65-79ce" scope="722d-2ee7-4038-4f4c" value="300.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ca12-c60c-4b20-a47d" type="max"/>
+        <constraint field="39e8-8e21-6d9c-ebd9" scope="722d-2ee7-4038-4f4c" value="30" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="4583-eddc-ee23-7d7f" type="max"/>
+        <constraint field="c455-b1bd-6f65-79ce" scope="722d-2ee7-4038-4f4c" value="300" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ca12-c60c-4b20-a47d" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="fe82-7db3-f872-b4d8" name="Configuration" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="false"/>
         <categoryLink id="e6e1-b00e-f403-ad5d" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3af7-c883-6b38-7dbf" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3af7-c883-6b38-7dbf" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="3b66-4ab1-03d5-0352" name="Azur Alliance" hidden="false" targetId="22cd-78ed-3912-f507" primary="false"/>
@@ -84,27 +84,27 @@
         <categoryLink id="f8b1-85dd-4580-2973" name="Wissenschaft" hidden="false" targetId="c42b-4d76-393b-e245" primary="false"/>
         <categoryLink id="e29f-dd16-6431-f504" name="Agent" hidden="false" targetId="4c9e-495c-d4a0-8baf" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b26d-e07c-8842-7258" type="max"/>
+            <constraint field="selections" scope="roster" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b26d-e07c-8842-7258" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="fe72-b905-187f-596d" name="Wanderer" hidden="false" targetId="17e1-0f17-ae16-2979" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8db0-11cc-f5ca-e3d1" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8db0-11cc-f5ca-e3d1" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="8597-70f6-1ee5-7cf3" name="100 Levels (Alpha)" hidden="false">
       <modifiers>
-        <modifier type="increment" field="a627-518f-9209-5cea" value="1.0">
+        <modifier type="increment" field="a627-518f-9209-5cea" value="1">
           <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d68c-85c2-929e-fb18" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d68c-85c2-929e-fb18" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="39e8-8e21-6d9c-ebd9" scope="8597-70f6-1ee5-7cf3" value="10.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="a627-518f-9209-5cea" type="max"/>
-        <constraint field="c455-b1bd-6f65-79ce" scope="8597-70f6-1ee5-7cf3" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0c49-c06e-b9d1-d719" type="max"/>
+        <constraint field="39e8-8e21-6d9c-ebd9" scope="8597-70f6-1ee5-7cf3" value="10" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="a627-518f-9209-5cea" type="max"/>
+        <constraint field="c455-b1bd-6f65-79ce" scope="8597-70f6-1ee5-7cf3" value="100" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0c49-c06e-b9d1-d719" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="43ee-5115-9086-876e" name="Configuration" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="false"/>
@@ -121,15 +121,15 @@
     </forceEntry>
     <forceEntry id="11b4-0cf4-6fcf-c860" name="200 Levels (Beta)" hidden="false">
       <modifiers>
-        <modifier type="increment" field="7d8f-55df-15d4-72ef" value="1.0">
+        <modifier type="increment" field="7d8f-55df-15d4-72ef" value="1">
           <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d68c-85c2-929e-fb18" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d68c-85c2-929e-fb18" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="39e8-8e21-6d9c-ebd9" scope="11b4-0cf4-6fcf-c860" value="20.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="7d8f-55df-15d4-72ef" type="max"/>
-        <constraint field="c455-b1bd-6f65-79ce" scope="11b4-0cf4-6fcf-c860" value="200.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5efe-9d1b-80da-9adb" type="max"/>
+        <constraint field="39e8-8e21-6d9c-ebd9" scope="11b4-0cf4-6fcf-c860" value="20" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="7d8f-55df-15d4-72ef" type="max"/>
+        <constraint field="c455-b1bd-6f65-79ce" scope="11b4-0cf4-6fcf-c860" value="200" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5efe-9d1b-80da-9adb" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="5b2f-9660-8361-7888" name="Configuration" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="false"/>
@@ -144,33 +144,33 @@
         <categoryLink id="7962-81ce-def4-f7be" name="Wissenschaft" hidden="false" targetId="c42b-4d76-393b-e245" primary="false"/>
         <categoryLink id="6dfd-b396-d6e4-7dbd" name="Agent" hidden="false" targetId="4c9e-495c-d4a0-8baf" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="585d-ddaa-87f2-0844" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="585d-ddaa-87f2-0844" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="7d0e-f627-7c30-3133" name="Wanderer" hidden="false" targetId="17e1-0f17-ae16-2979" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a66c-599d-845e-419f" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a66c-599d-845e-419f" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="f7e6-1130-1b26-fac8" name="450 Levels (Sigma)" hidden="false">
       <modifiers>
-        <modifier type="increment" field="3ff4-f8e0-bea6-5ddd" value="1.0">
+        <modifier type="increment" field="3ff4-f8e0-bea6-5ddd" value="1">
           <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d68c-85c2-929e-fb18" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d68c-85c2-929e-fb18" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="39e8-8e21-6d9c-ebd9" scope="f7e6-1130-1b26-fac8" value="40.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="3ff4-f8e0-bea6-5ddd" type="max"/>
-        <constraint field="c455-b1bd-6f65-79ce" scope="f7e6-1130-1b26-fac8" value="450.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7916-726a-b0d0-6fe5" type="max"/>
+        <constraint field="39e8-8e21-6d9c-ebd9" scope="f7e6-1130-1b26-fac8" value="40" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="3ff4-f8e0-bea6-5ddd" type="max"/>
+        <constraint field="c455-b1bd-6f65-79ce" scope="f7e6-1130-1b26-fac8" value="450" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7916-726a-b0d0-6fe5" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="d33b-74a6-54b5-8ede" name="Configuration" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="false"/>
         <categoryLink id="1d41-01ad-3cbb-772d" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="29d3-86ad-63f7-7d8e" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="29d3-86ad-63f7-7d8e" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="6cfd-39f4-45a9-c354" name="Azur Alliance" hidden="false" targetId="22cd-78ed-3912-f507" primary="false"/>
@@ -184,33 +184,33 @@
         <categoryLink id="199d-17e5-8131-9437" name="Wissenschaft" hidden="false" targetId="c42b-4d76-393b-e245" primary="false"/>
         <categoryLink id="6986-4bb9-cb10-2ec5" name="Agent" hidden="false" targetId="4c9e-495c-d4a0-8baf" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8194-803f-73da-c4c1" type="max"/>
+            <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8194-803f-73da-c4c1" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="1213-ef66-4ec4-0892" name="Wanderer" hidden="false" targetId="17e1-0f17-ae16-2979" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5182-bfc3-5b7e-2c77" type="max"/>
+            <constraint field="selections" scope="roster" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5182-bfc3-5b7e-2c77" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="30f8-bb52-08c3-dbd2" name="600 Levels (Omega)" hidden="false">
       <modifiers>
-        <modifier type="increment" field="aeb7-1cca-ab38-0659" value="1.0">
+        <modifier type="increment" field="aeb7-1cca-ab38-0659" value="1">
           <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d68c-85c2-929e-fb18" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d68c-85c2-929e-fb18" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="39e8-8e21-6d9c-ebd9" scope="30f8-bb52-08c3-dbd2" value="60.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="aeb7-1cca-ab38-0659" type="max"/>
-        <constraint field="c455-b1bd-6f65-79ce" scope="30f8-bb52-08c3-dbd2" value="600.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0d41-f210-449e-272e" type="max"/>
+        <constraint field="39e8-8e21-6d9c-ebd9" scope="30f8-bb52-08c3-dbd2" value="60" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="aeb7-1cca-ab38-0659" type="max"/>
+        <constraint field="c455-b1bd-6f65-79ce" scope="30f8-bb52-08c3-dbd2" value="600" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0d41-f210-449e-272e" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="f6d2-af05-b060-0c5e" name="Configuration" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="false"/>
         <categoryLink id="12a0-987a-326e-49a1" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b0a9-727a-7990-4538" type="max"/>
+            <constraint field="selections" scope="roster" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b0a9-727a-7990-4538" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="d4e8-016d-01e4-f002" name="Azur Alliance" hidden="false" targetId="22cd-78ed-3912-f507" primary="false"/>
@@ -224,12 +224,12 @@
         <categoryLink id="40d3-58a7-a03d-e26d" name="Wissenschaft" hidden="false" targetId="c42b-4d76-393b-e245" primary="false"/>
         <categoryLink id="5c7a-c446-43bc-ad9e" name="Agent" hidden="false" targetId="4c9e-495c-d4a0-8baf" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6dea-14ae-359d-e2a1" type="max"/>
+            <constraint field="selections" scope="roster" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6dea-14ae-359d-e2a1" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="7222-c921-5fc1-28c7" name="Wanderer" hidden="false" targetId="17e1-0f17-ae16-2979" primary="false">
           <constraints>
-            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="28e2-2de2-b5d4-e423" type="max"/>
+            <constraint field="selections" scope="roster" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="28e2-2de2-b5d4-e423" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -238,7 +238,7 @@
   <sharedSelectionEntries>
     <selectionEntry id="2d48-b102-a2d6-3424" name="Claire Adelheid" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72e8-8c88-59d9-f430" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72e8-8c88-59d9-f430" type="max"/>
       </constraints>
       <profiles>
         <profile id="0806-5d96-8016-91eb" name="Claire Adelheid" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -280,13 +280,13 @@
         <categoryLink id="4580-959a-f8c5-63b5" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8061-8252-1200-4bfe" name="Yuri Olsen" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b64-5073-8cfb-83e9" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b64-5073-8cfb-83e9" type="max"/>
       </constraints>
       <profiles>
         <profile id="b0ea-cad1-c207-ae4b" name="Yuri Olsen" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -334,36 +334,36 @@ Limit: Once per game.</characteristic>
         <infoLink id="fe2d-db29-370b-4180" name="Critical Mastery" hidden="false" targetId="1c78-2c2a-af54-b235" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="acc8-60f6-37f8-b2dd" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="false"/>
+        <categoryLink id="acc8-60f6-37f8-b2dd" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="true"/>
         <categoryLink id="9cc5-eb9d-5079-6fd5" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="false"/>
         <categoryLink id="32a5-69b0-0083-571f" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
         <categoryLink id="0dae-6d88-18ee-eb37" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="51d3-ccbb-d35d-7aa6" name="Spend Levels on Adv Cards" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink id="ddc7-3a6f-5a03-ff63" name="New CategoryLink" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="true"/>
+        <categoryLink id="ddc7-3a6f-5a03-ff63" name="Configuration" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d68c-85c2-929e-fb18" name="Convert Levels" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="1.0"/>
-            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="1"/>
+            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="94f4-7597-8c15-3c40" name="Griever" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="242d-3dfa-7364-633c" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="242d-3dfa-7364-633c" type="max"/>
       </constraints>
       <profiles>
         <profile id="d218-1dad-3a57-8fd9" name="Griever" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -403,19 +403,19 @@ Limit: Once per game.</characteristic>
         <infoLink id="4e7f-f1cd-3a29-bdbd" name="Critical Mastery" hidden="false" targetId="1c78-2c2a-af54-b235" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6b31-e494-d931-3192" name="New CategoryLink" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="false"/>
+        <categoryLink id="6b31-e494-d931-3192" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="false"/>
         <categoryLink id="b85a-0e7c-67d2-0740" name="Neutral" hidden="false" targetId="2e97-e234-3c32-891e" primary="false"/>
         <categoryLink id="e972-2c1f-3b67-c344" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
         <categoryLink id="e3c5-5fb0-e487-7a9c" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="60.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="60"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9e15-39bf-879a-5803" name="Lilith" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0766-1f99-1b96-5ec8" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0766-1f99-1b96-5ec8" type="max"/>
       </constraints>
       <profiles>
         <profile id="aed5-e10c-3d1a-7317" name="Lilith" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -480,13 +480,13 @@ Friendly units within Lilith&apos;s Control Zone gain +1 to Attack and +1 Defens
         <categoryLink id="4a09-fbf2-095f-64dc" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="75.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="75"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="99c8-8d12-a810-2a7d" name="Tiamat" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e44b-8ee3-e25f-e4b5" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e44b-8ee3-e25f-e4b5" type="max"/>
       </constraints>
       <profiles>
         <profile id="3432-bcd2-24ad-104c" name="Tiamat" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -534,7 +534,7 @@ Friendly units within Lilith&apos;s Control Zone gain +1 to Attack and +1 Defens
       <selectionEntries>
         <selectionEntry id="0f3f-9e89-d15b-8a8a" name="His True Power..." hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e159-f45c-f26e-7c11" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e159-f45c-f26e-7c11" type="max"/>
           </constraints>
           <profiles>
             <profile id="96eb-40b2-7a5d-64f3" name="Optional Leader" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -558,19 +558,19 @@ Limit: Once per game.</characteristic>
             <categoryLink id="59c9-f4e0-131d-b7b8" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="97aa-1a70-48fd-54d3" name="Daniella Meris" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c6a-bf14-0924-5f18" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c6a-bf14-0924-5f18" type="max"/>
       </constraints>
       <profiles>
         <profile id="2bc6-a169-f708-bd2e" name="Daniella Meris" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -616,13 +616,13 @@ Limit: Once per game.</characteristic>
         <categoryLink id="80ed-de15-0d52-89be" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fab7-78f1-bff7-f0ff" name="Duncan Reid" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cc48-5c87-488c-6b4a" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cc48-5c87-488c-6b4a" type="max"/>
       </constraints>
       <profiles>
         <profile id="f960-82d5-d8e7-b739" name="Duncan Reid" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -657,20 +657,18 @@ Limit: Once per game.</characteristic>
         <categoryLink id="45d0-c519-ac14-13da" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca35-d56e-3704-2ef7" name="Erika" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="af9c-a521-b351-badf" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="af9c-a521-b351-badf" type="max"/>
       </constraints>
       <profiles>
         <profile id="f1cf-1135-131e-1b4b" name="Mjolnir" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
           <characteristics>
-            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Whenever Erika causes a critical hit, the defender loses an action point and the attack causes Throw.
-
-</characteristic>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">Whenever Erika causes a critical hit, the defender loses an action point and the attack causes Throw.</characteristic>
           </characteristics>
         </profile>
         <profile id="75e2-1c25-8d0f-33af" name="ooo — Ka-Boom! (Ki, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
@@ -707,13 +705,13 @@ Limit: Once per game.</characteristic>
         <categoryLink id="eeca-cb17-bb3a-f0ff" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae8b-8573-4e94-0957" name="Frederick Adler" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bb59-0a11-2c1f-b07b" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bb59-0a11-2c1f-b07b" type="max"/>
       </constraints>
       <profiles>
         <profile id="af87-e1f9-3071-10e9" name="Frederick Adler" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -760,13 +758,13 @@ Limit: Once per game.</characteristic>
         <categoryLink id="5e5d-b247-497c-7d24" name="Prowler" hidden="false" targetId="a026-dd6a-6fb3-8261" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8901-b694-4c5f-a7e5" name="Iosara" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f279-a471-0969-8df4" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f279-a471-0969-8df4" type="max"/>
       </constraints>
       <profiles>
         <profile id="9035-1194-0653-8772" name="Iosara" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -817,13 +815,13 @@ Power Absorption: When Iosara destroys an enemy Unit, choose a Magic or Ki abili
         <categoryLink id="ea15-429e-4fce-d990" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc30-77aa-9c4b-d8ac" name="Janus Faith" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3e5b-c937-c414-c776" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3e5b-c937-c414-c776" type="max"/>
       </constraints>
       <profiles>
         <profile id="377a-7fc3-943a-1c92" name="Janus Faith" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -855,13 +853,13 @@ Power Absorption: When Iosara destroys an enemy Unit, choose a Magic or Ki abili
         <categoryLink id="fdfd-a399-e9d8-3e68" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46f4-614a-21d3-6fce" name="Kronen Roxxon" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6374-1ea0-0fdb-8fef" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6374-1ea0-0fdb-8fef" type="max"/>
       </constraints>
       <profiles>
         <profile id="1555-d932-1d9d-db15" name="Kronen Roxxon" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -888,13 +886,13 @@ Power Absorption: When Iosara destroys an enemy Unit, choose a Magic or Ki abili
         <categoryLink id="3c64-57e8-1bfb-ad03" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="de76-64c3-dfa6-fa2c" name="Lilian Virgil" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2204-0905-26d8-6fc3" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2204-0905-26d8-6fc3" type="max"/>
       </constraints>
       <profiles>
         <profile id="9835-6fdf-cace-953e" name="Lilian Virgil" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -937,13 +935,13 @@ Power Absorption: When Iosara destroys an enemy Unit, choose a Magic or Ki abili
         <categoryLink id="8643-eb29-49b5-8ab5" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c72-96ad-683b-529c" name="Macbeth" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1062-96f0-40cf-6970" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1062-96f0-40cf-6970" type="max"/>
       </constraints>
       <profiles>
         <profile id="7bd7-b3d6-d561-cad4" name="Macbeth" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -955,7 +953,7 @@ Power Absorption: When Iosara destroys an enemy Unit, choose a Magic or Ki abili
             <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">28</characteristic>
             <characteristic name="Re" typeId="d989-007a-8bf8-30a6">10</characteristic>
             <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">6/10</characteristic>
-            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4	</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
           </characteristics>
         </profile>
         <profile id="0bee-75b7-ca6c-4073" name="Destroyer of the Unholy" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -1000,13 +998,13 @@ Power Absorption: When Iosara destroys an enemy Unit, choose a Magic or Ki abili
         <categoryLink id="c938-0f93-b53d-9645" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="60.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="60"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ceb8-c861-39a6-9c08" name="May" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cad6-53e6-f6ba-3425" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cad6-53e6-f6ba-3425" type="max"/>
       </constraints>
       <profiles>
         <profile id="29b9-3c53-8571-b574" name="May" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -1058,13 +1056,13 @@ Power Absorption: When Iosara destroys an enemy Unit, choose a Magic or Ki abili
         <categoryLink id="0ebd-8f03-01da-03de" name="Prowler" hidden="false" targetId="a026-dd6a-6fb3-8261" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2f0-2c65-f8ca-5f8f" name="October" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b20-58e6-a22a-649a" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b20-58e6-a22a-649a" type="max"/>
       </constraints>
       <profiles>
         <profile id="ec50-437c-c6d2-cec8" name="October" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -1116,13 +1114,13 @@ October uses Liberation against another target, keeping all of the additional ef
         <categoryLink id="d9ee-c9e5-9eef-7bd5" name="Prowler" hidden="false" targetId="a026-dd6a-6fb3-8261" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a78d-2196-98d2-0409" name="Odin Goldsmith" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74ef-043c-de49-57e4" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74ef-043c-de49-57e4" type="max"/>
       </constraints>
       <profiles>
         <profile id="a939-4eae-69f0-8d67" name="Odin Goldsmith" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -1167,8 +1165,8 @@ October uses Liberation against another target, keeping all of the additional ef
         <categoryLink id="7ffd-2eb1-5027-f34e" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="277a-394f-038d-273d" name="Samiel, The Black Lion" hidden="false" collective="false" import="true" type="model">
@@ -1240,13 +1238,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="7e3c-448e-ee54-21b9" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2e1-132f-3a2c-2809" name="September" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7492-7281-ea87-f3c8" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7492-7281-ea87-f3c8" type="max"/>
       </constraints>
       <profiles>
         <profile id="02db-5879-6260-4543" name="September" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -1298,13 +1296,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="32f8-a5d6-557d-0171" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dba7-4646-1497-36c8" name="Sho" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7dd6-ea57-f22a-4ee1" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7dd6-ea57-f22a-4ee1" type="max"/>
       </constraints>
       <profiles>
         <profile id="cb01-f1a4-64b7-64e9" name="Sho" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -1354,13 +1352,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="2612-6b4a-c4b1-56fa" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c115-214d-738e-c5db" name="Valentine" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c969-4f04-be13-043e" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c969-4f04-be13-043e" type="max"/>
       </constraints>
       <profiles>
         <profile id="8ee8-1a03-d2c5-b871" name="Valentine" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -1416,13 +1414,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="e99e-2d1e-7dcd-6859" name="Prowler" hidden="false" targetId="a026-dd6a-6fb3-8261" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bac7-02b6-a056-2a84" name="Vayl" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cdda-e3ca-a37a-472e" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cdda-e3ca-a37a-472e" type="max"/>
       </constraints>
       <profiles>
         <profile id="9c31-e717-b02b-f1fb" name="Vayl" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -1469,37 +1467,37 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="e7cb-0aba-2545-703b" name="Prowler" hidden="false" targetId="a026-dd6a-6fb3-8261" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="35.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="35"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b918-ab7c-af0c-8d64" name="Dinah" hidden="false" collective="false" import="true" type="model">
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0f40-95c3-87e3-0d6f" name="Legion" hidden="false" collective="false" import="true" type="model">
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eb83-afd6-035f-befa" name="Ophiel" hidden="false" collective="false" import="true" type="model">
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="026c-262a-8e71-3e22" name="Covel" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="052f-38d9-a184-174b" name="Aoi Inukai" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0158-bb66-a915-5b74" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0158-bb66-a915-5b74" type="max"/>
       </constraints>
       <profiles>
         <profile id="3cd0-ee0f-3354-aa9b" name="Aoi Inukai" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -1541,13 +1539,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="6481-a511-81e5-6d7b" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="676e-9c2f-0919-bd35" name="Bael" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="370c-92ae-324a-bd98" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="370c-92ae-324a-bd98" type="max"/>
       </constraints>
       <profiles>
         <profile id="67fc-d67d-03d6-63e8" name="Bael" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -1589,13 +1587,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="56ff-2b98-8119-e327" name="Samael" hidden="false" targetId="60c8-2751-11fe-a218" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e7da-14f3-63ff-015b" name="Crimson Death" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b71a-326a-3213-5af7" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b71a-326a-3213-5af7" type="max"/>
       </constraints>
       <profiles>
         <profile id="bb28-3f3f-fc4f-8d3d" name="Crimson Death" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -1642,13 +1640,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="5ae4-39d2-2e6e-50bb" name="Samael" hidden="false" targetId="60c8-2751-11fe-a218" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfbe-f237-2a9f-9c27" name="Dark Chesire" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53d0-3919-332d-b7da" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53d0-3919-332d-b7da" type="max"/>
       </constraints>
       <profiles>
         <profile id="3243-e26f-d7ba-ff50" name="Dark Chesire" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -1680,13 +1678,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="c5da-d593-06c9-c082" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="21c4-9bfc-2873-ce60" name="Genma" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff4b-6f40-e846-cea9" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff4b-6f40-e846-cea9" type="max"/>
       </constraints>
       <profiles>
         <profile id="d7e7-40fd-7ae0-52bf" name="Genma" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -1737,13 +1735,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="065e-2e46-fc33-6c9c" name="Summoner" hidden="false" targetId="eb1a-1459-c5f2-a455" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="35.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="35"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e7f-a1e0-2d00-3f4e" name="Janiel" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9009-e427-b0b0-3445" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9009-e427-b0b0-3445" type="max"/>
       </constraints>
       <profiles>
         <profile id="e90c-e586-08d5-1a43" name="Janiel" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -1791,13 +1789,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="af76-a1b3-d758-c8cf" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3764-d41a-408c-2282" name="Kairos" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0792-e987-0521-8f0a" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0792-e987-0521-8f0a" type="max"/>
       </constraints>
       <profiles>
         <profile id="96b2-90c1-4119-b7d0" name="Kairos" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -1834,13 +1832,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="b188-91b9-ba7f-a185" name="Warrior" hidden="false" targetId="02a6-7be5-bb33-ac95" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2dcb-dcbc-42dc-4865" name="Kaori" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dc9-a0f6-6398-2782" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dc9-a0f6-6398-2782" type="max"/>
       </constraints>
       <profiles>
         <profile id="e958-95fd-3663-2391" name="Kaori" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -1890,13 +1888,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="6036-277f-c9cb-875e" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="35.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="35"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7494-3cc4-335e-dcda" name="Konosuke" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e413-2f0a-fb05-ec7a" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e413-2f0a-fb05-ec7a" type="max"/>
       </constraints>
       <profiles>
         <profile id="dd94-b2fe-665a-ca3f" name="Itami" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -1956,70 +1954,70 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="fe63-1766-6cdd-fd25" name="Samael" hidden="false" targetId="60c8-2751-11fe-a218" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3f8b-4902-ab0b-4aab" name="Kudoi" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1c9-5c27-3553-700a" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1c9-5c27-3553-700a" type="max"/>
       </constraints>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="84d8-e3e8-3cb4-801e" name="Medeus" hidden="false" collective="false" import="true" type="model">
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6187-ebca-78f7-dcc3" name="Momiji" hidden="false" collective="false" import="true" type="model">
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a4a9-2e5d-7403-88e2" name="Morrigan" hidden="false" collective="false" import="true" type="model">
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c2ca-c3c3-a47a-37ab" name="Nahimana" hidden="false" collective="false" import="true" type="model">
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d7d8-ea2e-48ea-2d5f" name="Shadow" hidden="false" collective="false" import="true" type="model">
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7686-585a-bc71-558b" name="Shinigami Ayl" hidden="false" collective="false" import="true" type="model">
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3377-d66c-0f75-ba1e" name="Yuki" hidden="false" collective="false" import="true" type="model">
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bafb-4aec-c01b-3f84" name="Anaximenes" hidden="false" collective="false" import="true" type="model">
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c241-711e-e5b8-4ab4" name="Alexias" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a6e-acba-b010-7f18" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a6e-acba-b010-7f18" type="max"/>
       </constraints>
       <profiles>
         <profile id="3de2-4618-2f38-0f3a" name="Alexias" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2082,13 +2080,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="bb3f-b2c3-79ce-4382" name="Prowler" hidden="false" targetId="a026-dd6a-6fb3-8261" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="60.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="60"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8869-f511-8141-ec8a" name="Alis Testarrosa" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecf9-d9ea-0f66-e43e" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecf9-d9ea-0f66-e43e" type="max"/>
       </constraints>
       <profiles>
         <profile id="16c1-2845-3a80-89b8" name="Alis Testarrosa" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2135,13 +2133,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="f16c-a4fa-b988-0b95" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="35.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="35"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c933-b384-b095-40de" name="Azriel" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ec3-3a37-7432-abe2" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ec3-3a37-7432-abe2" type="max"/>
       </constraints>
       <profiles>
         <profile id="022d-3d04-d080-0965" name="Azriel" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2178,13 +2176,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="8043-2f44-6713-3244" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2e34-fab9-04b3-6ccd" name="Damaris" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06d1-e5cf-46e0-a9bf" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06d1-e5cf-46e0-a9bf" type="max"/>
       </constraints>
       <profiles>
         <profile id="7617-d238-c4d9-9480" name="Damaris" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2234,13 +2232,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="a618-34aa-689b-7f82" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="35.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="35"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac66-72c0-f4a3-b423" name="Damien" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ded-63d7-8102-2d04" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ded-63d7-8102-2d04" type="max"/>
       </constraints>
       <profiles>
         <profile id="38a9-7956-cc16-163a" name="Damien" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2292,13 +2290,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="58c0-14ec-8723-9fb9" name="Prowler" hidden="false" targetId="a026-dd6a-6fb3-8261" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eeee-49d8-d45b-c965" name="Grey" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9f4-7dbe-4852-9b54" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9f4-7dbe-4852-9b54" type="max"/>
       </constraints>
       <profiles>
         <profile id="c8fa-566b-5629-a78f" name="Grey" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2350,13 +2348,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="722b-bc20-6aef-5353" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3386-4212-8c8f-86f4" name="Justina" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85e6-af7c-1a76-a0a1" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85e6-af7c-1a76-a0a1" type="max"/>
       </constraints>
       <profiles>
         <profile id="c02e-5758-9cf3-8bcb" name="Justina" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2408,13 +2406,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="6776-d034-589b-0d8b" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2e77-c820-d5b7-6ce6" name="Luzbell" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1c1-9fab-79f0-79f6" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1c1-9fab-79f0-79f6" type="max"/>
       </constraints>
       <profiles>
         <profile id="182f-05eb-252d-1083" name="Luzbell" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2456,13 +2454,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="cac1-b0d5-4d31-98a1" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d6e2-977e-abea-2915" name="Maria" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0261-79e2-e78d-032f" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0261-79e2-e78d-032f" type="max"/>
       </constraints>
       <profiles>
         <profile id="7156-747c-7087-491b" name="Maria" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2514,13 +2512,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="c899-ca6c-4fce-1d8f" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="65.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="65"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac3c-168e-0db8-7f95" name="Nero" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf8e-9bbb-9532-fda3" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf8e-9bbb-9532-fda3" type="max"/>
       </constraints>
       <profiles>
         <profile id="f215-365a-8872-6baa" name="Nero" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2562,13 +2560,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="e858-d283-1217-8f13" name="Light" hidden="false" targetId="e272-fa42-897c-930e" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ed8-85e5-2665-ec4b" name="Nimrod" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1d3-8586-ddb6-d03f" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1d3-8586-ddb6-d03f" type="max"/>
       </constraints>
       <profiles>
         <profile id="a6e2-3237-c282-61e4" name="Nimrod" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2615,13 +2613,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="ec10-5263-da1a-343a" name="Prowler" hidden="false" targetId="a026-dd6a-6fb3-8261" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aaa2-896f-42a6-78eb" name="Saint Astraega" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51ad-f84a-8775-b178" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51ad-f84a-8775-b178" type="max"/>
       </constraints>
       <profiles>
         <profile id="2096-dfba-6cde-ec68" name="Saint Astraega" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2663,13 +2661,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="9dba-c063-b065-edbd" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="40"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f2ed-95ea-2a6e-515c" name="Saint Evangeline" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cd4-954f-8d64-1cbc" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cd4-954f-8d64-1cbc" type="max"/>
       </constraints>
       <profiles>
         <profile id="0a98-6a5d-5351-3893" name="Saint Evangeline" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2711,13 +2709,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="b2c1-809a-cbb1-277f" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e61-77f8-3663-0a54" name="Saint Hazael" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0aa-2f8e-d3e6-c268" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0aa-2f8e-d3e6-c268" type="max"/>
       </constraints>
       <profiles>
         <profile id="107d-3f14-aeab-40f3" name="Saint Hazael" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2769,13 +2767,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="2429-bb5f-0594-4a03" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="45"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="72b8-c080-13de-a2b0" name="Sarah Reindhold" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="717b-be6d-7bf8-ee7b" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="717b-be6d-7bf8-ee7b" type="max"/>
       </constraints>
       <profiles>
         <profile id="e00d-1997-ab75-bebc" name="Sarah Reindhold" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2825,13 +2823,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="dd76-3dd3-df92-17fb" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="30.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="30"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="316f-a41c-12ac-7c07" name="Xavier" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f14d-a68d-93a1-6244" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f14d-a68d-93a1-6244" type="max"/>
       </constraints>
       <profiles>
         <profile id="c98a-9386-4403-4665" name="Xavier" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2878,13 +2876,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="a577-1f5f-219a-89f5" name="Dark" hidden="false" targetId="429f-0291-b84a-3164" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7af6-4c41-b677-181b" name="Lostaroth Marchosias" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd04-17a9-4b64-1461" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd04-17a9-4b64-1461" type="max"/>
       </constraints>
       <profiles>
         <profile id="4522-3602-ca52-be1c" name="Lostaroth Marchosias" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -2933,7 +2931,7 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
       <selectionEntries>
         <selectionEntry id="0e87-67a9-1333-8484" name="And Death Walks With Him" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2a6-68af-ef8e-45e0" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2a6-68af-ef8e-45e0" type="max"/>
           </constraints>
           <profiles>
             <profile id="1d9e-12c5-28b1-50d8" name="Optional Leader" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -2956,19 +2954,19 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
             <categoryLink id="4b77-3ca7-b68e-0ca8" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="45ab-96ff-8ffc-20b4" name="Romeo Exxet" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b1-b2af-8a19-1dc8" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b1-b2af-8a19-1dc8" type="max"/>
       </constraints>
       <profiles>
         <profile id="c09d-689d-8cbc-1170" name="Romeo Exxet" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -3044,13 +3042,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="dfed-38ca-109f-0ef8" name="Church" hidden="false" targetId="925c-ffe2-883c-fcf6" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="75.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="75"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="36d9-c5fe-1317-f38c" name="High Saint Elienai" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b18-cd35-0db2-6c2f" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b18-cd35-0db2-6c2f" type="max"/>
       </constraints>
       <profiles>
         <profile id="8873-fd10-4376-a282" name="High Saint Elienai" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -3112,16 +3110,12 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         </profile>
         <profile id="5535-1c53-24bd-50b2" name="ooo — Soul Fusion (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Choose a friendly unit within Elienai’s Control Zone. That character obtains +1 Attack, +1 Defense, +2 Resistance and rolls an additional die (choose the higher value) when it uses any action or control. Upkeep: ooo
-
-</characteristic>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Choose a friendly unit within Elienai’s Control Zone. That character obtains +1 Attack, +1 Defense, +2 Resistance and rolls an additional die (choose the higher value) when it uses any action or control. Upkeep: ooo</characteristic>
           </characteristics>
         </profile>
         <profile id="62f0-1336-2dd4-abb2" name="ooo — Possession (Magic, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Choose an enemy unit with Lv. 60 or below within Elienai’s Control Zone. If it fails Resistance Control, Effect 16, it is possessed by Elienai. From that moment on, it is considered a unit controlled by the Elieani’s player and can be activated like any other friendly unit. If Elienai wishes to maintain the possession in the next turn, the possessed character must roll a new Resistance Control in the Upkeep Phase. If it passes the Effect, Elienai is expulsed and loses 5 LP. Upkeep: ooo
-
-</characteristic>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Choose an enemy unit with Lv. 60 or below within Elienai’s Control Zone. If it fails Resistance Control, Effect 16, it is possessed by Elienai. From that moment on, it is considered a unit controlled by the Elieani’s player and can be activated like any other friendly unit. If Elienai wishes to maintain the possession in the next turn, the possessed character must roll a new Resistance Control in the Upkeep Phase. If it passes the Effect, Elienai is expulsed and loses 5 LP. Upkeep: ooo</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3137,13 +3131,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="1e46-6648-94ee-ef79" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="65.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="65"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9813-6d1d-836e-07bf" name="The Bearer of Calamities" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93b3-3f42-bf3d-daff" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93b3-3f42-bf3d-daff" type="max"/>
       </constraints>
       <profiles>
         <profile id="44f2-2e2f-dab9-02e2" name="The Bearer of Calamities" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -3190,13 +3184,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="8f0e-266f-e8c5-7680" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ef44-7ff2-3e8f-a8a1" name="Ergo Mundus" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d87-3edf-d8fa-626f" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d87-3edf-d8fa-626f" type="max"/>
       </constraints>
       <profiles>
         <profile id="09ef-3636-6c50-7da0" name="Ergo Mundus" hidden="false" typeId="8047-e421-08f6-a1ef" typeName="Characters">
@@ -3263,13 +3257,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="0b4c-5855-9640-e7a4" name="Mystic" hidden="false" targetId="581a-079d-f3e4-4b0b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="100.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="100"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="be68-386a-0220-a6b2" name="Gemini" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb5c-97fd-498d-7776" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb5c-97fd-498d-7776" type="max"/>
       </constraints>
       <infoGroups>
         <infoGroup id="ae91-78b5-d71b-0141" name="Zack" hidden="false">
@@ -3362,25 +3356,196 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
         <categoryLink id="d1fc-c9f2-2ecb-954e" name="Neutral" hidden="false" targetId="2e97-e234-3c32-891e" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="55"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Organizational Advantages" hidden="false" id="4ff9-ce74-761f-6922">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Church" id="1392-abc7-fae9-50d2" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" value="2" field="b419-ef53-65a2-a560">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="f7e6-1130-1b26-fac8" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="b419-ef53-65a2-a560">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="8597-70f6-1ee5-7cf3" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="b419-ef53-65a2-a560">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="30f8-bb52-08c3-dbd2" shared="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="bbf3-7f3b-5774-d4c2" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b419-ef53-65a2-a560" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Unshakable Faith" hidden="false" id="199e-04ae-97f5-18c3" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e102-3a2b-274b-56b1" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Unshakable Faith" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card" hidden="false" id="dfdd-2163-db4e-8173">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">At the beginning of the game place a Faith Counter on each character in the party. When an enemy attack reduces a unit&apos;s Life Points to 0, instead of being removed as casualty that unit make a Resistance Check against Effect 17. If the Check is passed, remove Faith Counter form the unit to allow it stay in play with 1 LP. This Adventage only works when an enemy unit directly causes Damage suffered by the unit. A unit that loses its LP due to Sacrifice or Effects that removes directly from play cannot use Unshakable Faith.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Exterminators" hidden="false" id="aa1d-388e-0b57-8406" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c4f-faa8-b2fa-5113" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Exterminators" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card" hidden="false" id="9da5-d055-5cbf-e180">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">At the start of the game choose one of the following: Dark, Light or Mystic. Characters in your party get +2 Damage whenever they make any kind of attack against units of chosen type.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Divine Meditation" hidden="false" id="66e8-9127-0ec9-3440" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f36-4e49-827a-3077" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Divine Meditation" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card" hidden="false" id="07d1-c4b5-3622-45d8">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">You may reroll one die doll of your choose each turn. In games at Level 400 or higher, you can reroll two die rolls per turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Miracles" hidden="false" id="f80b-35fe-983c-66d0" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad9a-4922-0e79-774f" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Miracles" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card" hidden="false" id="c441-c31d-ef86-e4d4">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">The player gets a &quot;miracle&quot; at the start of each turn, whenever a friendly model dies or if a model uses 2 actions in the maintanance phase to get one. Once per round player may spend stated number of miracle tokens to activate the miracle.
+
+1 — A friendly unit get a possitive state of your choice.
+2 — A friendly unit loses a negative state of your choice.
+3 — An enemy model suffers Seal Lv 1, effect 15.
+4 — A friendly unit gets +1 attack and +1 defence for the turn.
+5 — The enemy loses a gnose point.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Empire" id="6bda-3b97-83c4-b68b" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" value="2" field="f4bf-c9e8-9166-7ba7">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="f7e6-1130-1b26-fac8" shared="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="f4bf-c9e8-9166-7ba7">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="30f8-bb52-08c3-dbd2" shared="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="f4bf-c9e8-9166-7ba7">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="8597-70f6-1ee5-7cf3" shared="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="39f9-63b5-040b-5f61" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4bf-c9e8-9166-7ba7" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="The Empress&apos;s Chosen" hidden="false" id="51a6-f91a-2d72-371f" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c360-41ab-b49a-7d7d" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="The Empress&apos;s Chosen" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="191c-f227-7332-8911">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">At the start of play, choose a character in your Party. This character receives +1 Attack, +1 Defence, +2 Resistance, and may roll an additional die keeping the highest result when making any Attack or Charge (normal or special).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Combat Mastery" hidden="false" id="a5e1-1bae-5517-0203" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e1f-9e99-b021-e297" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Combat Mastery" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card" hidden="false" id="11b1-8c43-e914-1432">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">All Characters in the Party receive the Innate Ability Critical Mastery. Any Characer already possessing Critical Mastery causes a Critical Hit on a result of 8, 9, or 10.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Critical Mastery" id="96c5-2c3d-8368-456c" hidden="false" targetId="1c78-2c2a-af54-b235" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Imperial Armor" hidden="false" id="e9da-293a-8b37-cad1" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d364-752f-223b-3f14" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Imperial Armor" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card" hidden="false" id="a376-9df2-c596-3dd7">
+                  <characteristics>
+                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">All Characters in the Party receive +1 Armor. This modifier cannot be reduced or negated in any way. Characters in the party will always have at least Armor 1, even if the attack would normally completely negate or ignorethe defender&apos;s armor.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6708-2ad4-2733-6e3b" name="Advantage Cards" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2da9-cb71-f12b-7986" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2da9-cb71-f12b-7986" type="max"/>
       </constraints>
       <selectionEntryGroups>
         <selectionEntryGroup id="f3e2-c985-aa9e-1dff" name="Plot" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8b2c-4b80-a92d-c6b0" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8b2c-4b80-a92d-c6b0" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="8397-0d85-c178-63fc" name="Chosen Prey" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2e38-07de-7e90-4ad0" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2e38-07de-7e90-4ad0" type="max"/>
               </constraints>
               <profiles>
                 <profile id="6318-7d39-8776-bc7e" name="Chosen Prey" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -3390,13 +3555,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="15.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="15"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="410c-b96c-33fe-02c0" name="Covert Operation" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="274e-4bee-e980-b691" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="274e-4bee-e980-b691" type="max"/>
               </constraints>
               <profiles>
                 <profile id="c03d-8ecb-625b-ee42" name="Covert Operation" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -3406,13 +3571,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f9d3-a5a7-4eac-4a08" name="Dawn Of The Dark" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6bce-47f9-60fb-ec79" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6bce-47f9-60fb-ec79" type="max"/>
               </constraints>
               <profiles>
                 <profile id="ddf4-9011-fb2e-5480" name="Dawn Of The Dark" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -3422,13 +3587,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fb76-b271-5afa-6b98" name="Elite Squadron" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e53f-21e2-ac26-9a5c" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e53f-21e2-ac26-9a5c" type="max"/>
               </constraints>
               <profiles>
                 <profile id="ff91-dede-3f6f-920c" name="Elite Squadron" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -3438,13 +3603,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f16e-0284-d297-950c" name="Gale" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f33e-311a-d5f8-5db4" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f33e-311a-d5f8-5db4" type="max"/>
               </constraints>
               <profiles>
                 <profile id="01d5-84aa-5a94-2f9e" name="Gale" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -3454,13 +3619,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="26ec-0457-0dfd-ed89" name="Logistics" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7a77-2289-f58a-6cea" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7a77-2289-f58a-6cea" type="max"/>
               </constraints>
               <profiles>
                 <profile id="1285-a85f-520a-b22e" name="Logistics" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -3470,13 +3635,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7691-8462-941e-d254" name="Neokinesis Magnus" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a829-8799-f804-94b4" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a829-8799-f804-94b4" type="max"/>
               </constraints>
               <profiles>
                 <profile id="5678-2c2a-f977-eebf" name="Neokinesis Magnus" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -3486,13 +3651,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="db61-d7f0-d9aa-e5a9" name="Personal Reasons" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e40d-5b70-6056-ff0e" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e40d-5b70-6056-ff0e" type="max"/>
               </constraints>
               <profiles>
                 <profile id="b8cb-f2ec-ad2d-cc3e" name="Personal Reasons" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -3502,13 +3667,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0ecb-85f1-62d7-acbd" name="Pool of Life" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4080-2e07-3666-70ef" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4080-2e07-3666-70ef" type="max"/>
               </constraints>
               <profiles>
                 <profile id="3823-f514-7c72-416e" name="Pool of Life" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -3518,13 +3683,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d0cc-83cb-e7ca-91b6" name="Power Source" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7b70-15be-cf13-2cf6" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7b70-15be-cf13-2cf6" type="max"/>
               </constraints>
               <profiles>
                 <profile id="0bda-143a-f30b-1e05" name="Power Source" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -3534,13 +3699,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="20.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="20"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="02d4-bca1-5e7a-dc9a" name="Supernatural Traps" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="15cc-5479-ae7b-34a3" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="15cc-5479-ae7b-34a3" type="max"/>
               </constraints>
               <profiles>
                 <profile id="31b4-8d76-ebb8-66df" name="Supernatural Traps" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -3550,13 +3715,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2ab0-d2f0-3500-8545" name="Tactical Advantage" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f39f-8849-2899-cd5f" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f39f-8849-2899-cd5f" type="max"/>
               </constraints>
               <profiles>
                 <profile id="725c-ad88-1729-134e" name="Tactical Advantage" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -3566,13 +3731,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ea75-dc3d-e915-0050" name="Tactics" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="688f-00c6-17e9-a2cf" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="688f-00c6-17e9-a2cf" type="max"/>
               </constraints>
               <profiles>
                 <profile id="e668-0620-55df-dd22" name="Tactics" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -3582,13 +3747,13 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8b88-cdd9-dd8e-6c18" name="Wind&apos;s Spirit" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1ba6-5477-b089-9add" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1ba6-5477-b089-9add" type="max"/>
               </constraints>
               <profiles>
                 <profile id="ea6c-02a4-24cc-6a8e" name="Wind&apos;s Spirit" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -3598,22 +3763,22 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="c971-87d3-349c-c2a3" name="Equipment" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="491b-d29f-a8b3-13ec" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="491b-d29f-a8b3-13ec" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="9797-d61c-70b4-d16d" name="Supernatural Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3625,8 +3790,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3914-6792-0704-c019" name="Alinor" hidden="false" collective="false" import="true" type="upgrade">
@@ -3638,15 +3803,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7776-195b-e17d-1947" name="Alaron" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3658,8 +3823,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="78bb-121a-14e7-bc9a" name="Ark Shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -3671,15 +3836,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="837d-aed5-fd60-5f76" name="Bell Of Fortune" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e272-fa42-897c-930e" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e272-fa42-897c-930e" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3691,15 +3856,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="319c-c654-c6ae-a3bc" name="Black Candle" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="22cd-78ed-3912-f507" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="22cd-78ed-3912-f507" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3711,8 +3876,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e557-e8d9-8ad9-8ba0" name="Blood Stone" hidden="false" collective="false" import="true" type="upgrade">
@@ -3724,15 +3889,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4ffd-7d30-9597-5e3b" name="Blood Omen" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="429f-0291-b84a-3164" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="429f-0291-b84a-3164" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3744,8 +3909,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8420-a3d7-486e-9b73" name="Ceridwen" hidden="false" collective="false" import="true" type="upgrade">
@@ -3757,8 +3922,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5c24-70dd-2929-98f9" name="Chaos" hidden="false" collective="false" import="true" type="upgrade">
@@ -3770,15 +3935,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cace-c27f-d6e4-1cce" name="Container" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb1a-1459-c5f2-a455" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb1a-1459-c5f2-a455" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3790,8 +3955,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="34d1-be1d-0186-c6f5" name="Clock Of Cronos" hidden="false" collective="false" import="true" type="upgrade">
@@ -3803,15 +3968,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1a49-a506-5857-5362" name="Control Bound" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3823,15 +3988,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e3ef-271e-86c8-d99a" name="Cursed Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3843,15 +4008,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="83bc-d893-56a4-d05f" name="Doom Silver" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="632f-96ce-8cdc-74a1" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="632f-96ce-8cdc-74a1" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3863,15 +4028,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1227-ca68-8505-1496" name="Elemental Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3883,8 +4048,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9a0e-2108-9fde-c9e6" name="Fate Clock" hidden="false" collective="false" import="true" type="upgrade">
@@ -3896,15 +4061,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b464-99c0-bcd1-1d96" name="Gnose" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a026-dd6a-6fb3-8261" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a026-dd6a-6fb3-8261" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3916,8 +4081,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="63a4-4ca5-2bc0-af5a" name="Greater Life Potion" hidden="false" collective="false" import="true" type="upgrade">
@@ -3929,8 +4094,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="15.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="15"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2c8f-3e1a-9849-4b9a" name="Heart of Gold" hidden="false" collective="false" import="true" type="upgrade">
@@ -3942,15 +4107,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b7cd-f63b-c946-4ed8" name="Heart of Shadow" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a026-dd6a-6fb3-8261" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a026-dd6a-6fb3-8261" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3962,8 +4127,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3cee-deee-44fd-44c7" name="Ikaro" hidden="false" collective="false" import="true" type="upgrade">
@@ -3975,15 +4140,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9d75-77f0-47e7-5f4e" name="Heavy Armor" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3995,8 +4160,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dc09-f492-6b40-2ce9" name="Jedah&apos;s Eye" hidden="false" collective="false" import="true" type="upgrade">
@@ -4008,8 +4173,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9310-d5c5-0c1b-6a19" name="Life Potion" hidden="false" collective="false" import="true" type="upgrade">
@@ -4021,8 +4186,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2cfc-e66f-7bc8-01ff" name="Limiter" hidden="false" collective="false" import="true" type="upgrade">
@@ -4034,15 +4199,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="01c4-545a-832d-de16" name="Magus Wand" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4054,15 +4219,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="15.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="15"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9e7e-b729-1493-4792" name="Mikael&apos;s Tear" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e272-fa42-897c-930e" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e272-fa42-897c-930e" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4074,8 +4239,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8057-c5b6-b672-8d8a" name="Nephiros" hidden="false" collective="false" import="true" type="upgrade">
@@ -4087,8 +4252,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="792f-6a18-4e7b-cca3" name="Nine Lives" hidden="false" collective="false" import="true" type="upgrade">
@@ -4100,8 +4265,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f461-52f7-5276-f752" name="Nullifier" hidden="false" collective="false" import="true" type="upgrade">
@@ -4113,8 +4278,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f3d5-1ea9-dcfc-2b7c" name="Nullum Lusec" hidden="false" collective="false" import="true" type="upgrade">
@@ -4126,8 +4291,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="12c0-af3d-d2b5-8341" name="Smoke Cloud" hidden="false" collective="false" import="true" type="upgrade">
@@ -4139,8 +4304,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3aa2-1786-ca03-9dae" name="Orb Of Power" hidden="false" collective="false" import="true" type="upgrade">
@@ -4152,8 +4317,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3a57-2d2f-26e3-4895" name="Serum" hidden="false" collective="false" import="true" type="upgrade">
@@ -4165,15 +4330,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b4b5-0499-3fda-e202" name="Piercing Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a026-dd6a-6fb3-8261" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a026-dd6a-6fb3-8261" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4185,8 +4350,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2696-25f1-12f0-0cf0" name="Ring of Rudraskha" hidden="false" collective="false" import="true" type="upgrade">
@@ -4198,15 +4363,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="395c-f041-4382-3d2e" name="Ring Of Erebus" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4218,15 +4383,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="814c-7d6d-bf3b-e941" name="Seal Of Bones" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4238,15 +4403,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d4e5-2162-7a08-118c" name="Primal" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4258,15 +4423,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0049-e7db-aedc-f706" name="Upgraded Smoke Bomb" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a026-dd6a-6fb3-8261" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a026-dd6a-6fb3-8261" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4278,8 +4443,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="364d-399a-bd08-84ac" name="Vial Of Life" hidden="false" collective="false" import="true" type="upgrade">
@@ -4291,8 +4456,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1fc2-66e1-0339-c906" name="Talisman Of Eriol" hidden="false" collective="false" import="true" type="upgrade">
@@ -4304,15 +4469,15 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aa3f-c8fa-5d23-8614" name="Supernatural Armor" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4324,8 +4489,8 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ab5e-1aad-0862-a6c3" name="Transfer Rod" hidden="false" collective="false" import="true" type="upgrade">
@@ -4338,15 +4503,15 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b66a-6454-b154-d242" name="Supernatural Devourer" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4358,15 +4523,15 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="341c-b11c-66df-d468" name="Ultimate Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02a6-7be5-bb33-ac95" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4378,15 +4543,15 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="c9d3-0459-ffad-3f76" name="Power" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="667e-0beb-deb3-ab78" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="667e-0beb-deb3-ab78" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="edc6-d532-6aa2-697d" name="Aberration Power" hidden="false" collective="false" import="true" type="upgrade">
@@ -4404,8 +4569,8 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="32e4-1d1c-13af-2532" name="Afterimage" hidden="false" collective="false" import="true" type="upgrade">
@@ -4417,8 +4582,8 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c145-2c6b-f467-0b20" name="Aura" hidden="false" collective="false" import="true" type="upgrade">
@@ -4430,8 +4595,8 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c254-b441-bffb-7117" name="Combined Combat" hidden="false" collective="false" import="true" type="upgrade">
@@ -4443,8 +4608,8 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3f36-4097-0016-b5d2" name="Curse" hidden="false" collective="false" import="true" type="upgrade">
@@ -4453,8 +4618,8 @@ Once Per Round</characteristic>
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="429f-0291-b84a-3164" type="notInstanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="429f-0291-b84a-3164" type="notInstanceOf"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -4468,8 +4633,8 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2df7-b1f9-1df2-3f30" name="Destiny" hidden="false" collective="false" import="true" type="upgrade">
@@ -4481,8 +4646,8 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d9d2-000c-c9e5-28a9" name="Dragon Blood" hidden="false" collective="false" import="true" type="upgrade">
@@ -4498,15 +4663,15 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d1c3-520f-7422-70b1" name="Familiar" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4518,8 +4683,8 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a9fe-c476-5e37-5ddf" name="Fantasy Bless" hidden="false" collective="false" import="true" type="upgrade">
@@ -4531,15 +4696,15 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6c66-1edd-9c46-00d9" name="Gabriel&apos;s Gift" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e272-fa42-897c-930e" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e272-fa42-897c-930e" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4551,8 +4716,8 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0b97-d8cd-cb41-95fd" name="Last Stand" hidden="false" collective="false" import="true" type="upgrade">
@@ -4564,15 +4729,15 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6a0f-37df-f68c-3bef" name="Martyr" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="925c-ffe2-883c-fcf6" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="925c-ffe2-883c-fcf6" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4584,15 +4749,15 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0d87-037e-0ff1-12cf" name="Nue" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a026-dd6a-6fb3-8261" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a026-dd6a-6fb3-8261" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4604,15 +4769,15 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cc16-4b53-e8e1-ad67" name="Presence" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4624,8 +4789,8 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2f42-6ac4-ff9c-899b" name="Protective Shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -4637,8 +4802,8 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="15.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="15"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="df2a-be71-e6cc-7b4c" name="Raphael&apos;s Gift" hidden="false" collective="false" import="true" type="upgrade">
@@ -4650,8 +4815,8 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b792-2e62-0e13-fb77" name="Retaliation" hidden="false" collective="false" import="true" type="upgrade">
@@ -4663,8 +4828,8 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a824-9929-3e9f-c05b" name="Tempus Fugit" hidden="false" collective="false" import="true" type="upgrade">
@@ -4676,15 +4841,15 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cada-7f3f-fc27-f1bd" name="Vision" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="581a-079d-f3e4-4b0b" type="notInstanceOf"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4696,15 +4861,15 @@ Once Per Round</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="10"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="0946-b139-6567-e372" name="Team" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e4fc-b8d0-0ddf-eaad" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e4fc-b8d0-0ddf-eaad" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="dfa7-8385-bf63-b708" name="Team Cerberus Division" hidden="false" collective="false" import="true" type="upgrade">
@@ -4713,16 +4878,16 @@ Once Per Round</characteristic>
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bac7-02b6-a056-2a84" type="equalTo"/>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cc30-77aa-9c4b-d8ac" type="equalTo"/>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="97aa-1a70-48fd-54d3" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bac7-02b6-a056-2a84" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cc30-77aa-9c4b-d8ac" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="97aa-1a70-48fd-54d3" type="equalTo"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dbb6-24f0-6ca2-ab37" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dbb6-24f0-6ca2-ab37" type="max"/>
               </constraints>
               <profiles>
                 <profile id="693d-cca0-85c7-8409" name="Team Cerberus Division" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -4743,13 +4908,13 @@ Daniella&apos;s Guardian: Vayl gains Advanced Deployment.</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7da4-5790-db11-97bb" name="Team Assault Group" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="20fe-b910-fb57-4150" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="20fe-b910-fb57-4150" type="max"/>
               </constraints>
               <profiles>
                 <profile id="8bd4-a06b-dee0-d78c" name="Team Assault Group" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -4772,13 +4937,13 @@ High Technology: Lorenzo starts the game with an additional &quot;Energy&quot; t
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b7f3-b81f-e0f3-7bb3" name="Team Damien and Justina" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1072-eb8c-cebd-4cda" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1072-eb8c-cebd-4cda" type="max"/>
               </constraints>
               <profiles>
                 <profile id="c61e-8e28-0883-30e3" name="Team Damien and Justina" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -4794,13 +4959,13 @@ Dual Vision: Justina may use Damien&apos;s Line of Sight to use Penitent Shot to
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f3d2-3d1e-ae58-05ac" name="Team Executive Team" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b942-6971-e59c-ec88" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b942-6971-e59c-ec88" type="max"/>
               </constraints>
               <profiles>
                 <profile id="5133-ca68-03ca-85b0" name="Team Executive Team" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -4822,13 +4987,13 @@ Replace every Corpse counter that is within Bridget&apos;s Control Zone with a b
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="76c1-87e3-4019-90a7" name="Team Kujaku Hime and Takanosuke" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8b8f-e74e-1f9c-4b05" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8b8f-e74e-1f9c-4b05" type="max"/>
               </constraints>
               <profiles>
                 <profile id="7660-8c11-8327-ba50" name="Team Kujaku Hime and Takanosuke" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -4846,13 +5011,13 @@ Kage Combo: Immediately following a Kage Shuriken attack from Takanosuke, Kujaku
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b675-5ce7-7760-7f23" name="Team Les Jaeger" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="84f9-bf14-c9aa-0691" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="84f9-bf14-c9aa-0691" type="max"/>
               </constraints>
               <profiles>
                 <profile id="8763-d0be-c54f-d2bd" name="Team Les Jaeger" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -4875,13 +5040,13 @@ Move a friendly unit within your Influence Zone 2 Inches. This does not count as
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3d12-e4e5-8105-cb84" name="Team Lords Of The Abyss" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="782c-2026-0d78-8a2d" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="782c-2026-0d78-8a2d" type="max"/>
               </constraints>
               <profiles>
                 <profile id="28e5-730a-8994-6f88" name="Team Lords Of The Abyss" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -4904,13 +5069,13 @@ Zone of Darkness: Hel and Jerome benefit from the effects of Shadow of the Moon 
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="515c-4159-c06b-c1b2" name="Team Saint Council" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1a0a-5824-72c6-3faf" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1a0a-5824-72c6-3faf" type="max"/>
               </constraints>
               <profiles>
                 <profile id="cabe-44ba-49e6-b4e5" name="Team Saint Council" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -4929,13 +5094,13 @@ Holy Aura: Astraega&apos;s Control Zone is increased by 2 inches.</characteristi
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b14e-6da7-63f1-2de5" name="Team Condemned Lovers" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4203-f9cc-2662-a10d" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4203-f9cc-2662-a10d" type="max"/>
               </constraints>
               <profiles>
                 <profile id="d97b-ab06-0667-a3b0" name="Team Condemned Lovers" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -4953,8 +5118,8 @@ Combined Combat: If Cenette is engaged with the same enemy unit as Drake she get
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c3ae-6539-4880-3562" name="Team The Dark Hand" hidden="false" collective="false" import="true" type="upgrade">
@@ -4963,16 +5128,16 @@ Combined Combat: If Cenette is engaged with the same enemy unit as Drake she get
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b2e1-132f-3a2c-2809" type="equalTo"/>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ceb8-c861-39a6-9c08" type="equalTo"/>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e2f0-2c65-f8ca-5f8f" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b2e1-132f-3a2c-2809" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ceb8-c861-39a6-9c08" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e2f0-2c65-f8ca-5f8f" type="equalTo"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dd8e-e0a6-a98b-3c6a" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dd8e-e0a6-a98b-3c6a" type="max"/>
               </constraints>
               <profiles>
                 <profile id="ff36-27d5-7da4-3fd8" name="Team The Dark Hand" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -4992,13 +5157,13 @@ Combined Murder: May doesn’t suffer any penalties when she uses a Ranged Attac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9162-3d85-40ba-572a" name="Team The Three Dragons" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e876-fc7a-c6cc-e9e3" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e876-fc7a-c6cc-e9e3" type="max"/>
               </constraints>
               <profiles>
                 <profile id="25d0-1ebf-a302-d18f" name="Team The Three Dragons" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -5020,13 +5185,13 @@ ooo — Heaven and Earth (Ki, Attack))
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="75a9-9874-0919-7655" name="Team Twin Shadow" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b4c-8d1c-2a90-3e18" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b4c-8d1c-2a90-3e18" type="max"/>
               </constraints>
               <profiles>
                 <profile id="55c6-8ef4-0608-274e" name="Team Twin Shadow" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -5045,8 +5210,8 @@ Spontaneous Shadow: If Kagemaru successfully use his Kage ability while in Zenob
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2554-038b-2795-5a99" name="Team Weapons Of Azrael" hidden="false" collective="false" import="true" type="upgrade">
@@ -5055,15 +5220,15 @@ Spontaneous Shadow: If Kagemaru successfully use his Kage ability while in Zenob
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="de76-64c3-dfa6-fa2c" type="equalTo"/>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0c72-96ad-683b-529c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="de76-64c3-dfa6-fa2c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0c72-96ad-683b-529c" type="equalTo"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d72b-81cd-c951-8b1c" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d72b-81cd-c951-8b1c" type="max"/>
               </constraints>
               <profiles>
                 <profile id="229b-b780-979e-3bf9" name="Team Weapons Of Azrael" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -5083,13 +5248,13 @@ Lillian’s Protector: Macbeth can Intercept a Charge or a Ranged Attack made ag
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="94df-714d-0887-66ed" name="Team The Puppet Master" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eeef-9a6d-6d95-39ec" type="max"/>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eeef-9a6d-6d95-39ec" type="max"/>
               </constraints>
               <profiles>
                 <profile id="fd84-fa3f-5fc2-f64d" name="Team The Puppet Master" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -5114,8 +5279,8 @@ Pack Hunters: Once per game, You can choose to activate Frey and Freya together.
                 </profile>
               </profiles>
               <costs>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5.0"/>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="5"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

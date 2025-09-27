@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="39f9-63b5-040b-5f61" name="Empire" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6c41-307a-0de6-0326" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="39f9-63b5-040b-5f61" name="Empire" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="6c41-307a-0de6-0326" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Acebaur" type="catalogue">
   <selectionEntries>
     <selectionEntry id="5900-b94b-47d9-3f48" name="Empire Agent" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="decrement" field="c455-b1bd-6f65-79ce" value="5.0">
+        <modifier type="decrement" field="c455-b1bd-6f65-79ce" value="5">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae8b-8573-4e94-0957" type="equalTo"/>
-                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6ee0-7d62-3f6a-35fe" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae8b-8573-4e94-0957" type="equalTo"/>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6ee0-7d62-3f6a-35fe" type="atLeast"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -19,37 +19,37 @@
           <modifiers>
             <modifier type="set" field="fbcd-5784-2a53-cafd" value="3/4">
               <conditions>
-                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f84-ff65-935c-a81e" type="equalTo"/>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f84-ff65-935c-a81e" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="f443-bf96-3c21-c0f2" value="3">
               <conditions>
-                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d41f-601e-2a1f-1c73" type="equalTo"/>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d41f-601e-2a1f-1c73" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="20f4-d8f4-db83-84ce" value="5">
               <conditions>
-                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="67e5-66f3-e472-9b0d" type="equalTo"/>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="67e5-66f3-e472-9b0d" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="f443-bf96-3c21-c0f2" value="1">
               <conditions>
-                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="67e5-66f3-e472-9b0d" type="equalTo"/>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="67e5-66f3-e472-9b0d" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="dd49-3cc4-4fcc-9f41" value="8/12">
               <conditions>
-                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ba4e-cbf1-bfea-4d87" type="equalTo"/>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ba4e-cbf1-bfea-4d87" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="0831-54a0-0dc1-f5a9" value="5">
               <conditions>
-                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c262-3321-6424-cd4e" type="equalTo"/>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c262-3321-6424-cd4e" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="ef31-fbfc-06f9-54bd" value="17">
               <conditions>
-                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5dfb-e441-2687-4397" type="equalTo"/>
+                <condition field="selections" scope="5900-b94b-47d9-3f48" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5dfb-e441-2687-4397" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -79,19 +79,19 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="6ee0-7d62-3f6a-35fe" name="Options" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="set" field="44f5-e9cd-a5fe-04fa" value="25.0">
+            <modifier type="set" field="44f5-e9cd-a5fe-04fa" value="25">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae8b-8573-4e94-0957" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae8b-8573-4e94-0957" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="c455-b1bd-6f65-79ce" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="44f5-e9cd-a5fe-04fa" type="max"/>
+            <constraint field="c455-b1bd-6f65-79ce" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="44f5-e9cd-a5fe-04fa" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="6f84-ff65-935c-a81e" name="+1 AP" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="886c-a0b3-68bd-4a83" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="886c-a0b3-68bd-4a83" type="max"/>
               </constraints>
               <profiles>
                 <profile id="2a68-7bda-e073-e2c4" name="+1 AP" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -101,29 +101,29 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0da4-d01b-fe6b-fdfe" name="Master Attack Bonus" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1bb-aa8c-6b8e-9e0d" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1bb-aa8c-6b8e-9e0d" type="max"/>
               </constraints>
               <profiles>
                 <profile id="05ae-92e3-2bfe-2873" name="Master Attack Bonus" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
                   <characteristics>
-                    <characteristic name="Description" typeId="3c61-def7-3265-e41f">When the Agent uses Master Attack, they roll two dice and keep the highest result. </characteristic>
+                    <characteristic name="Description" typeId="3c61-def7-3265-e41f">When the Agent uses Master Attack, they roll two dice and keep the highest result.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="67e5-66f3-e472-9b0d" name="+1 At, +1 DM" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b84f-8720-4022-58f7" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b84f-8720-4022-58f7" type="max"/>
               </constraints>
               <profiles>
                 <profile id="75ce-dc51-1543-3dd6" name="+1 At, +1 DM" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -133,13 +133,13 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d41f-601e-2a1f-1c73" name="+3 Dm" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cde5-b7e1-5c97-4a05" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cde5-b7e1-5c97-4a05" type="max"/>
               </constraints>
               <profiles>
                 <profile id="5e26-e174-dec5-4e9d" name="+3 Dm" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -149,13 +149,13 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c262-3321-6424-cd4e" name="+3 Ar" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a3d-9a17-9d4c-6ead" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a3d-9a17-9d4c-6ead" type="max"/>
               </constraints>
               <profiles>
                 <profile id="a3a3-a7c7-29b6-2ec3" name="+3 Ar" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -165,13 +165,13 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5dfb-e441-2687-4397" name="+5 LP" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e4a-7440-0d02-1e6b" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e4a-7440-0d02-1e6b" type="max"/>
               </constraints>
               <profiles>
                 <profile id="2fa9-5dbc-40f1-0e90" name="+5 LP" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -181,13 +181,13 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ba4e-cbf1-bfea-4d87" name="8/12 Mo" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f50-3fb0-e2e7-3b0e" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f50-3fb0-e2e7-3b0e" type="max"/>
               </constraints>
               <profiles>
                 <profile id="b456-701e-87b0-5909" name="8/12 Mo" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -197,13 +197,13 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8887-2d65-8dd6-bf7c" name="Master Charge" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d9b-f9d8-5b23-a538" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d9b-f9d8-5b23-a538" type="max"/>
               </constraints>
               <profiles>
                 <profile id="e794-c841-774c-1645" name="oooo — Master Charge (Ki, Charge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
@@ -213,16 +213,16 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="20.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="20"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="209a-1e59-f31e-3f79" name="Empire Knight" hidden="false" collective="false" import="true" type="model">
@@ -231,12 +231,12 @@
           <modifiers>
             <modifier type="set" field="0831-54a0-0dc1-f5a9" value="2">
               <conditions>
-                <condition field="selections" scope="209a-1e59-f31e-3f79" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e0-23da-339f-0b97" type="equalTo"/>
+                <condition field="selections" scope="209a-1e59-f31e-3f79" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e0-23da-339f-0b97" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="d989-007a-8bf8-30a6" value="10">
               <conditions>
-                <condition field="selections" scope="209a-1e59-f31e-3f79" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e0-23da-339f-0b97" type="equalTo"/>
+                <condition field="selections" scope="209a-1e59-f31e-3f79" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e0-23da-339f-0b97" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -265,38 +265,38 @@
       <selectionEntries>
         <selectionEntry id="01e0-23da-339f-0b97" name="Upgrade" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="set" field="c455-b1bd-6f65-79ce" value="0.0">
+            <modifier type="set" field="c455-b1bd-6f65-79ce" value="0">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae8b-8573-4e94-0957" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae8b-8573-4e94-0957" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d682-a767-18ba-7d54" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d682-a767-18ba-7d54" type="max"/>
           </constraints>
           <costs>
-            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="78b8-1bc7-4d1e-58d9" name="Special Abilities" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="set" field="a888-7bc0-24a1-c728" value="2.0">
+            <modifier type="set" field="a888-7bc0-24a1-c728" value="2">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e0-23da-339f-0b97" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e0-23da-339f-0b97" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="4ec6-db13-8a21-a53c" value="2.0">
+            <modifier type="set" field="4ec6-db13-8a21-a53c" value="2">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e0-23da-339f-0b97" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e0-23da-339f-0b97" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a888-7bc0-24a1-c728" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ec6-db13-8a21-a53c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a888-7bc0-24a1-c728" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ec6-db13-8a21-a53c" type="min"/>
           </constraints>
           <profiles>
             <profile id="2d22-9527-3642-dbc2" name="Special Abilities" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -308,7 +308,7 @@
           <selectionEntries>
             <selectionEntry id="bd36-baa5-8460-363c" name="Ki Swordtech" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e7b9-3a97-a12d-1c29" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e7b9-3a97-a12d-1c29" type="max"/>
               </constraints>
               <profiles>
                 <profile id="6631-9a29-beca-408e" name="ooo — Ki Swordtech (Ki, Attack)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
@@ -318,13 +318,13 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3f2e-e7e5-ff15-830a" name="Ki Defense" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d29b-ac76-786a-3878" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d29b-ac76-786a-3878" type="max"/>
               </constraints>
               <profiles>
                 <profile id="9e29-431d-2254-37c8" name="oo — Ki Defense (Ki, Dodge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
@@ -334,13 +334,13 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="11b4-5a6f-8417-15cd" name="Desparate Charge" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f537-b2f5-d41b-3465" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f537-b2f5-d41b-3465" type="max"/>
               </constraints>
               <profiles>
                 <profile id="82a6-763a-1e5a-7b49" name="oooo — Desperate Charge (Ki, Charge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
@@ -350,16 +350,16 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="30.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="30"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="434f-e3bc-b6fd-a401" name="Empire Tactician " hidden="false" collective="false" import="true" type="upgrade">
@@ -390,38 +390,38 @@
       <selectionEntries>
         <selectionEntry id="2564-196d-7b47-7e22" name="Upgrade" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="set" field="c455-b1bd-6f65-79ce" value="0.0">
+            <modifier type="set" field="c455-b1bd-6f65-79ce" value="0">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae8b-8573-4e94-0957" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae8b-8573-4e94-0957" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="63e5-862e-b0d1-9639" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="63e5-862e-b0d1-9639" type="max"/>
           </constraints>
           <costs>
-            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="6950-7d70-bcb3-a363" name="Special Abilities" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="set" field="f77c-a57c-d407-77d0" value="2.0">
+            <modifier type="set" field="f77c-a57c-d407-77d0" value="2">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2564-196d-7b47-7e22" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2564-196d-7b47-7e22" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="858d-a937-f1d1-8f94" value="2.0">
+            <modifier type="set" field="858d-a937-f1d1-8f94" value="2">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2564-196d-7b47-7e22" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2564-196d-7b47-7e22" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f77c-a57c-d407-77d0" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="858d-a937-f1d1-8f94" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f77c-a57c-d407-77d0" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="858d-a937-f1d1-8f94" type="min"/>
           </constraints>
           <profiles>
             <profile id="f989-d2ae-e9b3-ad16" name="Special Abilities" hidden="false" typeId="44d9-985a-4fa1-eaaa" typeName="Powers">
@@ -433,7 +433,7 @@
           <selectionEntries>
             <selectionEntry id="691c-508b-c378-a2fd" name="Organization" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f0ca-a657-122e-7ea8" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f0ca-a657-122e-7ea8" type="max"/>
               </constraints>
               <profiles>
                 <profile id="9acd-0385-884f-70d4" name="oo — Organization (Subterfuge, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
@@ -443,13 +443,13 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b39b-7b12-b051-e361" name="Tactic Redeploy" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b838-aace-73d8-0468" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b838-aace-73d8-0468" type="max"/>
               </constraints>
               <profiles>
                 <profile id="b542-ee61-a2c8-9bd3" name="oo — Tactic Redeploy (Subterfuge, Effect)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
@@ -459,13 +459,13 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="308a-9073-6e0f-6fba" name="Field Treatment" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fce0-a551-5bee-f81d" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fce0-a551-5bee-f81d" type="max"/>
               </constraints>
               <profiles>
                 <profile id="a482-f292-111b-f128" name="oo — Field Treatment (Subterfuge, Effect)" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
@@ -475,93 +475,23 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="0"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="30.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="30"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
-    </selectionEntry>
-    <selectionEntry id="716e-c1df-9390-999f" name="Organizational Advantages" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="f6fc-7494-e72f-60e9" name="New CategoryLink" hidden="false" targetId="1e1f-f436-2e5f-023e" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="9e83-0419-8016-0536" name="Advantages" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="c24a-0edf-d3d6-0dd7" value="2.0">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f7e6-1130-1b26-fac8" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="c24a-0edf-d3d6-0dd7" value="3.0">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="30f8-bb52-08c3-dbd2" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="c24a-0edf-d3d6-0dd7" value="0.0">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="8597-70f6-1ee5-7cf3" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c24a-0edf-d3d6-0dd7" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="6ad5-ae4d-5a63-3dc1" name="The Empress&apos;s Chosen" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7a52-6f1a-87c2-fd6e" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="8a70-f75f-2219-f70b" name="The Empress&apos;s Chosen" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">At the start of play, choose a character in your Party. This character receives +1 Attack, +1 Defence, +2 Resistance, and may roll an additional die keeping the highest result when making any Attack or Charge (normal or special).</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry id="1405-edd4-d347-2fdf" name="Combat Mastery" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1d9c-2f02-399c-b6ac" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="e5f2-1d78-6238-6dff" name="Combat Mastery" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
-                  <characteristics>
-                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">All Characters in the Party receive the Innate Ability Critical Mastery. Any Characer already possessing Critical Mastery causes a Critical Hit on a result of 8, 9, or 10.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="8a03-72fd-ed69-c588" name="Critical Mastery" hidden="false" targetId="1c78-2c2a-af54-b235" type="rule"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry id="4e9a-3547-09ae-521f" name="Imperial Armor" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3241-4021-be84-aaca" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="6a22-ebab-4c7e-f61f" name="Imperial Armor" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
-                  <characteristics>
-                    <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">All Characters in the Party receive +1 Armor. This modifier cannot be reduced or negated in any way. Characters in the party will always have at least Armor 1, even if the attack would normally completely negate or ignorethe defender&apos;s armor. </characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="34b2-9178-f12a-32c5" name="Claire Adelheid" hidden="false" collective="false" import="true" targetId="2d48-b102-a2d6-3424" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="de80-db4b-6d98-3c4b" name="New CategoryLink" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
+        <categoryLink id="de80-db4b-6d98-3c4b" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="270e-75d4-a237-4966" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -569,7 +499,7 @@
     </entryLink>
     <entryLink id="265f-9dd7-d50e-b5bf" name="Yuri Olsen" hidden="false" collective="false" import="true" targetId="8061-8252-1200-4bfe" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4d1f-06c8-8dcf-f1f9" name="New CategoryLink" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="true"/>
+        <categoryLink id="4d1f-06c8-8dcf-f1f9" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dc9d-1ff6-1c93-d35c" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -594,7 +524,7 @@
     </entryLink>
     <entryLink id="5160-2728-57e6-9467" name="Frederick Adler" hidden="false" collective="false" import="true" targetId="ae8b-8573-4e94-0957" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="e137-abf6-8df5-1d7b" name="New CategoryLink" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
+        <categoryLink id="e137-abf6-8df5-1d7b" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3d16-1c84-e66d-36cb" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
@@ -736,16 +666,21 @@
         <entryLink id="6f88-3dc6-8f0f-c729" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
+    <entryLink import="true" name="Organizational Advantages" hidden="false" id="f13e-315e-870e-9d4a" type="selectionEntry" targetId="4ff9-ce74-761f-6922">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="8aed-cb3f-a532-444a" includeChildSelections="true"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="a274-ce21-84b4-b42a" name="Empire Agent" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="decrement" field="c455-b1bd-6f65-79ce" value="5.0">
+        <modifier type="decrement" field="c455-b1bd-6f65-79ce" value="5">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae8b-8573-4e94-0957" type="equalTo"/>
-                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a97b-032b-e594-c5b5" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae8b-8573-4e94-0957" type="equalTo"/>
+                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a97b-032b-e594-c5b5" type="atLeast"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -756,37 +691,37 @@
           <modifiers>
             <modifier type="set" field="20f4-d8f4-db83-84ce" value="5">
               <conditions>
-                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="398b-e8cc-ffcf-2860" type="equalTo"/>
+                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="398b-e8cc-ffcf-2860" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="f443-bf96-3c21-c0f2" value="1">
               <conditions>
-                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="398b-e8cc-ffcf-2860" type="equalTo"/>
+                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="398b-e8cc-ffcf-2860" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="f443-bf96-3c21-c0f2" value="3">
               <conditions>
-                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3671-f4eb-4a51-0b2d" type="equalTo"/>
+                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3671-f4eb-4a51-0b2d" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="0831-54a0-0dc1-f5a9" value="5">
               <conditions>
-                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5463-d0ca-ed8a-d0a2" type="equalTo"/>
+                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5463-d0ca-ed8a-d0a2" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="ef31-fbfc-06f9-54bd" value="17">
               <conditions>
-                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="286c-5842-e308-81d7" type="equalTo"/>
+                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="286c-5842-e308-81d7" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="fbcd-5784-2a53-cafd" value="3/4">
               <conditions>
-                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03a0-9679-7f44-dbb6" type="equalTo"/>
+                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03a0-9679-7f44-dbb6" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="dd49-3cc4-4fcc-9f41" value="8/12">
               <conditions>
-                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="70a7-774d-c063-7377" type="equalTo"/>
+                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="70a7-774d-c063-7377" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -805,7 +740,7 @@
           <modifiers>
             <modifier type="set" field="9009-8e14-17df-15fe" value="+4 Damage. When the Agent uses Master Attack, they roll two dice and keep the highest result">
               <conditions>
-                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7f8d-5453-275d-d486" type="equalTo"/>
+                <condition field="selections" scope="a274-ce21-84b4-b42a" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7f8d-5453-275d-d486" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -822,82 +757,82 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="a97b-032b-e594-c5b5" name="Skill Card" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="set" field="9b2d-5d6f-59a8-ffe1" value="25.0">
+            <modifier type="set" field="9b2d-5d6f-59a8-ffe1" value="25">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae8b-8573-4e94-0957" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae8b-8573-4e94-0957" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="c455-b1bd-6f65-79ce" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b2d-5d6f-59a8-ffe1" type="max"/>
+            <constraint field="c455-b1bd-6f65-79ce" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b2d-5d6f-59a8-ffe1" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="03a0-9679-7f44-dbb6" name="+1 AP per turn" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4ed-b03b-9995-4b60" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4ed-b03b-9995-4b60" type="max"/>
               </constraints>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7f8d-5453-275d-d486" name="Master Attack: Roll 2 dice" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7259-b9cf-013e-fb2a" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7259-b9cf-013e-fb2a" type="max"/>
               </constraints>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="398b-e8cc-ffcf-2860" name="+1 At/+1 Dm" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95f9-5f77-6bb4-e1e2" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95f9-5f77-6bb4-e1e2" type="max"/>
               </constraints>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3671-f4eb-4a51-0b2d" name="+3 Dm" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bea9-a58e-5e0d-ed31" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bea9-a58e-5e0d-ed31" type="max"/>
               </constraints>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5463-d0ca-ed8a-d0a2" name="+3 Ar" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b7f-af2c-77e2-742b" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b7f-af2c-77e2-742b" type="max"/>
               </constraints>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="286c-5842-e308-81d7" name="+5 LP" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb63-7fab-79f2-d8af" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb63-7fab-79f2-d8af" type="max"/>
               </constraints>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="70a7-774d-c063-7377" name="Change Mo to 8/12" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="417d-26a5-efcd-baf1" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="417d-26a5-efcd-baf1" type="max"/>
               </constraints>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f724-6ed6-87ba-4542" name="Master Charge" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5843-a8fa-1608-d347" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5843-a8fa-1608-d347" type="max"/>
               </constraints>
               <profiles>
                 <profile id="c0a4-a455-9d84-27ff" name="oooo — Master Charge (Ki, Charge)" hidden="false" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities">
@@ -907,16 +842,16 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5.0"/>
-                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="20.0"/>
-        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0.0"/>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="20"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
