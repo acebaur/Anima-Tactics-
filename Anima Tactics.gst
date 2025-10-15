@@ -3529,6 +3529,7 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Samael" id="d491-d9d8-2091-1fa3" hidden="false"/>
       </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
