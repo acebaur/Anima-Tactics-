@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="598a-d588-35c7-ed53" name="Samael" gameSystemId="6c41-307a-0de6-0326" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink import="true" name="Dinah" hidden="false" id="46f2-0961-ffc7-5d1b" type="selectionEntry" targetId="f38a-13e3-3350-0f58"/>
+    <entryLink import="true" name="Legion" hidden="false" id="933c-019b-d5cd-7e59" type="selectionEntry" targetId="0f40-95c3-87e3-0d6f"/>
+    <entryLink import="true" name="Ophiel" hidden="false" id="70f8-de7e-d466-1cbd" type="selectionEntry" targetId="eb83-afd6-035f-befa"/>
+    <entryLink import="true" name="Covel" hidden="false" id="5f52-2a81-4eef-3451" type="selectionEntry" targetId="026c-262a-8e71-3e22"/>
+    <entryLink import="true" name="Anaximenes" hidden="false" id="162d-7ff8-3d87-9ce5" type="selectionEntry" targetId="bafb-4aec-c01b-3f84"/>
+    <entryLink import="true" name="Aoi Inukai" hidden="false" id="855c-a8d1-d9d9-3f9d" type="selectionEntry" targetId="052f-38d9-a184-174b"/>
+    <entryLink import="true" name="Crimson Death" hidden="false" id="23b7-2118-c592-9308" type="selectionEntry" targetId="e7da-14f3-63ff-015b"/>
+    <entryLink import="true" name="Dark Chesire" hidden="false" id="27d9-a44f-a403-3857" type="selectionEntry" targetId="cfbe-f237-2a9f-9c27"/>
+    <entryLink import="true" name="Genma" hidden="false" id="501e-7d7a-9576-72c3" type="selectionEntry" targetId="21c4-9bfc-2873-ce60"/>
+    <entryLink import="true" name="Janiel" hidden="false" id="e51b-b65b-6f0d-7fcb" type="selectionEntry" targetId="0e7f-a1e0-2d00-3f4e"/>
+    <entryLink import="true" name="Kairos" hidden="false" id="8557-3adc-c7fc-2577" type="selectionEntry" targetId="3764-d41a-408c-2282"/>
+    <entryLink import="true" name="Kaori" hidden="false" id="9fbe-2091-1fa1-da3c" type="selectionEntry" targetId="2dcb-dcbc-42dc-4865"/>
+    <entryLink import="true" name="Konosuke" hidden="false" id="0a72-f753-4b27-93bd" type="selectionEntry" targetId="7494-3cc4-335e-dcda"/>
+    <entryLink import="true" name="Kudoi" hidden="false" id="3b12-f7f6-f4ee-2c39" type="selectionEntry" targetId="3f8b-4902-ab0b-4aab"/>
+    <entryLink import="true" name="Medeus" hidden="false" id="1d6e-f1e8-1ae8-7579" type="selectionEntry" targetId="84d8-e3e8-3cb4-801e"/>
+    <entryLink import="true" name="Momiji" hidden="false" id="71eb-97e5-8223-6cab" type="selectionEntry" targetId="6187-ebca-78f7-dcc3"/>
+    <entryLink import="true" name="Morrigan" hidden="false" id="80f0-f646-8d36-9f6b" type="selectionEntry" targetId="a4a9-2e5d-7403-88e2"/>
+    <entryLink import="true" name="Nahimana" hidden="false" id="58d6-8daa-d417-fa91" type="selectionEntry" targetId="c2ca-c3c3-a47a-37ab"/>
+    <entryLink import="true" name="Shadow" hidden="false" id="5933-4b5e-3dae-960e" type="selectionEntry" targetId="d7d8-ea2e-48ea-2d5f"/>
+    <entryLink import="true" name="Shinigami Ayl" hidden="false" id="64a2-b428-ad6d-2657" type="selectionEntry" targetId="7686-585a-bc71-558b"/>
+    <entryLink import="true" name="Yuki" hidden="false" id="66d1-549b-de06-ce62" type="selectionEntry" targetId="3377-d66c-0f75-ba1e"/>
+    <entryLink import="true" name="Bael" hidden="false" id="cbfb-c88d-324c-8a8c" type="selectionEntry" targetId="676e-9c2f-0919-bd35"/>
+  </entryLinks>
+</catalogue>

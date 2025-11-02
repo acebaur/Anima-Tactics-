@@ -471,6 +471,9 @@
                 <profile id="a482-f292-111b-f128" name="oo — Field Treatment (Subterfuge, Effect)" hidden="false" typeId="c00c-342f-59d1-01f8" typeName="Advantage Card">
                   <characteristics>
                     <characteristic name="Description" typeId="2b2e-dc2d-137c-ed8f">A friendly unit which is 2 inches or less from the Tactician recovers 2 LP. Requires Line of Sight.</characteristic>
+                    <characteristic typeId="f473-9281-5a00-bab6" name="Type"/>
+                    <characteristic typeId="5ff1-c6ce-ab1a-d45b" name="Catagory"/>
+                    <characteristic typeId="7e82-9570-775e-a443" name="Actions"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -493,178 +496,111 @@
       <categoryLinks>
         <categoryLink id="de80-db4b-6d98-3c4b" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="270e-75d4-a237-4966" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="265f-9dd7-d50e-b5bf" name="Yuri Olsen" hidden="false" collective="false" import="true" targetId="8061-8252-1200-4bfe" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4d1f-06c8-8dcf-f1f9" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="dc9d-1ff6-1c93-d35c" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
-    <entryLink id="57bd-848a-8726-6677" name="Spend Levels on Adv Cards" hidden="false" collective="false" import="true" targetId="51d3-ccbb-d35d-7aa6" type="selectionEntry"/>
     <entryLink id="f113-30f3-d4b0-c041" name="Daniella Meris" hidden="false" collective="false" import="true" targetId="97aa-1a70-48fd-54d3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e113-5c2b-9059-8065" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="3bb1-2f5e-5961-1092" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="3d9b-3f74-3841-539a" name="Duncan Reid" hidden="false" collective="false" import="true" targetId="fab7-78f1-bff7-f0ff" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="079f-a474-4ee7-b5ed" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="138f-3b23-40a2-ad7b" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="5160-2728-57e6-9467" name="Frederick Adler" hidden="false" collective="false" import="true" targetId="ae8b-8573-4e94-0957" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e137-abf6-8df5-1d7b" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="3d16-1c84-e66d-36cb" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="c75c-5876-3638-f122" name="Erika" hidden="false" collective="false" import="true" targetId="ca35-d56e-3704-2ef7" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="00c0-dd35-dcf2-9b32" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="ec7a-8c81-6ab7-02e3" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="284f-45c8-e213-014e" name="Griever" hidden="false" collective="false" import="true" targetId="94f4-7597-8c15-3c40" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ca7f-8cf2-5113-fd44" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="c341-8917-6d0b-1f51" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="ec17-6b40-273e-d755" name="Iosara" hidden="false" collective="false" import="true" targetId="8901-b694-4c5f-a7e5" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="60b4-308a-5b1a-12e4" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="5fe6-e439-f111-a558" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="83e2-8be8-5f3c-e0d7" name="Janus Faith" hidden="false" collective="false" import="true" targetId="cc30-77aa-9c4b-d8ac" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="444f-cd5d-2e3b-4b9c" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="67fd-4025-94fd-3313" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="81a4-8486-7bb4-cd95" name="Kronen Roxxon" hidden="false" collective="false" import="true" targetId="46f4-614a-21d3-6fce" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a2bc-4a7f-2972-bc25" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="fe45-06a6-6c9c-efa6" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="e445-92f8-2eb9-69f5" name="Lilian Virgil" hidden="false" collective="false" import="true" targetId="de76-64c3-dfa6-fa2c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="82d9-c25c-2922-8dd8" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="f9d0-ca44-e2cc-a30f" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="1a47-547f-f8f0-a501" name="Lilith" hidden="false" collective="false" import="true" targetId="9e15-39bf-879a-5803" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f368-b210-302b-7fe3" name="Leader" hidden="false" targetId="cd42-15d9-7a6d-37b1" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="db1b-0376-937a-7b0c" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="5a39-1ca1-47df-2388" name="Macbeth" hidden="false" collective="false" import="true" targetId="0c72-96ad-683b-529c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e37f-3289-a3f1-ff73" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="a83f-092e-a47f-7479" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="f10d-ed1a-3a6c-282f" name="May" hidden="false" collective="false" import="true" targetId="ceb8-c861-39a6-9c08" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b0c1-fc90-e800-ee6d" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="0934-b695-1208-21b0" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="4f77-0434-0482-2c24" name="October" hidden="false" collective="false" import="true" targetId="e2f0-2c65-f8ca-5f8f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f518-0b64-59ad-becf" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="3b39-36d3-4a76-b714" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="2802-1dba-d776-0a88" name="Odin Goldsmith" hidden="false" collective="false" import="true" targetId="a78d-2196-98d2-0409" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1e88-24bd-c476-c969" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="06a0-ae32-ccc8-585c" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="54c4-8a72-214a-f384" name="Samiel, The Black Lion" hidden="false" collective="false" import="true" targetId="277a-394f-038d-273d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8c17-382a-8afd-823d" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="a8a9-35be-196a-4cda" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="7d04-c5e4-7b9e-a7c7" name="September" hidden="false" collective="false" import="true" targetId="b2e1-132f-3a2c-2809" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7a6d-762b-38f4-80b0" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="fc0c-5624-2260-13a7" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="55a4-41ad-c223-83e3" name="Sho" hidden="false" collective="false" import="true" targetId="dba7-4646-1497-36c8" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ee52-b031-adee-ef53" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="3a7d-cfd0-e324-ec3f" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="a246-7b90-2226-3953" name="Tiamat" hidden="false" collective="false" import="true" targetId="99c8-8d12-a810-2a7d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="fac5-3921-e292-633a" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="a02f-ac70-e4be-c13e" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="ddec-d79f-0f45-6272" name="Valentine" hidden="false" collective="false" import="true" targetId="c115-214d-738e-c5db" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7833-418c-a6bf-ef6e" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="7464-e79c-155c-0351" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink id="37de-0cfd-8f37-646c" name="Vayl" hidden="false" collective="false" import="true" targetId="bac7-02b6-a056-2a84" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="428c-e65d-fad5-729a" name="Empire" hidden="false" targetId="7c38-d565-b9df-ae9a" primary="true"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="6f88-3dc6-8f0f-c729" name="Advantage Cards" hidden="false" collective="false" import="true" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup"/>
-      </entryLinks>
     </entryLink>
     <entryLink import="true" name="Organizational Advantages" hidden="false" id="f13e-315e-870e-9d4a" type="selectionEntry" targetId="4ff9-ce74-761f-6922">
       <constraints>

@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="2f2f-ca78-50c3-f4fd" name="Wissenschaft" gameSystemId="6c41-307a-0de6-0326" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink import="true" name="Hecatondies Zero Sigma" hidden="false" id="22c7-61e0-dae8-38d0" type="selectionEntry" targetId="4669-545e-0b56-d6f5"/>
+    <entryLink import="true" name="Legacy of Solomon" hidden="false" id="d30b-2d4e-9959-ba76" type="selectionEntry" targetId="acfb-1efc-3533-cda6"/>
+    <entryLink import="true" name="Grimorium Verum" hidden="false" id="f982-ec70-5cb7-0fcb" type="selectionEntry" targetId="25ef-2249-852a-610d"/>
+    <entryLink import="true" name="Organizational Advantages" hidden="false" id="3081-e987-9a5a-f4e6" type="selectionEntry" targetId="4ff9-ce74-761f-6922"/>
+    <entryLink import="true" name="XII" hidden="false" id="1a9e-45f5-96c8-c628" type="selectionEntry" targetId="36f8-edfd-baaa-79e4"/>
+    <entryLink import="true" name="Wissenschaft Agent" hidden="false" id="e0b9-4e15-495a-d028" type="selectionEntry" targetId="0a0d-5f68-7cba-85de"/>
+    <entryLink import="true" name="Gear Mk. Alma" hidden="false" id="4448-1947-3e4b-8c65" type="selectionEntry" targetId="daea-44d0-7644-ad1e"/>
+    <entryLink import="true" name="Valis Ul Del Vilfain" hidden="false" id="17de-ebc4-5b87-23e3" type="selectionEntry" targetId="d5f4-31d9-54bc-6bb6"/>
+    <entryLink import="true" name="Alessa Raincross" hidden="false" id="eadb-6a04-59be-b51b" type="selectionEntry" targetId="e3bc-86d0-382d-228f">
+      <categoryLinks>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="d6b2-db11-3b8e-991e" primary="true" name="Wissenschaft"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Celia" hidden="false" id="b9f9-1946-91a1-4938" type="selectionEntry" targetId="a2ae-cb60-c40f-994d">
+      <categoryLinks>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="48c6-42db-6e7f-0e24" primary="true" name="Wissenschaft"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cordelia Rosalind" hidden="false" id="62e9-41ff-e7da-0155" type="selectionEntry" targetId="d118-37cd-aa2b-aef6">
+      <categoryLinks>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="2eca-e4d6-d52c-ec52" primary="true" name="Wissenschaft"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fate" hidden="false" id="3774-0235-d578-301b" type="selectionEntry" targetId="0c55-57fb-40f5-96af">
+      <categoryLinks>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="fdb3-77be-c437-f789" primary="true" name="Wissenschaft"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Feng Yi" hidden="false" id="0409-fd7f-19dc-893f" type="selectionEntry" targetId="80de-a500-4508-e599">
+      <categoryLinks>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="1a02-ea16-cc91-0380" primary="true" name="Wissenschaft"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Goethia" hidden="false" id="20c2-79ab-7074-0b9e" type="selectionEntry" targetId="6d18-a777-ae95-9722">
+      <categoryLinks>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="7b89-841b-1d03-44b0" primary="true" name="Wissenschaft"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hiro" hidden="false" id="26c8-4530-721e-bf97" type="selectionEntry" targetId="6859-e294-a820-3190">
+      <categoryLinks>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="ce3d-1e0c-f66f-9859" primary="true" name="Wissenschaft"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kira" hidden="false" id="33f3-31bc-5c73-b2d9" type="selectionEntry" targetId="bb9d-1147-035d-ebeb">
+      <categoryLinks>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="50e5-c93e-8618-2eb5" primary="true" name="Wissenschaft"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lorenzo" hidden="false" id="f9e5-4581-f5fa-56a4" type="selectionEntry" targetId="81eb-9315-d441-eb54">
+      <categoryLinks>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="4074-345c-2acb-e756" primary="true" name="Wissenschaft"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rayne" hidden="false" id="2659-54aa-aaa3-ddc4" type="selectionEntry" targetId="3c02-2001-3a29-b38f">
+      <categoryLinks>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="011e-7aed-1eb9-8cee" primary="true" name="Wissenschaft"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Theurgia" hidden="false" id="4223-4252-ceca-7e1f" type="selectionEntry" targetId="e7e1-7feb-73f9-873c">
+      <categoryLinks>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="94e4-58f4-abfb-ae31" primary="true" name="Wissenschaft"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Veronica" hidden="false" id="11bb-4a6d-c3ef-ef38" type="selectionEntry" targetId="e3f8-721a-3db0-3c74">
+      <categoryLinks>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="da52-dc8c-37df-082a" primary="true" name="Wissenschaft"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Yliana" hidden="false" id="f3ee-3d17-5d23-8435" type="selectionEntry" targetId="e661-895a-8350-5065">
+      <categoryLinks>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="871b-ea59-0da3-f513" primary="true" name="Wissenschaft"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Aria" hidden="false" id="392b-7dcf-80b4-cbcf" type="selectionEntry" targetId="a945-896e-bbca-7bee"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Wissenschaft Agent" hidden="false" id="0a0d-5f68-7cba-85de">
+      <categoryLinks>
+        <categoryLink targetId="a026-dd6a-6fb3-8261" id="2d5b-045a-afb0-4798" primary="false" name="Prowler"/>
+        <categoryLink targetId="2e97-e234-3c32-891e" id="5ae9-d1fc-8e01-b3f6" primary="false" name="Neutral"/>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="af8f-d9ca-aa47-8d72" primary="false" name="Wissenschaft"/>
+        <categoryLink targetId="4c9e-495c-d4a0-8baf" id="b347-cf3a-a806-7084" primary="true" name="Agent"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="20"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Skill Card" id="4bad-2f97-3cce-3e20" hidden="false">
+          <constraints>
+            <constraint type="max" value="20" field="c455-b1bd-6f65-79ce" scope="parent" shared="true" id="bccc-3183-c7d4-7ad1"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="AP Regen" hidden="false" id="a2b3-cb99-bc0d-06f8">
+              <profiles>
+                <profile name="AP Regen" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="9b8e-3280-39a2-8284">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">The Agent recovers one more Action point per turn. Lv. +10</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ede-d95f-441f-56fe" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Attacks at -2 Armor" hidden="false" id="9758-e6e6-ec27-fe89">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d27-c10e-aef0-c615" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Attacks at -2 Armor" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="ccd6-aac9-67c6-63dc">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">Targets get -2 Armor against the Agent&apos;s attacks (both normal and special). Lv. +5</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ranged Attack" hidden="false" id="7bee-bfa2-733a-4458">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f9b0-7029-e1c1-312e" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Ranged Attack" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="19af-a16f-86ff-ad11">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">The Agent gets the Innate Ability Ranged Attack, Distance (16 inch). Lv. +5</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Ranged Attack" id="e5b3-9066-7f13-2c54" hidden="false" type="rule" targetId="ce16-b162-cd52-e3ac">
+                  <modifiers>
+                    <modifier type="append" value="(16 inches)" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Advance Deploy &amp; Open Move" hidden="false" id="dfbf-cbcd-7b92-5b03">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae63-9c6f-f37c-786e" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Advance Deploy &amp; Open Move" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="4741-b86f-3a98-643b">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">The Agent gets Advanced Deployment and Open Movement. Lv. +5</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="+1 At +1 Df" hidden="false" id="5d0e-4c35-71c2-3b7e">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ffc-26b8-487a-056e" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="+1 At +1 Df" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="6f21-334c-076d-dbad">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">The Agent gets +1 Attack and +1 Defense. Lv. +5</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="+4 Life" hidden="false" id="d36e-bbff-2e21-e74f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c995-97b3-9bea-575b" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="+4 Life" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="5c13-b1cd-38e6-43a7">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">The Agent gets +4 Life Points. Lv. +5</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Move 12/16" hidden="false" id="655a-8c2c-e298-54d5">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="76c9-e717-8831-15ca" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Move 12/16" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="b26d-c418-e8d9-c87f">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">The Agent&apos;s Speed is increased to 12/16. Lv. +5</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="o — Combined Assault (Ki, Attack)" hidden="false" id="3a7d-9b7f-7a4f-a60a">
+              <profiles>
+                <profile name="o — Combined Assault (Ki, Attack)" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="8cab-301e-3914-40cd">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">This attack may only be used immediately after resolving a successful Charge.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Equipment" id="87eb-026f-4c2e-053b" hidden="false" type="profile" targetId="2c7b-9776-c6c9-04a3"/>
+        <infoLink name="Agent" id="9e00-890a-54f6-2ed3" hidden="false" type="profile" targetId="01e8-6775-4990-6ab6"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Wissenschaft Agent" typeId="8047-e421-08f6-a1ef" typeName="Characters" hidden="false" id="a50e-4adf-081b-d7ac">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">3</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">10</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">8</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">2/4</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="20f4-d8f4-db83-84ce">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5d0e-4c35-71c2-3b7e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="9ea8-c695-dfaa-45c2">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5d0e-4c35-71c2-3b7e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="4" field="ef31-fbfc-06f9-54bd">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d36e-bbff-2e21-e74f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="12/16" field="dd49-3cc4-4fcc-9f41">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="655a-8c2c-e298-54d5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3/4" field="fbcd-5784-2a53-cafd">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="a2b3-cb99-bc0d-06f8" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="ooo — Chain of Blows (Ki, Attack)" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="7034-36f4-d9b8-2746">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">The Agent makes two consecutive attacks against the same target</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Gear Mk. Trithemius" hidden="false" id="7a70-e596-c9d7-abd7">
+      <categoryLinks>
+        <categoryLink targetId="581a-079d-f3e4-4b0b" id="aa8c-323a-7318-4c8a" primary="false" name="Mystic"/>
+        <categoryLink targetId="2e97-e234-3c32-891e" id="bfed-5280-d2c7-5a03" primary="false" name="Neutral"/>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="ca0f-6b23-4f25-cc1a" primary="false" name="Wissenschaft"/>
+        <categoryLink targetId="4c9e-495c-d4a0-8baf" id="8303-5fea-4861-d28d" primary="true" name="Agent"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="25"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Agent" id="c518-da6a-f9da-ae1c" hidden="false" type="profile" targetId="01e8-6775-4990-6ab6"/>
+        <infoLink name="Damage Resistance" id="8544-d474-eb47-0211" hidden="false" type="rule" targetId="b0d8-09eb-7e84-96c3"/>
+        <infoLink name="Immunity" id="aa4e-c202-e7ec-6b60" hidden="false" type="rule" targetId="4923-a79b-8f82-9559">
+          <modifiers>
+            <modifier type="append" value="(Poison)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="Gear Mk. Trithemius" typeId="8047-e421-08f6-a1ef" typeName="Characters" hidden="false" id="0ed2-64b8-5bdb-87dc">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">5</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">4</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">18</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">9</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">6/10</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">2/4</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="8/12" field="dd49-3cc4-4fcc-9f41">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="dcc4-6a8f-f3a2-d8e8" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3/4" field="fbcd-5784-2a53-cafd">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="9a53-d6d2-bc2d-78c0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="20f4-d8f4-db83-84ce">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="ded5-3da4-fbbd-7efa" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="2" field="f443-bf96-3c21-c0f2">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="a045-b3b8-1251-befc" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="4" field="ef31-fbfc-06f9-54bd">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="254b-a5dc-c269-2f64" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="0831-54a0-0dc1-f5a9">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="254b-a5dc-c269-2f64" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="oo+ — Canyon Legate (Magic, Ranged Attack)" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="2c60-1f5b-d098-a339">
+          <characteristics>
+            <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance (12 inches). The Trithemius may spend any number of additional AP while paying for this attack. For every 2 additional AP spent while paying for this attack it gets +1 Attack / +1 Damage and 2 inches more distance.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <modifiers>
+        <modifier type="decrement" value="5" field="c455-b1bd-6f65-79ce">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="47d4-d709-05c2-c01f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Skill Card" id="71d8-56eb-a2a2-1d7e" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Flight/Speed 8/12" hidden="false" id="a264-0f33-5388-84bf">
+              <profiles>
+                <profile name="Flight/Speed 8/12" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="d3f3-469b-d9a4-10c9">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">The Trithemius gets the Flight Innate Ability and its Speed is increased to 8/12. Lv: +5.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7de7-8c5a-b7d5-6326" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Flight" id="54ed-751c-0e9a-9084" hidden="false" type="rule" targetId="a461-010e-1bad-8747"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="AP Regen" hidden="false" id="9a53-d6d2-bc2d-78c0">
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="10"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="AP Regen" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="5e82-8cd4-165e-b2b0">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">The Trithemius Recovers one more Action per turn. Lv: +10.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6ba-c3ef-6d31-646e" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Canyon Legate Area of Effect" hidden="false" id="e180-e395-0636-a6f7">
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Canyon Legate Area of Effect" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="95cd-1514-75c2-0d2f">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">If Canyon Legate hits, it affects all units within 2 inches of its target. Lv: +5.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8961-9b54-7559-80f5" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Light Cover vs Ranged" hidden="false" id="dcc4-6a8f-f3a2-d8e8">
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Light Cover vs Ranged" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="77b5-5271-85c0-1a3d">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">Ranged Attacks targeting the Trithemius apply the penalty for the Light Cover. Lv: +5.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5f6-676b-5ece-61b1" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="+1 Attack" hidden="false" id="ded5-3da4-fbbd-7efa">
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="+1 Attack" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="8cae-9a30-9654-47fd">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">The Trithemius gets +1 Attack. Lv: +5.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef8a-d714-8b3a-16ae" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="+2 Damage" hidden="false" id="a045-b3b8-1251-befc">
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="+2 Damage" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="689e-9872-c252-1bd0">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">The Trithemius gets +2 Damage. Lv: +5.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c0c-9a0c-4883-d66d" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="+4 LP and +1 Armor" hidden="false" id="254b-a5dc-c269-2f64">
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="+4 LP and +1 Armor" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="a6a5-20ea-ccfd-fbce">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">The Trithemius gets +4 LP and +1 Armor. Lv: +5.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3a0-2ae7-ba6e-1954" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="oo — Remote Assistance (Magic, Effect, Reactive)" hidden="false" id="4d88-bfa8-1e58-98a9">
+              <costs>
+                <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+                <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="oo — Remote Assistance (Magic, Effect, Reactive)" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="acea-c5d6-6fa9-c630">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">A friendly gear within Trithemius&apos;s Control Zone Recovers 1 AP. Limit: Once per turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c884-bb58-b3ff-1aef" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="20" field="c455-b1bd-6f65-79ce" scope="parent" shared="true" id="f538-cec0-990a-7e3b" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="5" field="f538-cec0-990a-7e3b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="47d4-d709-05c2-c01f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Aria" hidden="false" id="a945-896e-bbca-7bee">
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="30"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="a026-dd6a-6fb3-8261" id="e636-f421-d1ef-709e" primary="false" name="Prowler"/>
+        <categoryLink targetId="2e97-e234-3c32-891e" id="8a0d-5b31-4833-a5b5" primary="false" name="Neutral"/>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="dccb-fefd-fcc2-65c8" primary="false" name="Wissenschaft"/>
+        <categoryLink targetId="4c9e-495c-d4a0-8baf" id="2b9a-f971-f3b4-b77e" primary="true" name="Agent"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Aria" typeId="8047-e421-08f6-a1ef" typeName="Characters" hidden="false" id="e3b1-0aa6-f908-1e39">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">3</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">2</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">8</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">8</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">9</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="20f4-d8f4-db83-84ce">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5781-6011-9fdb-06bb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="9ea8-c695-dfaa-45c2">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5781-6011-9fdb-06bb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Agent" typeId="44d9-985a-4fa1-eaaa" typeName="Powers" hidden="false" id="a459-01b7-ba71-3609">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">At the beginning of the game choose one of the next skills for the character. If you decide to raise Agent Level to 35, you can choose a second skill and use the secondary attributes of the character.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="+1 Attack, +1 Defense, 2nd Ability" hidden="false" id="5781-6011-9fdb-06bb">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d695-824d-7024-08fe" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Ability" id="5447-6fa9-2389-d3a6" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83b1-e979-4d02-a9e6" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="ooo — Subterfuge Maneuver (Subterfuge, Effect)" hidden="false" id="9678-e7fd-7286-db55">
+              <profiles>
+                <profile name="ooo — Subterfuge Maneuver (Subterfuge, Effect)" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="2070-54e9-fefc-9afa">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">All enemy units inside the Aria Control Zone suffer Slow Lv. 2. Effect 15.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9e4-c76a-af63-58b8" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="oo — Blessing (Subterfuge, Dodge)" hidden="false" id="1a48-9395-290a-9728">
+              <profiles>
+                <profile name="oo — Blessing (Subterfuge, Dodge)" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="0085-60a6-b22b-6f92">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">+3 Defense. If the dodge is successful, the Aria may move up to 4 inches, even if she has already moved this turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5191-87ed-49fd-c2e2" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="oo — Lost Logia Weapon (Magic, Attack)" hidden="false" id="c4f0-f556-09ea-cb9c">
+              <profiles>
+                <profile name="oo — Lost Logia Weapon (Magic, Attack)" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="bb85-2636-daa1-7fcf">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">Distance 16. +2 Attack / +2 Damage.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b34c-4b18-a59d-f8d4" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="increment" value="1" field="83b1-e979-4d02-a9e6">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="a945-896e-bbca-7bee" childId="5781-6011-9fdb-06bb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Equipment" id="11d9-1e0c-fed4-8ced" hidden="false" type="profile" targetId="2c7b-9776-c6c9-04a3"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec4d-a048-e9ed-6409" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Advantage Cards" hidden="false" id="9e8d-b3e9-7494-953d" collective="false" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" value="2" field="2da9-cb71-f12b-7986"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Crow" hidden="false" id="7d85-fcab-97f2-1904">
+      <costs>
+        <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="30"/>
+        <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Agent" typeId="44d9-985a-4fa1-eaaa" typeName="Powers" hidden="false" id="664b-4ea4-f33b-6edb">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">At the beginning of the game choose one of the next skills for the character. If you decide to raise Agent Level to 35, you can choose a second skill and use the secondary attributes of the character.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Process" typeId="44d9-985a-4fa1-eaaa" typeName="Powers" hidden="false" id="e322-aa02-d9e0-f637">
+          <characteristics>
+            <characteristic name="Description" typeId="3c61-def7-3265-e41f">At the beginning of each Recovery Phase the Crow recovers 1 Life Point.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Crow" typeId="8047-e421-08f6-a1ef" typeName="Characters" hidden="false" id="08fe-468b-78ab-7d60">
+          <characteristics>
+            <characteristic name="At" typeId="20f4-d8f4-db83-84ce">4</characteristic>
+            <characteristic name="Dm" typeId="f443-bf96-3c21-c0f2">3</characteristic>
+            <characteristic name="Df" typeId="9ea8-c695-dfaa-45c2">9</characteristic>
+            <characteristic name="Ar" typeId="0831-54a0-0dc1-f5a9">0</characteristic>
+            <characteristic name="LP" typeId="ef31-fbfc-06f9-54bd">8</characteristic>
+            <characteristic name="Re" typeId="d989-007a-8bf8-30a6">9</characteristic>
+            <characteristic name="Mo" typeId="dd49-3cc4-4fcc-9f41">8/12</characteristic>
+            <characteristic name="AP" typeId="fbcd-5784-2a53-cafd">3/4</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="20f4-d8f4-db83-84ce">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="7d85-fcab-97f2-1904" childId="d18a-c6fd-2270-7329" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Equipment" id="bba3-5d1d-19f3-583a" hidden="false" type="profile" targetId="2c7b-9776-c6c9-04a3"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Advantage Cards" hidden="false" id="54db-0479-3388-c72c" collective="false" targetId="6708-2ad4-2733-6e3b" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" value="2" field="2da9-cb71-f12b-7986"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Ability" id="591a-a300-dfc8-e748" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="ooo — Chain of Attacks (Ki, Attack)" hidden="false" id="8035-2ab3-88ab-94ab">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5739-17df-3e12-60bf" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="ooo — Chain of Attacks (Ki, Attack)" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="ce0e-3524-c244-0c0c">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">The Crow makes two consecutive attacks against the same target.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="o — Combined Assault (Ki, Attack)" hidden="false" id="6b59-a18b-3c04-6a84">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9411-cf3e-36bf-0a43" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="o — Combined Assault (Ki, Attack)" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="9a84-4b39-9cb5-0163">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">This attack can only be done after a successful charge.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="o — The Process Unleashed (Ki, Effect)" hidden="false" id="d9ed-de7c-049a-1bf3">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eef7-7f5e-1e38-b906" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="o — The Process Unleashed (Ki, Effect)" typeId="9159-d9f9-82f5-3dbe" typeName="Special Abilities" hidden="false" id="0a34-2495-f61c-c83f">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9009-8e14-17df-15fe">o — The Process Unleashed (Ki, Effect)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d94b-b750-7a10-5b95" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="d94b-b750-7a10-5b95">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="7d85-fcab-97f2-1904" childId="d18a-c6fd-2270-7329" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="+1 Attack, 2nd Ability" hidden="false" id="d18a-c6fd-2270-7329">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="858d-8351-037f-6e5b" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="5"/>
+            <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
