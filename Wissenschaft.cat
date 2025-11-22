@@ -8,7 +8,11 @@
     <entryLink import="true" name="XII" hidden="false" id="1a9e-45f5-96c8-c628" type="selectionEntry" targetId="36f8-edfd-baaa-79e4"/>
     <entryLink import="true" name="Wissenschaft Agent" hidden="false" id="e0b9-4e15-495a-d028" type="selectionEntry" targetId="0a0d-5f68-7cba-85de"/>
     <entryLink import="true" name="Gear Mk. Alma" hidden="false" id="4448-1947-3e4b-8c65" type="selectionEntry" targetId="daea-44d0-7644-ad1e"/>
-    <entryLink import="true" name="Valis Ul Del Vilfain" hidden="false" id="17de-ebc4-5b87-23e3" type="selectionEntry" targetId="d5f4-31d9-54bc-6bb6"/>
+    <entryLink import="true" name="Valis Ul Del Vilfain" hidden="false" id="17de-ebc4-5b87-23e3" type="selectionEntry" targetId="d5f4-31d9-54bc-6bb6">
+      <categoryLinks>
+        <categoryLink targetId="87bd-1ec2-9693-8927" id="221e-2d1d-89a6-3650" primary="true" name="Optional Leader"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink import="true" name="Alessa Raincross" hidden="false" id="eadb-6a04-59be-b51b" type="selectionEntry" targetId="e3bc-86d0-382d-228f">
       <categoryLinks>
         <categoryLink targetId="c42b-4d76-393b-e245" id="d6b2-db11-3b8e-991e" primary="true" name="Wissenschaft"/>
@@ -75,6 +79,8 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Aria" hidden="false" id="392b-7dcf-80b4-cbcf" type="selectionEntry" targetId="a945-896e-bbca-7bee"/>
+    <entryLink import="true" name="Gear Mk. Trithemius" hidden="false" id="769c-8fd3-dc83-fd99" type="selectionEntry" targetId="7a70-e596-c9d7-abd7"/>
+    <entryLink import="true" name="Crow" hidden="false" id="1af9-7340-dfab-0cfc" type="selectionEntry" targetId="7d85-fcab-97f2-1904"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Wissenschaft Agent" hidden="false" id="0a0d-5f68-7cba-85de">
@@ -730,6 +736,12 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="2e97-e234-3c32-891e" id="a7e7-05f2-4a9a-f9f6" primary="false" name="Neutral"/>
+        <categoryLink targetId="02a6-7be5-bb33-ac95" id="546b-94e7-1241-c3f4" primary="false" name="Warrior"/>
+        <categoryLink targetId="c42b-4d76-393b-e245" id="3b1a-a658-18a4-a267" primary="false" name="Wissenschaft"/>
+        <categoryLink targetId="4c9e-495c-d4a0-8baf" id="cdd6-5378-6ef8-8a64" primary="true" name="Agent"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>

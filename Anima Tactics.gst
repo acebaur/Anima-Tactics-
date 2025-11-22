@@ -662,7 +662,7 @@ Limit: Once per game.</characteristic>
       </profiles>
       <infoLinks>
         <infoLink id="9dda-7704-e7a5-07e7" name="Advanced Deployment" hidden="false" targetId="8752-5d49-c894-2278" type="rule"/>
-        <infoLink id="d0db-2e7e-75fa-7ddd" name="Ranged Attack (16&quot;)" hidden="false" targetId="ce16-b162-cd52-e3ac" type="rule">
+        <infoLink id="d0db-2e7e-75fa-7ddd" name="Ranged Attack" hidden="false" targetId="ce16-b162-cd52-e3ac" type="rule">
           <modifiers>
             <modifier type="append" value="(16 inches)" field="name"/>
           </modifiers>
@@ -1141,7 +1141,7 @@ Power Absorption: When Iosara destroys an enemy Unit, choose a Magic or Ki abili
       </profiles>
       <infoLinks>
         <infoLink id="a92f-87a2-0f8d-7593" name="Critical Mastery" hidden="false" targetId="1c78-2c2a-af54-b235" type="rule"/>
-        <infoLink id="b919-9376-55d2-c3e6" name="Ranged Attack (16&quot;)" hidden="false" targetId="ce16-b162-cd52-e3ac" type="rule">
+        <infoLink id="b919-9376-55d2-c3e6" name="Ranged Attack" hidden="false" targetId="ce16-b162-cd52-e3ac" type="rule">
           <modifiers>
             <modifier type="append" value="(4 inches)" field="name"/>
           </modifiers>
@@ -1206,7 +1206,7 @@ October uses Liberation against another target, keeping all of the additional ef
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="53b7-f540-471d-9940" name="Ranged Attack (16&quot;)" hidden="false" targetId="ce16-b162-cd52-e3ac" type="rule">
+        <infoLink id="53b7-f540-471d-9940" name="Ranged Attack" hidden="false" targetId="ce16-b162-cd52-e3ac" type="rule">
           <modifiers>
             <modifier type="append" value="(16 inches)" field="name"/>
           </modifiers>
@@ -1534,7 +1534,7 @@ Life for a Life: While in Undying state, if Samiel destroys the enemy unit that 
       </profiles>
       <infoLinks>
         <infoLink id="7162-07fe-59b9-a8c8" name="Infiltration" hidden="false" targetId="51cd-f19c-a085-d89e" type="rule"/>
-        <infoLink id="51f2-95a4-6e8c-c36d" name="Ranged Attack (16&quot;)" hidden="false" targetId="ce16-b162-cd52-e3ac" type="rule">
+        <infoLink id="51f2-95a4-6e8c-c36d" name="Ranged Attack" hidden="false" targetId="ce16-b162-cd52-e3ac" type="rule">
           <modifiers>
             <modifier type="append" value="(16 inches)" field="name"/>
           </modifiers>
@@ -3948,6 +3948,13 @@ ooo — Dark Sun (Magic, Attack, Reactive)
           </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="7e7e-1af7-16bc-786b" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="06da-4879-4e02-7c3c" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="1e1f-f436-2e5f-023e" id="5449-5353-afd5-5194" primary="true" name="Configuration"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Dinah" hidden="false" id="f38a-13e3-3350-0f58">
       <categoryLinks>
@@ -4099,6 +4106,9 @@ Code-66: Terminus causes Throw and ignores the defender&apos;s armor.</character
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="948b-ffea-1f42-5640" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Legacy of Solomon" hidden="false" id="acfb-1efc-3533-cda6">
       <costs>
@@ -4326,7 +4336,12 @@ Additional Armor: +1 Armor.</characteristic>
       <modifiers>
         <modifier type="add" value="cd42-15d9-7a6d-37b1" field="category">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="parent" childId="7e7e-4eaf-ef4c-79cc" shared="true" includeChildSelections="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="25ef-2249-852a-610d" childId="7e7e-4eaf-ef4c-79cc" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="decrement" value="5" field="c455-b1bd-6f65-79ce">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="47d4-d709-05c2-c01f" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4412,6 +4427,9 @@ Aim Shot: If this model doesn&apos;t use any Movement during its activation, it 
           </modifiers>
         </entryLink>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4da9-a8ab-9949-480b" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Gear Mk. Alma" hidden="false" id="daea-44d0-7644-ad1e">
       <costs>
@@ -4526,7 +4544,7 @@ Limit: This pilot can&apos;t be selected in a party that includes Valis Ul Del V
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Ranged Attack (16&quot;)" id="cf4f-8018-50a0-8875" hidden="false" type="rule" targetId="ce16-b162-cd52-e3ac">
+                <infoLink name="Ranged Attack" id="cf4f-8018-50a0-8875" hidden="false" type="rule" targetId="ce16-b162-cd52-e3ac">
                   <modifiers>
                     <modifier type="append" value="(16 Inches)" field="name"/>
                   </modifiers>
@@ -5008,7 +5026,7 @@ This ability can only be used during the Recovery Phase. A friendly Gear regener
       </constraints>
       <infoLinks>
         <infoLink name="Technomagical Powered Armor" id="0a11-c6b0-fd73-f338" hidden="false" type="profile" targetId="402b-a53e-8cf4-cb15"/>
-        <infoLink name="Ranged Attack (16&quot;)" id="f047-fbbd-6309-cfdf" hidden="false" type="rule" targetId="ce16-b162-cd52-e3ac">
+        <infoLink name="Ranged Attack" id="f047-fbbd-6309-cfdf" hidden="false" type="rule" targetId="ce16-b162-cd52-e3ac">
           <modifiers>
             <modifier type="append" value="(16 inches)" field="name"/>
           </modifiers>
@@ -5074,6 +5092,13 @@ This ability can only be used during the Recovery Phase. A friendly Gear regener
         <cost name="Levels" typeId="c455-b1bd-6f65-79ce" value="50"/>
         <cost name="Advantage Pts" typeId="39e8-8e21-6d9c-ebd9" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="decrement" value="5" field="c455-b1bd-6f65-79ce">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="47d4-d709-05c2-c01f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Edgard Ivanesku" hidden="false" id="da54-5d4f-25ef-68d3">
       <profiles>
@@ -5161,7 +5186,7 @@ This ability can only be used during the Recovery Phase. A friendly Gear regener
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6fd4-1269-5a16-91fd" includeChildSelections="true"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Ranged Attack (16&quot;)" id="17cc-3f4c-9da1-ae14" hidden="false" type="rule" targetId="ce16-b162-cd52-e3ac">
+        <infoLink name="Ranged Attack" id="17cc-3f4c-9da1-ae14" hidden="false" type="rule" targetId="ce16-b162-cd52-e3ac">
           <modifiers>
             <modifier type="append" value="(16 inches)" field="name"/>
           </modifiers>
@@ -5442,6 +5467,13 @@ ooo — Finisher (Ki, Attack)
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <modifiers>
+        <modifier type="decrement" value="5" field="c455-b1bd-6f65-79ce">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="47d4-d709-05c2-c01f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Veronica" hidden="false" id="e3f8-721a-3db0-3c74">
       <constraints>
@@ -7877,20 +7909,40 @@ Pack Hunters: Once per game, You can choose to activate Frey and Freya together.
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="8752-5d49-c894-2278" name="Advanced Deployment" hidden="false"/>
-    <rule id="ce16-b162-cd52-e3ac" name="Ranged Attack" hidden="false"/>
-    <rule id="1c78-2c2a-af54-b235" name="Critical Mastery" hidden="false"/>
-    <rule id="447a-5520-8605-a206" name="Initiative" hidden="false"/>
-    <rule id="b0d8-09eb-7e84-96c3" name="Damage Resistance" hidden="false"/>
-    <rule id="51cd-f19c-a085-d89e" name="Infiltration" hidden="false"/>
+    <rule id="8752-5d49-c894-2278" name="Advanced Deployment" hidden="false">
+      <description>Advanced Deployment is a Special Ability that allows a Character to be placed in the play area up to a maximum distance of 16 Inches from its party’s Deployment Zone. Advanced Deployment allows the unit to be placed in any position, including Abrupt Terrain or Elevations. If both sides have units with this ability, they cannot place characters closer than 4 Inches from an enemy unit.</description>
+    </rule>
+    <rule id="ce16-b162-cd52-e3ac" name="Ranged Attack" hidden="false">
+      <description> If a Character has this ability, it means that it is armed with a weapon that allows it to attack from a distance or is able to project supernatural discharges without resorting to special abilities. A unit with Ranged Attack can use Attack actions against both enemies it’s engaged in Hand-to-Hand Combat with and against enemies that are at
+a distance. The range of the Attack is always specified in the description of the Character’s abilities. Units with this ability cannot make a distance attack while they are engaged in Hand-to-Hand Combat with an enemy.</description>
+    </rule>
+    <rule id="1c78-2c2a-af54-b235" name="Critical Mastery" hidden="false">
+      <description>This Character has the Special Ability to overcome its rival’s Defense. A unit with Critical Mastery receives a
+Critical Hit on a result of 9 or 10 on any of its attacks</description>
+    </rule>
+    <rule id="447a-5520-8605-a206" name="Initiative" hidden="false">
+      <description>This means that a Character is able to respond to an unexpected situation at great speed when an Initiative Check is made. Characters with this ability add +1 to the result. This ability stacks, so that a party with several characters with Initiative add +1 for each Character with the ability. The Initiative bonus also applies during Deployment.
+Therefore, players can add +1 to the die roll to decide who places units first for each Character with Initiative.</description>
+    </rule>
+    <rule id="b0d8-09eb-7e84-96c3" name="Damage Resistance" hidden="false">
+      <description>There are Characters and creatures that, because of their size and nature, are unable to defend themselves from attacks in a conventional way. In contrast, they use their vast damage resistance to support impacts that would devastate other units. These units are called Accumulation units, and, unlike other characters, they can’t use Action Points to Dodge attacks or Counterattack. They always defend using their basic Defense attribute. An accumulation miniature never loses its actions due to damage caused by a Fall or Crash.</description>
+    </rule>
+    <rule id="51cd-f19c-a085-d89e" name="Infiltration" hidden="false">
+      <description>Infiltration is one of the most useful and strategic stealth abilities a Character can have. This allows the Character to infiltrate into the Scenario and hide in an advantageous position. Characters with Infiltration benefit from certain special Deployment rules.
+See Web Addendum Vol 1 for the full description</description>
+    </rule>
     <rule id="1260-e02e-dc09-a2d4" name="Summoner (Level 3)" hidden="false"/>
-    <rule id="a461-010e-1bad-8747" name="Flight" hidden="false"/>
+    <rule id="a461-010e-1bad-8747" name="Flight" hidden="false">
+      <description>Characters with this ability are naturally able to move through the air, soaring over the battlefield. This allows them to move above any obstacle or scenery feature without any reduction in movement. It can also move freely through impassable features and through other characters, although it can’t end its turn above one. This ability allows it to Charge enemy units without being intercepted by any enemy unit, except for enemy units that also have the ability to fly.</description>
+    </rule>
     <rule id="9c0c-14e9-7dae-b832" name="Summoner (Level 1)" hidden="false"/>
     <rule id="81a8-f33a-743e-63a7" name="Summoner (Level 2)" hidden="false"/>
     <rule id="4923-a79b-8f82-9559" name="Immunity" hidden="false">
       <description>A Character with Immunity is naturally resistant to the effects of certain negative states. For example, a unit immune to Doom can’t have Doom counters placed on it and ignores their effects. In each case, the states which do not affect the unit are clearly listed.</description>
     </rule>
-    <rule id="238f-5449-b905-9cf5" name="Intangible" hidden="false"/>
+    <rule id="238f-5449-b905-9cf5" name="Intangible" hidden="false">
+      <description> An intangible unit is an inmaterial form able to freely pass through physical bodies. First, a Character with this power can move through Terrain without reducing its movement due to scenery, and can cross Impassable Terrain without any difficulty, although the Character cannot stay inside of them to avoid making a target of itself. For example, an Intangible miniature cannot stay inside a statue arguing that it can’t be hit there. This ability doesn’t allow a Character to move through other characters, whether friend or enemy. Second, being immaterial, the Character is immune to most conventional attacks. So, it ignores most damage or harm that isn’t caused by a Magical or Ki Attack or Special Effect. Enemies of a higher level than the intangible Character ignore this rule, since their greater presence will allow them to affect the Character. Finally, an intangible unit can try an automatically escape from any combat without spending Action points. This capability doesn’t apply if their adversary is also Intangible.</description>
+    </rule>
     <rule name="Technomagical Golem" id="7fb3-c0a9-5a12-cd0d" hidden="false">
       <description>Gears cannot be assigned Advantage Cards</description>
     </rule>
